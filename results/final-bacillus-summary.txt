@@ -1,0 +1,380 @@
+#accession	gi	is_bcg	is_ba	species	genome_size	description
+NZ_CP022319	1252977568	False	False	altitudinis	3,812,576	Bacillus altitudinis strain SGAir0031 chromosome, complete genome
+NZ_CP024204	1274302977	False	False	altitudinis	3,765,752	Bacillus altitudinis strain P-10 chromosome, complete genome
+NC_009725	154684518	False	False	amyloliquefaciens	3,918,589	Bacillus amyloliquefaciens subsp. plantarum str. FZB42, complete genome
+NC_014551	308171891	False	False	amyloliquefaciens	3,980,199	Bacillus amyloliquefaciens DSM7 complete genome
+NC_016784	375360690	False	False	amyloliquefaciens	4,019,861	Bacillus amyloliquefaciens subsp. plantarum CAU B946 complete genome
+NC_017061	384263631	False	False	amyloliquefaciens	4,242,774	Bacillus amyloliquefaciens subsp. plantarum YAU B9601-Y2 complete genome
+NC_017188	384157612	False	False	amyloliquefaciens	3,937,511	Bacillus amyloliquefaciens TA208, complete genome
+NC_017190	384162404	False	False	amyloliquefaciens	3,995,227	Bacillus amyloliquefaciens LL3, complete genome
+NC_017191	384166624	False	False	amyloliquefaciens	3,939,203	Bacillus amyloliquefaciens XH7, complete genome
+NC_017912	387896523	False	False	amyloliquefaciens	4,238,624	Bacillus amyloliquefaciens Y2, complete genome
+NC_020272	451344759	False	False	amyloliquefaciens	3,928,857	Bacillus amyloliquefaciens IT-45, complete genome
+NC_020410	452854062	False	False	amyloliquefaciens	3,910,324	Bacillus amyloliquefaciens subsp. plantarum UCMB5036 complete genome
+NC_022075	530567812	False	False	amyloliquefaciens	4,071,167	Bacillus amyloliquefaciens subsp. plantarum UCMB5033, complete genome
+NC_022081	530612796	False	False	amyloliquefaciens	3,889,532	Bacillus amyloliquefaciens subsp. plantarum UCMB5113, complete genome
+NC_022530	549695945	False	False	amyloliquefaciens	4,196,170	Bacillus amyloliquefaciens subsp. plantarum NAU-B3, complete genome
+NC_022653	556555759	False	False	amyloliquefaciens	3,916,828	Bacillus amyloliquefaciens CC178, complete genome
+NC_023073	568175750	False	False	amyloliquefaciens	3,942,754	Bacillus amyloliquefaciens LFB112, complete genome
+NZ_CP006058	1008205905	False	False	amyloliquefaciens	4,034,636	Bacillus amyloliquefaciens UMAF6639, complete genome
+NZ_CP006960	1008207905	False	False	amyloliquefaciens	4,005,145	Bacillus amyloliquefaciens UMAF6614, complete genome
+NZ_CP007242	756417126	False	False	amyloliquefaciens	3,953,361	Bacillus amyloliquefaciens subsp. amyloliquefaciens KHG19, complete genome
+NZ_CP007244	749298802	False	False	amyloliquefaciens	3,957,904	Bacillus amyloliquefaciens subsp. plantarum TrigoCor1448, complete genome
+NZ_CP010556	761805782	False	False	amyloliquefaciens	3,905,973	Bacillus amyloliquefaciens strain L-H15, complete genome
+NZ_CP011252	1212739304	False	False	amyloliquefaciens	3,897,521	Bacillus amyloliquefaciens strain MT45, complete genome
+NZ_CP011278	814561882	False	False	amyloliquefaciens	3,903,017	Bacillus amyloliquefaciens strain L-S60, complete genome
+NZ_CP013727	971837182	False	False	amyloliquefaciens	3,966,922	Bacillus amyloliquefaciens strain MBE1283, complete genome
+NZ_CP014700	1036086780	False	False	amyloliquefaciens	3,927,922	Bacillus amyloliquefaciens strain S499, complete genome
+NZ_CP014783	1009102575	False	False	amyloliquefaciens	4,006,754	Bacillus amyloliquefaciens strain B15 chromosome, complete genome
+NZ_CP016913	1053186103	False	False	amyloliquefaciens	3,688,209	Bacillus amyloliquefaciens strain RD7-7, complete genome
+NZ_CP017953	1101993503	False	False	amyloliquefaciens	3,957,164	Bacillus amyloliquefaciens strain Y14, complete genome
+NZ_CP018152	1119669098	False	False	amyloliquefaciens	3,989,393	Bacillus amyloliquefaciens strain LM2303 chromosome, complete genome
+NZ_CP018200	1126145825	False	False	amyloliquefaciens	3,929,787	Bacillus amyloliquefaciens strain WS-8 chromosome, complete genome
+NZ_CP021505	1207670201	False	False	amyloliquefaciens	4,070,574	Bacillus amyloliquefaciens strain SRCM101267 chromosome, complete genome
+NC_003997	30260195	True	True	anthracis	5,227,293	Bacillus anthracis str. Ames chromosome, complete genome
+NC_005945	49183039	True	True	anthracis	5,228,663	Bacillus anthracis str. Sterne chromosome, complete genome
+NC_007530	50196905	True	True	anthracis	5,227,419	Bacillus anthracis str. 'Ames Ancestor', complete genome
+NC_012581	227812678	True	True	anthracis	5,230,115	Bacillus anthracis str. CDC 684, complete genome
+NC_012659	229599883	True	True	anthracis	5,227,419	Bacillus anthracis str. A0248, complete genome
+NC_017729	386733873	True	True	anthracis	5,218,947	Bacillus anthracis str. H9401, complete genome
+NZ_AP014833	1246894411	True	True	anthracis	5,228,065	Bacillus anthracis DNA, nearly complete genome, strain: Shikan-NIID
+NZ_CP001970	1100223183	True	True	anthracis	5,228,842	Bacillus anthracis str. A16, complete genome
+NZ_CP001974	1358618280	True	True	anthracis	5,228,828	Bacillus anthracis str. A16R chromosome, complete genome
+NZ_CP006742	749295538	True	True	anthracis	5,210,966	Bacillus anthracis str. SVA11, complete genome
+NZ_CP007618	749295447	True	True	anthracis	5,236,981	Bacillus anthracis strain 2000031021, complete genome
+NZ_CP007666	749295425	True	True	anthracis	5,229,469	Bacillus anthracis str. Vollum, complete genome
+NZ_CP008846	749295519	True	True	anthracis	5,213,498	Bacillus anthracis strain HYU01, complete genome
+NZ_CP009315	755831114	True	True	anthracis	5,228,731	Bacillus anthracis str. Turkey32, complete genome
+NZ_CP009325	755165061	True	True	anthracis	5,221,627	Bacillus anthracis strain PAK-1, complete genome
+NZ_CP009328	755165215	True	True	anthracis	5,229,969	Bacillus anthracis strain Vollum 1B, complete genome
+NZ_CP009331	755165000	True	True	anthracis	5,228,730	Bacillus anthracis strain K3, complete genome
+NZ_CP009341	755165489	True	True	anthracis	5,222,171	Bacillus anthracis strain Ohio ACB, complete genome
+NZ_CP009464	755168062	True	True	anthracis	5,230,088	Bacillus anthracis strain SK-102, complete genome
+NZ_CP009476	755165323	True	True	anthracis	5,200,082	Bacillus anthracis strain Pasteur, complete genome
+NZ_CP009541	755164854	True	True	anthracis	5,227,496	Bacillus anthracis str. Sterne, complete genome
+NZ_CP009544	755163142	True	True	anthracis	5,214,671	Bacillus anthracis strain BA1015, complete genome
+NZ_CP009598	755165327	True	True	anthracis	5,228,687	Bacillus anthracis str. V770-NP-1R, complete genome
+NZ_CP009697	755165546	True	True	anthracis	5,213,209	Bacillus anthracis strain RA3, complete genome
+NZ_CP009700	755165410	True	True	anthracis	5,210,596	Bacillus anthracis strain BA1035, complete genome
+NZ_CP009902	755165391	True	True	anthracis	5,321,900	Bacillus anthracis strain 2002013094, complete genome
+NZ_CP009981	755164863	True	True	anthracis	5,227,467	Bacillus anthracis strain Ames chromosome, complete genome
+NZ_CP010322	755163237	True	True	anthracis	5,229,224	Bacillus anthracis strain Canadian_bison, complete genome
+NZ_CP010792	751911624	True	True	anthracis	5,227,394	Bacillus anthracis strain Ames A0462, complete genome
+NZ_CP010852	757815467	True	True	anthracis	5,200,257	Bacillus anthracis strain A1144, complete genome
+NZ_CP012519	925173712	True	True	anthracis	5,226,878	Bacillus anthracis strain Larissa, complete genome
+NZ_CP012720	1043367819	True	True	anthracis	5,228,656	Bacillus anthracis strain PR01, complete genome
+NZ_CP012721	1043362998	True	True	anthracis	5,228,657	Bacillus anthracis strain PR02, complete genome
+NZ_CP012722	1043363096	True	True	anthracis	5,228,658	Bacillus anthracis strain PR05, complete genome
+NZ_CP012723	1043355934	True	True	anthracis	5,228,656	Bacillus anthracis strain PR06, complete genome
+NZ_CP012724	1043355233	True	True	anthracis	5,227,094	Bacillus anthracis strain PR07, complete genome
+NZ_CP012725	1043363099	True	True	anthracis	5,227,091	Bacillus anthracis strain PR08, complete genome
+NZ_CP012726	1043363020	True	True	anthracis	5,227,060	Bacillus anthracis strain PR09-1, complete genome
+NZ_CP012727	1043363021	True	True	anthracis	5,227,090	Bacillus anthracis strain PR09-4, complete genome
+NZ_CP012728	1043366245	True	True	anthracis	5,227,079	Bacillus anthracis strain PR10-4, complete genome
+NZ_CP012729	1043355172	True	True	anthracis	5,227,092	Bacillus anthracis strain Parent2, complete genome
+NZ_CP012730	1043363094	True	True	anthracis	5,228,660	Bacillus anthracis strain Parent1, complete genome
+NZ_CP014179	984943304	True	True	anthracis	5,226,939	Bacillus anthracis strain Stendal, complete genome
+NZ_CP015779	1035710798	True	True	anthracis	5,227,292	Bacillus anthracis strain Tangail-1 chromosome, complete genome
+NZ_CP018903	1129420854	True	True	anthracis	5,227,565	Bacillus anthracis strain Tyrol 4675, complete genome
+NZ_CP019588	1143694464	True	True	anthracis	5,228,667	Bacillus anthracis strain SPV842_15 chromosome, complete genome
+NZ_CP022044	1358809412	True	True	anthracis	5,228,806	Bacillus anthracis strain FDAARGOS_341 chromosome, complete genome
+NZ_CP023001	1239389066	True	True	anthracis	5,245,242	Bacillus anthracis strain 14RA5914 chromosome, complete genome
+NZ_CP024035	1271551746	False	False	aryabhattai	5,035,815	Bacillus aryabhattai strain K13 chromosome, complete genome
+NC_014639	311066968	False	False	atrophaeus	4,168,266	Bacillus atrophaeus 1942, complete genome
+NZ_CP010778	751922941	False	False	atrophaeus	4,174,830	Bacillus atrophaeus strain NRS 1221A, complete genome
+NZ_CP021500	1207763730	False	False	atrophaeus	4,180,819	Bacillus atrophaeus strain SRCM101359 chromosome, complete genome
+NZ_CP022653	1229388337	False	False	atrophaeus	4,325,818	Bacillus atrophaeus strain GQJK17 chromosome, complete genome
+NZ_CP012502	1063266308	False	False	beveridgei	3,582,268	Bacillus beveridgei strain MLTeJB, complete genome
+NZ_CP007512	765019001	True	False	bombysepticus	5,295,783	Bacillus bombysepticus str. Wang, complete genome, novel BCG member (0.130601 <= 0.1403)
+NC_014829	317126741	False	False	cellulosilyticus	4,681,672	Bacillus cellulosilyticus DSM 2522, complete genome
+NC_003909	42779081	True	False	cereus	5,224,283	Bacillus cereus ATCC 10987, complete genome
+NC_004722	30018278	True	False	cereus	5,411,809	Bacillus cereus ATCC 14579 chromosome, complete genome
+NC_006274	52140164	True	False	cereus	5,300,915	Bacillus cereus E33L, complete genome
+NC_011658	217957581	True	False	cereus	5,269,030	Bacillus cereus AH187, complete genome
+NC_011725	218230750	True	False	cereus	5,419,036	Bacillus cereus B4264, complete genome
+NC_011772	218895141	True	False	cereus	5,387,334	Bacillus cereus G9842, complete genome
+NC_011773	218901206	True	False	cereus	5,302,683	Bacillus cereus AH820, complete genome
+NC_011969	222093774	True	False	cereus	5,214,195	Bacillus cereus Q1, complete genome
+NC_012472	225862057	True	False	cereus	5,269,628	Bacillus cereus 03BB102, complete genome
+NC_014335	301051741	True	False	cereus	5,196,054	Bacillus cereus biovar anthracis str. CI, complete genome
+NC_016771	375282101	True	False	cereus	5,221,581	Bacillus cereus NC7401 genomic DNA, complete genome
+NC_016779	376264031	True	False	cereus	5,222,906	Bacillus cereus F837/76, complete genome
+NC_018491	402552844	True	False	cereus	5,083,176	Bacillus cereus FRI-35, complete genome
+NZ_CP009300	755164828	True	False	cereus	5,379,685	Bacillus cereus D17, complete genome
+NZ_CP009318	755162808	True	False	cereus	5,268,427	Bacillus cereus 03BB102, complete genome
+NZ_CP009369	755167311	True	False	cereus	5,295,158	Bacillus cereus strain FM1, complete genome
+NZ_CP009590	755165872	True	False	cereus	5,267,792	Bacillus cereus G9241, complete genome
+NZ_CP009596	902970856	True	False	cereus	5,270,991	Bacillus cereus strain 3a, complete genome
+NZ_CP009605	756411783	True	False	cereus	5,271,178	Bacillus cereus strain S2-8, complete genome
+NZ_CP009628	755163169	True	False	cereus	5,269,496	Bacillus cereus ATCC 4342, complete genome
+NZ_CP009641	755167870	True	False	cereus	5,342,933	Bacillus cereus 03BB108, complete genome
+NZ_CP009686	814944453	True	False	cereus	5,349,617	Bacillus cereus strain FORC_005, complete genome
+NZ_CP009941	749295517	True	False	cereus	5,457,398	Bacillus cereus strain 03BB87, complete genome
+NZ_CP009968	755163331	True	False	cereus	5,305,318	Bacillus cereus E33L, complete genome
+NZ_CP011151	1024917431	True	False	cereus	5,521,782	Bacillus cereus strain CMCC P0021, complete genome
+NZ_CP011153	1024921196	True	False	cereus	5,506,876	Bacillus cereus strain CMCC P0011, complete genome
+NZ_CP011155	1024904020	True	False	cereus	5,404,176	Bacillus cereus strain HN001, complete genome
+NZ_CP012483	925173495	True	False	cereus	5,370,032	Bacillus cereus strain NJ-W, complete genome
+NZ_CP012691	1062997002	True	False	cereus	5,430,118	Bacillus cereus strain FORC_024, complete genome
+NZ_CP014486	1148651012	True	False	cereus	5,331,694	Bacillus cereus strain FORC021, complete genome
+NZ_CP015589	1103718102	True	False	cereus	5,160,326	Bacillus cereus strain AR156 chromosome, complete genome
+NZ_CP015727	1033164042	True	False	cereus	5,352,307	Bacillus cereus strain A1, complete genome
+NZ_CP016315	1214748414	True	False	cereus	5,369,104	Bacillus cereus strain D12_2 chromosome, complete genome
+NZ_CP016360	1215194645	True	False	cereus	5,498,820	Bacillus cereus strain M13 chromosome, complete genome
+NZ_CP017060	1216908367	True	False	cereus	5,365,433	Bacillus cereus strain FORC_047 chromosome, complete genome
+NZ_CP017234	1214756711	True	False	cereus	5,358,595	Bacillus cereus strain FORC_048, complete genome
+NZ_CP018931	1130930635	True	False	cereus	5,242,668	Bacillus cereus strain ISSFR-3F chromosome, complete genome
+NZ_CP018933	1130896828	True	False	cereus	5,243,376	Bacillus cereus strain ISSFR-9F chromosome, complete genome
+NZ_CP018935	1131006982	True	False	cereus	5,229,506	Bacillus cereus strain JEM-2 chromosome, complete genome
+NZ_CP020383	1372048906	True	False	cereus	5,361,178	Bacillus cereus strain FORC60 chromosome, complete genome
+NZ_CP022445	1221433652	True	False	cereus	5,312,355	Bacillus cereus C1L chromosome, complete genome
+NZ_CP023179	1242724526	True	False	cereus	5,279,524	Bacillus cereus strain CC-1 chromosome, complete genome
+NZ_CP026678	1371906617	True	False	cereus	5,417,196	Bacillus cereus strain TG1-6 chromosome, complete genome
+NC_006582	56961782	False	False	clausii	4,303,871	Bacillus clausii KSM-K16 DNA, complete genome
+NZ_CP012475	927976958	False	False	clausii	4,264,866	Bacillus clausii strain ENTPro, complete genome
+NZ_CP019985	1231880436	False	False	clausii	4,517,459	Bacillus clausii strain DSM 8716 chromosome, complete genome
+NC_015634	336112679	False	False	coagulans	3,073,079	Bacillus coagulans 2-6, complete genome
+NC_016023	347750441	False	False	coagulans	3,552,226	Bacillus coagulans 36D1, complete genome
+NZ_CP009709	755163829	False	False	coagulans	3,366,995	Bacillus coagulans DSM 1 = ATCC 7050, complete genome
+NZ_CP010525	758896197	False	False	coagulans	3,624,641	Bacillus coagulans strain HM-08, complete genome
+NZ_CP011939	856834952	False	False	coagulans	3,694,837	Bacillus coagulans strain S-lac, complete genome
+NZ_CP017888	1100941784	False	False	coagulans	3,599,077	Bacillus coagulans strain BC-HY1 chromosome, complete genome
+NZ_CP026649	1352907142	False	False	coagulans	3,602,752	Bacillus coagulans strain R11 chromosome, complete genome
+NZ_CP018866	1231814400	False	False	cohnii	4,899,141	Bacillus cohnii strain DSM 6307 chromosome, complete genome
+NC_009674	152973854	True	False	cytotoxicus	4,087,024	Bacillus cytotoxicus NVH 391-98, complete genome
+NZ_CP011974	890672806	False	False	endophyticus	4,865,574	Bacillus endophyticus strain Hbe603, complete genome
+NZ_CP016790	1155253690	False	False	flexus	3,960,308	Bacillus flexus strain KLBMP 4941 chromosome, complete genome
+NZ_CP017070	1062532415	False	False	gibsonii	4,100,094	Bacillus gibsonii strain FJAT-10019 chromosome, complete genome
+NZ_CP023481	1252992987	False	False	glycinifermentans	4,659,467	Bacillus glycinifermentans strain KBN06P03352 chromosome, complete genome
+NC_002570	57596592	False	False	halodurans	4,202,352	Bacillus halodurans C-125 DNA, complete genome
+NZ_CP020880	1207659011	False	False	horikoshii	4,277,585	Bacillus horikoshii strain 20a chromosome, complete genome
+NC_022524	549473062	False	False	infantis	4,884,713	Bacillus infantis NRRL B-14911, complete genome
+NZ_CP022983	1238730903	False	False	kochii	4,557,232	Bacillus kochii strain BDGP4 chromosome, complete genome
+NZ_CP020814	1186695364	False	False	krulwichiae	4,610,863	Bacillus krulwichiae strain AM31D chromosome, complete genome
+NZ_CP003923	754215179	False	False	lehensis	3,993,073	Bacillus lehensis G1, complete genome
+NC_006270	163119169	False	False	licheniformis	4,222,597	Bacillus licheniformis ATCC 14580, complete genome
+NC_006322	52783855	False	False	licheniformis	4,222,645	Bacillus licheniformis DSM 13 = ATCC 14580, complete genome
+NZ_CP014781	1008919402	False	False	licheniformis	4,252,398	Bacillus licheniformis strain HRBL-15TDI7 chromosome, complete genome
+NZ_CP014793	1172233947	False	False	licheniformis	4,475,542	Bacillus licheniformis strain SCDB 34, complete genome
+NZ_CP014794	1172237359	False	False	licheniformis	4,405,338	Bacillus licheniformis strain SCCB 37, complete genome
+NZ_CP014795	1172227907	False	False	licheniformis	4,300,706	Bacillus licheniformis strain SCK B11, complete genome
+NZ_CP014842	1172233601	False	False	licheniformis	4,136,986	Bacillus licheniformis strain SCDB 14 chromosome, complete genome
+NZ_CP017247	1067159940	False	False	licheniformis	4,422,181	Bacillus licheniformis strain BL1202, complete genome
+NZ_CP021507	1201930626	False	False	licheniformis	4,190,134	Bacillus licheniformis strain SRCM101441 chromosome, complete genome
+NZ_CP021669	1201954254	False	False	licheniformis	4,544,416	Bacillus licheniformis strain SRCM100141 chromosome, complete genome
+NZ_CP021677	1201979767	False	False	licheniformis	4,326,347	Bacillus licheniformis strain SRCM100027 chromosome, complete genome
+NZ_CP022477	1227033113	False	False	licheniformis	4,287,720	Bacillus licheniformis strain BL-010 chromosome, complete genome
+NZ_CP023729	1255217666	False	False	licheniformis	4,260,287	Bacillus licheniformis strain ATCC 9789 chromosome, complete genome
+NZ_CP026673	1355936123	False	False	licheniformis	4,332,232	Bacillus licheniformis strain 14ADL4 chromosome, complete genome
+NC_014019	294496875	False	False	megaterium	5,097,129	Bacillus megaterium QM B1551, complete genome
+NC_014103	295702242	False	False	megaterium	5,097,447	Bacillus megaterium DSM319, complete genome
+NC_017138	384044176	False	False	megaterium	4,983,975	Bacillus megaterium WSH-002, complete genome
+NZ_CP009920	754490596	False	False	megaterium	5,343,114	Bacillus megaterium NBRC 15308 = ATCC 14581, complete genome
+NZ_CP010586	896148443	False	False	megaterium	5,153,539	Bacillus megaterium strain Q3, complete genome
+NZ_CP018874	1151110286	False	False	megaterium	5,066,463	Bacillus megaterium strain JX285 chromosome, complete genome
+NZ_CP007739	754215579	False	False	methanolicus	3,337,035	Bacillus methanolicus MGA3, complete genome
+NZ_CP011937	1189733002	False	False	methylotrophicus	3,929,792	Bacillus methylotrophicus strain CBMB205, complete genome
+NZ_CP017080	1061395814	False	False	muralis	4,919,373	Bacillus muralis strain G25-68 chromosome, complete genome
+NZ_CP007626	749295033	True	False	mycoides	5,228,024	Bacillus mycoides strain 219298, complete genome
+NZ_CP009692	754380545	True	False	mycoides	5,255,868	Bacillus mycoides strain ATCC 6462, complete genome
+NZ_CP020743	1184765965	True	False	mycoides	5,597,907	Bacillus mycoides strain Gnyt1 chromosome, complete genome
+NZ_CP015506	1032822115	False	False	oceanisediminis	5,461,741	Bacillus oceanisediminis 2691 chromosome, complete genome
+NC_021362	511060863	False	False	paralicheniformis	4,376,305	Bacillus paralicheniformis ATCC 9945a, complete genome
+NZ_CP010524	758898866	False	False	paralicheniformis	4,388,022	Bacillus paralicheniformis strain BL-09, complete genome
+NZ_CP020352	1167818437	False	False	paralicheniformis	4,352,468	Bacillus paralicheniformis strain MDJK30 chromosome, complete genome
+NZ_CP023168	1248551605	False	False	paralicheniformis	4,535,069	Bacillus paralicheniformis strain 14DA11 chromosome, complete genome
+NZ_CP023665	1360620802	False	False	paralicheniformis	4,376,831	Bacillus paralicheniformis strain Bac84 chromosome, complete genome
+NZ_CP023666	1360620031	False	False	paralicheniformis	4,464,381	Bacillus paralicheniformis strain Bac48 chromosome, complete genome
+NC_013791	316994385	False	False	pseudofirmus	3,858,997	Bacillus pseudofirmus OF4, complete genome
+NC_009848	1006910654	False	False	pumilus	3,704,641	Bacillus pumilus SAFR-032, complete genome
+NZ_AP014928	985593256	False	False	pumilus	3,723,433	Bacillus pumilus DNA, complete genome, strain: TUAT1
+NZ_CP007436	749308092	False	False	pumilus	3,763,493	Bacillus pumilus strain MTCC B6033, complete genome
+NZ_CP009108	915500045	False	False	pumilus	3,674,849	Bacillus pumilus strain GR-8, complete genome
+NZ_CP010997	1002971441	False	False	pumilus	3,860,091	Bacillus pumilus strain SH-B11, complete genome
+NZ_CP011007	1002948041	False	False	pumilus	3,787,586	Bacillus pumilus strain SH-B9, complete genome
+NZ_CP011150	810479637	False	False	pumilus	3,745,123	Bacillus pumilus strain W3, complete genome
+NZ_CP012329	949745812	False	False	pumilus	3,793,419	Bacillus pumilus strain NJ-M2, complete genome
+NZ_CP012330	1050246264	False	False	pumilus	3,792,999	Bacillus pumilus strain NJ-V, complete genome
+NZ_CP012482	949773636	False	False	pumilus	3,787,818	Bacillus pumilus strain NJ-V2, complete genome
+NZ_CP016784	1053290007	False	False	pumilus	3,698,973	Bacillus pumilus strain PDSLzg-1, complete genome
+NZ_CP018574	1122358131	False	False	pumilus	3,733,835	Bacillus pumilus strain GLB197, complete genome
+NZ_CP015607	1130457035	False	False	safensis	4,070,488	Bacillus safensis strain U14-5, complete genome
+NZ_CP015610	1130444727	False	False	safensis	3,735,181	Bacillus safensis strain U41 chromosome, complete genome
+NZ_CP015611	1173696814	False	False	safensis	3,741,804	Bacillus safensis strain U17-1 chromosome, complete genome
+NZ_CP018100	1173265482	False	False	safensis	3,740,842	Bacillus safensis strain BRM1, complete genome
+NZ_CP018197	1120344352	False	False	safensis	3,935,874	Bacillus safensis strain KCTC 12796BP chromosome, complete genome
+NZ_CP025001	1325703073	False	False	siamensis	4,268,316	Bacillus siamensis strain SCSIO 05746 chromosome, complete genome
+NZ_CP011008	1003775488	False	False	simplex	5,345,500	Bacillus simplex strain SH-B26, complete genome
+NZ_CP017704	1229401847	False	False	simplex	5,645,783	Bacillus simplex NBRC 15720 = DSM 1321, complete genome
+NZ_CP012024	873918573	False	False	smithii	3,368,778	Bacillus smithii strain DSM 4216, complete genome
+NZ_CP021920	1209218693	False	False	sonorensis	4,832,293	Bacillus sonorensis strain SRCM101395 chromosome, complete genome
+NC_017743	386756580	False	False	sp.	4,120,406	Bacillus sp. JS, complete genome
+NC_021171	488570484	False	False	sp.	4,815,602	Bacillus sp. 1NLA3E, complete genome
+NZ_AP013294	751609140	False	False	sp.	3,594,618	Bacillus sp. OxB-1 DNA, complete genome
+NZ_CP008855	753828171	False	False	sp.	3,422,674	Bacillus sp. X1(2014), complete genome
+NZ_CP009938	749596997	False	False	sp.	4,069,641	Bacillus sp. BH072, complete genome
+NZ_CP010014	763058420	False	False	sp.	4,070,380	Bacillus sp. YP1, complete genome
+NZ_CP010075	749168380	False	False	sp.	3,708,888	Bacillus sp. WP8, complete genome
+NZ_CP010406	749166833	False	False	sp.	3,982,168	Bacillus sp. Pc3, complete genome
+NZ_CP011101	814580088	False	False	sp.	4,069,266	Bacillus sp. LM 4-2, complete genome
+NZ_CP013950	989019298	False	False	sp.	4,134,042	Bacillus sp. SDLI1, complete genome
+NZ_CP015226	1033167522	False	False	sp.	5,036,631	Bacillus sp. IHB B 7164 chromosome, complete genome
+NZ_CP017016	1092903137	True	False	sp.	5,141,367	Bacillus sp. ABP14 chromosome, complete genome, novel BCG member (0.136145 <= 0.1403)
+NZ_CP017072	1062513255	False	False	sp.	4,109,356	Bacillus sp. FJAT-14266 chromosome, complete genome
+NZ_CP018249	1120498297	False	False	sp.	4,162,101	Bacillus sp. H15-1 chromosome, complete genome
+NZ_CP019626	1148649210	False	False	sp.	4,045,581	Bacillus sp. 275 chromosome, complete genome
+NZ_CP020437	1357935581	True	False	sp.	5,287,334	Bacillus sp. FDAARGOS_235 chromosome, complete genome, novel BCG member (0.134052 <= 0.1403)
+NZ_CP021911	1209248121	False	False	sp.	4,161,448	Bacillus sp. MD-5 chromosome, complete genome
+NZ_CP022874	1236855702	False	False	sp.	4,166,290	Bacillus sp. 1s-1 chromosome, complete genome
+NZ_CP024647	1277267377	False	False	sp.	4,015,817	Bacillus sp. Lzh-5 chromosome, complete genome
+NZ_CP025122	1311639973	True	False	sp.	5,230,501	Bacillus sp. HBCD-sjtu chromosome, complete genome, novel BCG member (0.133252 <= 0.1403)
+NZ_CP025258	1316515958	False	False	sp.	4,041,647	Bacillus sp. SJ-10 chromosome, complete genome
+NC_000964	255767013	False	False	subtilis	4,215,606	Bacillus subtilis subsp. subtilis str. 168 chromosome, complete genome
+NC_014479	305672698	False	False	subtilis	4,027,676	Bacillus subtilis subsp. spizizenii str. W23, complete genome
+NC_014976	321311376	False	False	subtilis	4,093,599	Bacillus subtilis BSn5, complete genome
+NC_016047	350264100	False	False	subtilis	4,207,222	Bacillus subtilis subsp. spizizenii TU-B-10, complete genome
+NC_017195	384173661	False	False	subtilis	4,011,949	Bacillus subtilis subsp. subtilis RO-NN-1, complete genome
+NC_017196	674708758	False	False	subtilis	4,105,380	Bacillus subtilis subsp. natto BEST195 DNA, complete genome
+NC_018520	402774243	False	False	subtilis	4,146,839	Bacillus subtilis QB928, complete genome
+NC_019896	430755491	False	False	subtilis	4,043,754	Bacillus subtilis subsp. subtilis str. BSP1, complete genome
+NC_020244	449092714	False	False	subtilis	4,061,186	Bacillus subtilis XF-1, complete genome
+NC_020507	470160151	False	False	subtilis	4,215,610	Bacillus subtilis subsp. subtilis 6051-HGW, complete genome
+NC_020832	472328503	False	False	subtilis	4,021,944	Bacillus subtilis subsp. subtilis str. BAB-1, complete genome
+NC_022898	560127023	False	False	subtilis	4,033,459	Bacillus subtilis PY79, complete genome
+NZ_AP012496	749295502	False	False	subtilis	4,043,042	Bacillus subtilis BEST7003 DNA, complete genome
+NZ_CP005997	1033136730	False	False	subtilis	4,057,487	Bacillus subtilis TOA, complete genome
+NZ_CP007173	810428549	False	False	subtilis	4,012,933	Bacillus subtilis HJ5, complete genome
+NZ_CP007409	749295531	False	False	subtilis	4,039,155	Bacillus subtilis subsp. subtilis str. OH 131.1, complete genome
+NZ_CP007800	749295427	False	False	subtilis	4,188,369	Bacillus subtilis subsp. subtilis str. JH642 substr. AG174, complete genome
+NZ_CP008698	749295518	False	False	subtilis	4,193,640	Bacillus subtilis subsp. subtilis str. AG1839, complete genome
+NZ_CP009611	749298825	False	False	subtilis	3,981,674	Bacillus subtilis strain Bs-916, complete genome
+NZ_CP009748	749298785	False	False	subtilis	3,876,276	Bacillus subtilis strain ATCC 13952, complete genome
+NZ_CP009749	749298789	False	False	subtilis	3,959,897	Bacillus subtilis strain ATCC 19217, complete genome
+NZ_CP009796	749295463	False	False	subtilis	4,079,669	Bacillus subtilis strain SG6, complete genome
+NZ_CP010052	749168884	False	False	subtilis	4,215,619	Bacillus subtilis subsp. subtilis str. 168, complete genome
+NZ_CP010053	749168887	False	False	subtilis	4,215,367	Bacillus subtilis strain PS832, complete genome
+NZ_CP010314	749613708	False	False	subtilis	4,195,102	Bacillus subtilis subsp. subtilis strain 3NA, complete genome
+NZ_CP011115	808764667	False	False	subtilis	4,215,633	Bacillus subtilis KCTC 1028, complete genome
+NZ_CP011534	827044523	False	False	subtilis	4,025,326	Bacillus subtilis strain UD1022, complete genome
+NZ_CP011882	851920250	False	False	subtilis	4,090,708	Bacillus subtilis strain TO-A JPC, complete genome
+NZ_CP013654	983424518	False	False	subtilis	4,030,837	Bacillus subtilis subsp. subtilis strain BSD-2, complete genome
+NZ_CP013984	982926924	False	False	subtilis	4,143,890	Bacillus subtilis subsp. inaquosorum strain DE111, complete genome
+NZ_CP014166	983677244	False	False	subtilis	4,056,281	Bacillus subtilis subsp. subtilis strain CU1050, complete genome
+NZ_CP014471	1000371652	False	False	subtilis	4,122,154	Bacillus subtilis subsp. natto strain CGMCC 2108, complete genome
+NZ_CP014840	1010917108	False	False	subtilis	4,175,482	Bacillus subtilis subsp. globigii strain ATCC 49760 chromosome, complete genome
+NZ_CP015004	1013172666	False	False	subtilis	4,195,195	Bacillus subtilis strain SZMC 6179J, complete genome
+NZ_CP015222	1071412444	False	False	subtilis	4,186,269	Bacillus subtilis strain HRBS-10TDI13 chromosome, complete genome
+NZ_CP015375	1049452012	False	False	subtilis	4,211,343	Bacillus subtilis subsp. subtilis strain KCTC 3135, complete genome
+NZ_CP015975	1035844369	False	False	subtilis	3,876,919	Bacillus subtilis subsp. subtilis strain delta6 chromosome, complete genome
+NZ_CP016767	1207757276	False	False	subtilis	4,282,516	Bacillus subtilis strain CW14 chromosome, complete genome
+NZ_CP016852	1051699880	False	False	subtilis	4,214,812	Bacillus subtilis subsp. subtilis strain 168G, complete genome
+NZ_CP016894	1057672705	False	False	subtilis	4,235,115	Bacillus subtilis strain HJ0-6, complete genome
+NZ_CP017112	1062649058	False	False	subtilis	4,165,121	Bacillus subtilis strain BS16045, complete genome
+NZ_CP017314	1072774606	False	False	subtilis	4,010,416	Bacillus subtilis strain BS38, complete genome
+NZ_CP017676	1092600345	False	False	subtilis	4,013,819	Bacillus subtilis strain VV2, complete genome
+NZ_CP017763	1121206263	False	False	subtilis	4,121,999	Bacillus subtilis strain 29R7-12 chromosome, complete genome
+NZ_CP018133	1275632820	False	False	subtilis	4,006,746	Bacillus subtilis strain ATR2 chromosome, complete genome
+NZ_CP018173	1119646557	False	False	subtilis	4,108,293	Bacillus subtilis strain MJ01, complete genome
+NZ_CP018184	1119673341	False	False	subtilis	4,138,265	Bacillus subtilis strain KH2, complete genome
+NZ_CP018295	1119670507	False	False	subtilis	4,117,900	Bacillus subtilis strain J-5, complete genome
+NZ_CP020023	1359419766	False	False	subtilis	4,141,030	Bacillus subtilis strain ATCC 21228 chromosome, complete genome
+NZ_CP020102	1167593196	False	False	subtilis	4,215,607	Bacillus subtilis strain NCIB 3610 chromosome, complete genome
+NZ_CP020367	1170222313	False	False	subtilis	4,072,961	Bacillus subtilis strain GQJK2 chromosome, complete genome
+NZ_CP020722	1183795240	False	False	subtilis	4,142,593	Bacillus subtilis strain Bs-115 chromosome, complete genome
+NZ_CP021169	1196905946	False	False	subtilis	3,923,177	Bacillus subtilis strain TLO3 chromosome, complete genome
+NZ_CP021498	1201988837	False	False	subtilis	3,988,602	Bacillus subtilis subsp. subtilis strain SRCM101444 chromosome, complete genome
+NZ_CP021499	1201931362	False	False	subtilis	3,988,649	Bacillus subtilis subsp. subtilis strain SRCM100757 chromosome, complete genome
+NZ_CP021889	1209248234	False	False	subtilis	3,988,630	Bacillus subtilis subsp. subtilis strain SRCM100761 chromosome, complete genome
+NZ_CP021892	1209217979	False	False	subtilis	4,086,692	Bacillus subtilis subsp. subtilis strain SRCM100333 chromosome, complete genome
+NZ_CP021903	1209249953	False	False	subtilis	4,065,429	Bacillus subtilis strain ge28 chromosome, complete genome
+NZ_CP021921	1209280187	False	False	subtilis	4,147,173	Bacillus subtilis subsp. subtilis strain SRCM101392 chromosome, complete genome
+NZ_CP022287	1215194256	False	False	subtilis	4,072,531	Bacillus subtilis strain SX01705 chromosome, complete genome
+NZ_CP022890	1236855544	False	False	subtilis	4,014,255	Bacillus subtilis strain DKU_NT_02 chromosome, complete genome
+NZ_CP022891	1236855623	False	False	subtilis	4,196,031	Bacillus subtilis strain DKU_NT_03 chromosome, complete genome
+NZ_CP023257	1242725306	False	False	subtilis	4,072,939	Bacillus subtilis strain TLO3 chromosome, complete genome
+NZ_CP025941	1333933357	False	False	subtilis	4,175,806	Bacillus subtilis strain BJ3-2 chromosome, complete genome
+NC_005957	49476684	True	False	thuringiensis	5,237,682	Bacillus thuringiensis serovar konkukian str. 97-27 chromosome, complete genome
+NC_008600	118475778	True	False	thuringiensis	5,257,091	Bacillus thuringiensis str. Al Hakam, complete genome
+NC_014171	296500838	True	False	thuringiensis	5,330,088	Bacillus thuringiensis BMB171, complete genome
+NC_017200	384177910	True	False	thuringiensis	5,355,490	Bacillus thuringiensis serovar finitimus YBT-020, complete genome
+NC_017208	384184088	True	False	thuringiensis	5,486,830	Bacillus thuringiensis serovar chinensis CT-43, complete genome
+NC_018500	402558824	True	False	thuringiensis	5,886,036	Bacillus thuringiensis HD-771, complete genome
+NC_018508	434373506	True	False	thuringiensis	5,495,278	Bacillus thuringiensis HD-789, complete genome
+NC_018693	407703236	True	False	thuringiensis	5,414,494	Bacillus thuringiensis MC28, complete genome
+NC_018877	409187965	True	False	thuringiensis	5,500,501	Bacillus thuringiensis Bt407, complete genome
+NC_020238	449086670	True	False	thuringiensis	5,646,799	Bacillus thuringiensis serovar kurstaki str. HD73, complete genome
+NC_020376	452196381	True	False	thuringiensis	5,491,935	Bacillus thuringiensis serovar thuringiensis str. IS5056, complete genome
+NC_022873	558678294	True	False	thuringiensis	6,002,284	Bacillus thuringiensis YBT-1518, complete genome
+NZ_AP014864	985613331	True	False	thuringiensis	5,896,839	Bacillus thuringiensis serovar tolworthi DNA, complete genome, strain: Pasteur Institute Standard strain
+NZ_CP004858	749295601	True	False	thuringiensis	5,602,565	Bacillus thuringiensis serovar kurstaki str. YBT-1520, complete genome
+NZ_CP004870	757747818	True	False	thuringiensis	5,631,672	Bacillus thuringiensis serovar kurstaki str. HD-1, complete genome
+NZ_CP007607	749295542	True	False	thuringiensis	5,607,837	Bacillus thuringiensis serovar kurstaki str. YBT-1520, complete genome
+NZ_CP009335	759608738	True	False	thuringiensis	5,232,696	Bacillus thuringiensis strain HD1011, complete genome
+NZ_CP009351	759615542	True	False	thuringiensis	5,491,311	Bacillus thuringiensis HD1002, complete genome
+NZ_CP009600	755165011	True	False	thuringiensis	5,256,240	Bacillus thuringiensis strain HD571, complete genome
+NZ_CP009720	755162796	True	False	thuringiensis	5,213,295	Bacillus thuringiensis strain HD682, complete genome
+NZ_CP010005	763297351	True	False	thuringiensis	5,675,189	Bacillus thuringiensis serovar kurstaki strain HD 1, complete genome
+NZ_CP010088	755166861	True	False	thuringiensis	5,235,838	Bacillus thuringiensis strain 97-27, complete genome
+NZ_CP010089	757772051	True	False	thuringiensis	5,701,188	Bacillus thuringiensis serovar galleriae strain HD-29, complete genome
+NZ_CP010106	915492893	True	False	thuringiensis	5,429,688	Bacillus thuringiensis serovar indiana strain HD521, complete genome
+NZ_CP010577	766622846	True	False	thuringiensis	5,652,292	Bacillus thuringiensis serovar morrisoni strain BGSC 4AA1, complete genome
+NZ_CP011349	827465782	True	False	thuringiensis	5,675,007	Bacillus thuringiensis strain YC-10, complete genome
+NZ_CP012099	915549795	True	False	thuringiensis	5,292,526	Bacillus thuringiensis strain HS18-1, complete genome
+NZ_CP013055	983399818	True	False	thuringiensis	5,674,369	Bacillus thuringiensis strain YWC2-8, complete genome
+NZ_CP013274	983475238	True	False	thuringiensis	5,327,397	Bacillus thuringiensis strain CTC, complete genome
+NZ_CP014282	1008989517	True	False	thuringiensis	5,243,635	Bacillus thuringiensis strain Bt185, complete genome
+NZ_CP015150	1017216133	True	False	thuringiensis	5,627,121	Bacillus thuringiensis strain Bc601, complete genome
+NZ_CP015176	1027743998	True	False	thuringiensis	5,400,819	Bacillus thuringiensis serovar alesti strain BGSC 4C1 chromosome, complete genome
+NZ_CP015250	1062995496	True	False	thuringiensis	5,610,045	Bacillus thuringiensis Bt18247, complete genome
+NZ_CP015350	1045415200	True	False	thuringiensis	5,867,736	Bacillus thuringiensis strain MYBT18246 chromosome, complete genome
+NZ_CP016588	1046641237	True	False	thuringiensis	5,344,151	Bacillus thuringiensis strain KNU-07 chromosome, complete genome
+NZ_CP017577	1201954295	True	False	thuringiensis	5,436,019	Bacillus thuringiensis strain SCG04-02, complete genome
+NZ_CP019230	1205192580	True	False	thuringiensis	5,420,545	Bacillus thuringiensis strain YGd22-03, complete genome
+NZ_CP020002	1159315886	True	False	thuringiensis	5,790,408	Bacillus thuringiensis strain L-7601, complete genome
+NZ_CP020723	1207088455	True	False	thuringiensis	5,246,329	Bacillus thuringiensis strain BM-BT15426 chromosome, complete genome
+NZ_CP021061	1207610714	True	False	thuringiensis	5,427,594	Bacillus thuringiensis strain ATCC 10792 chromosome, complete genome
+NZ_CP022345	1219500589	True	False	thuringiensis	5,334,660	Bacillus thuringiensis strain c25 chromosome, complete genome
+NC_022781	557619566	True	False	toyonensis	4,940,474	Bacillus toyonensis BCT-7112, complete genome
+NZ_CP020893	1189305439	False	False	vallismortis	3,929,787	Bacillus vallismortis strain NBIF-001 chromosome, complete genome
+NC_019842	429503531	False	False	velezensis	3,961,368	Bacillus velezensis AS43.3, complete genome
+NZ_CP006890	749299146	False	False	velezensis	4,117,023	Bacillus velezensis SQR9, complete genome
+NZ_CP007165	810454280	False	False	velezensis	4,052,546	Bacillus velezensis NJN-6, complete genome
+NZ_CP009679	749299045	False	False	velezensis	4,006,002	Bacillus velezensis strain JS25R chromosome, complete genome
+NZ_CP011346	817451848	False	False	velezensis	4,105,955	Bacillus velezensis strain JJ-D34 chromosome, complete genome
+NZ_CP011347	818920956	False	False	velezensis	4,006,637	Bacillus velezensis strain YJ11-1-4 chromosome, complete genome
+NZ_CP011686	844774593	False	False	velezensis	4,009,746	Bacillus velezensis strain G341 chromosome, complete genome
+NZ_CP014990	1074989140	False	False	velezensis	3,921,833	Bacillus velezensis strain D2-2, complete genome
+NZ_CP015443	1032817234	False	False	velezensis	4,167,153	Bacillus velezensis strain CC09, complete genome
+NZ_CP015911	1045842230	False	False	velezensis	3,917,761	Bacillus velezensis strain LS69 chromosome, complete genome
+NZ_CP016371	1045346793	False	False	velezensis	3,929,772	Bacillus velezensis strain S3-1, complete genome
+NZ_CP016395	1065013168	False	False	velezensis	4,007,450	Bacillus velezensis strain M75 chromosome, complete genome
+NZ_CP017747	1100825183	False	False	velezensis	3,884,433	Bacillus velezensis strain SYBC H47 chromosome, complete genome
+NZ_CP017775	1096237946	False	False	velezensis	4,206,167	Bacillus velezensis strain 9912D chromosome, complete genome
+NZ_CP018007	1167593339	False	False	velezensis	3,926,520	Bacillus velezensis strain sx01604 chromosome, complete genome
+NZ_CP019040	1149158730	False	False	velezensis	4,071,980	Bacillus velezensis strain GH1-13 chromosome, complete genome
+NZ_CP020375	1170426980	False	False	velezensis	3,929,789	Bacillus velezensis strain JTYP2 chromosome, complete genome
+NZ_CP020805	1186136984	False	False	velezensis	3,963,726	Bacillus velezensis strain 9D-6 chromosome, complete genome
+NZ_CP021011	1325659604	False	False	velezensis	3,975,220	Bacillus velezensis strain GFP-2 chromosome, complete genome
+NZ_CP021338	1207642486	False	False	velezensis	3,922,711	Bacillus velezensis strain ZL918 chromosome, complete genome
+NZ_CP021495	1207076529	False	False	velezensis	3,929,760	Bacillus velezensis strain GQJK49 chromosome, complete genome
+NZ_CP021976	1209903768	False	False	velezensis	3,893,083	Bacillus velezensis strain T20E-257 chromosome, complete genome
+NZ_CP022341	1215560186	False	False	velezensis	4,013,317	Bacillus velezensis strain 157 chromosome, complete genome
+NZ_CP022531	1227368372	False	False	velezensis	3,979,382	Bacillus velezensis strain TB1501 chromosome, complete genome
+NZ_CP022556	1234371991	False	False	velezensis	3,847,297	Bacillus velezensis strain NJAU-Z9 chromosome, complete genome
+NZ_CP022654	1243956991	False	False	velezensis	4,162,569	Bacillus velezensis strain SCDB 291 chromosome, complete genome
+NZ_CP023320	1243941556	False	False	velezensis	4,085,488	Bacillus velezensis strain SCGB 1 chromosome, complete genome
+NZ_CP023431	1245897812	False	False	velezensis	3,989,154	Bacillus velezensis strain SCGB 574 chromosome, complete genome
+NZ_CP023748	1267222144	False	False	velezensis	3,972,310	Bacillus velezensis strain LABIM40 chromosome, complete genome
+NZ_CP023859	1271539833	False	False	velezensis	4,090,582	Bacillus velezensis strain L-1 chromosome, complete genome
+NZ_CP024203	1274379992	False	False	velezensis	4,197,217	Bacillus velezensis strain NKG-1 chromosome, complete genome
+NZ_CP024797	1277285816	False	False	velezensis	4,061,552	Bacillus velezensis strain TJ02 chromosome, complete genome
+NZ_CP024897	1280938158	False	False	velezensis	3,995,812	Bacillus velezensis strain CN026 chromosome, complete genome
+NZ_CP025308	1316546126	False	False	velezensis	4,246,605	Bacillus velezensis strain Lzh-a42 chromosome, complete genome
+NZ_CP025341	1316615710	False	False	velezensis	3,928,489	Bacillus velezensis strain CMT-6 chromosome, complete genome
+NZ_CP025939	1333944381	False	False	velezensis	4,326,822	Bacillus velezensis strain 10075 chromosome, complete genome
+NZ_CP026533	1352879641	False	False	velezensis	4,166,265	Bacillus velezensis strain DKU_NT_04 chromosome, complete genome
+NZ_CP026610	1357960634	False	False	velezensis	4,322,979	Bacillus velezensis strain CGMCC 11640 chromosome, complete genome
+NZ_CP016020	1119662339	False	False	weihaiensis	4,344,873	Bacillus weihaiensis strain Alg07 chromosome, complete genome
+NC_010184	163938013	True	False	weihenstephanensis	5,262,775	Bacillus weihenstephanensis KBAB4, complete genome
+NZ_CP009746	749321901	True	False	weihenstephanensis	5,608,349	Bacillus weihenstephanensis strain WSBC 10204, complete genome
+NZ_CP017786	1096221489	False	False	xiamenensis	3,637,729	Bacillus xiamenensis strain VV3 chromosome, complete genome

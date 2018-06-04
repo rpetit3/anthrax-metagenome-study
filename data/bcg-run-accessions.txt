@@ -1,0 +1,858 @@
+# Query: genomic[Source] AND random[Selection] AND txid86661[Organism:exp] AND paired[Layout]) AND wgs[Strategy] AND "Illumina HiSeq"
+# Date: 4/18/2018
+SRR5409204  Illumina HiSeq 4000 1392    Bacillus anthracis
+SRR2968141  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968143  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968155  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968157  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968159  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968163  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968164  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968165  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968166  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968170  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968171  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2968179  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR3418277  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR3418280  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR3418281  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR3418282  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR3418382  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR3418292  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2891675  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2155521  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2339639  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340119  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340484  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339620  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339621  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339622  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339624  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339627  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339632  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339633  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339634  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339635  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339636  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339637  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339638  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339640  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339641  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339642  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339644  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339645  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339647  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339648  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339651  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339652  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339676  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339728  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339757  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339823  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339898  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339940  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339961  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340010  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340041  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340073  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340171  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340230  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340252  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340304  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340305  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340349  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340350  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340435  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340460  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340461  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340463  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340464  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340465  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340466  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340467  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340468  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340469  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340470  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340471  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340472  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340474  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340475  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340476  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340477  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340478  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340479  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340480  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340481  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340482  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340483  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340485  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340486  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340487  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340488  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340489  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340490  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340491  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340492  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340505  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340513  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340624  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340670  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340697  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340730  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340803  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340857  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340858  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340910  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340969  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2340986  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339381  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339406  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339493  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339516  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339549  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339584  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339613  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339615  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339616  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339617  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339618  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339125  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339184  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339643  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339241  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339291  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339356  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2339619  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR1999707  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR1999708  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR1999709  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR1999710  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR1999711  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR1999712  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR1776686  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2155543  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2155549  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2155551  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2164197  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2182195  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2174561  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2174564  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2145877  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2145878  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2175366  Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2094266  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094265  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094268  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094267  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094269  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094270  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094271  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094272  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094273  Illumina HiSeq 2500 1392    Bacillus anthracis
+ERR930302   Illumina HiSeq 2000 1392    Bacillus anthracis
+ERR930303   Illumina HiSeq 2000 1392    Bacillus anthracis
+ERR930305   Illumina HiSeq 2000 1392    Bacillus anthracis
+ERR930306   Illumina HiSeq 2000 1392    Bacillus anthracis
+ERR930296   Illumina HiSeq 2000 1392    Bacillus anthracis
+ERR930298   Illumina HiSeq 2000 1392    Bacillus anthracis
+ERR930297   Illumina HiSeq 2000 1392    Bacillus anthracis
+ERR930300   Illumina HiSeq 2000 1392    Bacillus anthracis
+ERR930301   Illumina HiSeq 2000 1392    Bacillus anthracis
+ERR930299   Illumina HiSeq 2000 1392    Bacillus anthracis
+ERR930304   Illumina HiSeq 2000 1392    Bacillus anthracis
+SRR2075979  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094245  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094253  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094250  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094254  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094255  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094256  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094258  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094257  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094259  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094261  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094263  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094262  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2094264  Illumina HiSeq 2500 1392    Bacillus anthracis
+SRR2157024  Illumina HiSeq 2000 260799  Bacillus anthracis str. Sterne
+SRR2155541  Illumina HiSeq 2000 1452727 Bacillus anthracis str. Turkey32
+SRR2157175  Illumina HiSeq 2000 1449979 Bacillus anthracis str. V770-NP-1R
+SRR2157176  Illumina HiSeq 2000 1449979 Bacillus anthracis str. V770-NP-1R
+SRR2164194  Illumina HiSeq 2000 1449979 Bacillus anthracis str. V770-NP-1R
+SRR6003447  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR6003491  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5194382  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR3509315  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR3509356  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185037  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185036  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185035  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185034  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185032  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185031  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185030  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185029  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185028  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185027  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185026  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185025  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185024  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185023  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185022  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185021  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185020  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185019  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185018  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185017  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185016  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185015  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185014  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185013  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185012  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185011  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185010  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5185009  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4064791  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4661787  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4064644  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4064643  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4661786  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4661785  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4661788  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4661784  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5189059  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4064640  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4064642  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5189058  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4064641  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4661783  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4064790  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4661782  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4661792  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4661791  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5189064  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5189063  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5189060  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR5189061  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR2541686  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR2541688  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR2541718  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR2541693  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR2541715  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR4140261  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR2541662  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR2541668  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR2541674  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR2541680  Illumina HiSeq 2500 1396    Bacillus cereus
+SRR1656267  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR1656269  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR1656270  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR1656335  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR1656350  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR1617632  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR2157172  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR2171381  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR2175373  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR2175376  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR1630822  Illumina HiSeq 2000 1396    Bacillus cereus
+SRR2171418  Illumina HiSeq 2000 572264  Bacillus cereus 03BB102
+SRR2167785  Illumina HiSeq 2000 451709  Bacillus cereus 03BB108
+SRR2167786  Illumina HiSeq 2000 451709  Bacillus cereus 03BB108
+SRR398096   Illumina HiSeq 2000 1053166 Bacillus cereus AND1407
+SRR398097   Illumina HiSeq 2000 1053166 Bacillus cereus AND1407
+SRR392727   Illumina HiSeq 2000 1053166 Bacillus cereus AND1407
+SRR392728   Illumina HiSeq 2000 1053166 Bacillus cereus AND1407
+SRR2182217  Illumina HiSeq 2000 526980  Bacillus cereus ATCC 10876
+SRR2174498  Illumina HiSeq 2000 526977  Bacillus cereus ATCC 4342
+SRR639759   Illumina HiSeq 2000 1053167 Bacillus cereus BAG1O-1
+SRR639760   Illumina HiSeq 2000 1053167 Bacillus cereus BAG1O-1
+SRR497475   Illumina HiSeq 2000 1053167 Bacillus cereus BAG1O-1
+SRR497476   Illumina HiSeq 2000 1053167 Bacillus cereus BAG1O-1
+SRR392458   Illumina HiSeq 2000 1053168 Bacillus cereus BAG1O-2
+SRR392459   Illumina HiSeq 2000 1053168 Bacillus cereus BAG1O-2
+SRR392460   Illumina HiSeq 2000 1053168 Bacillus cereus BAG1O-2
+SRR392461   Illumina HiSeq 2000 1053168 Bacillus cereus BAG1O-2
+SRR392454   Illumina HiSeq 2000 1053169 Bacillus cereus BAG1O-3
+SRR392455   Illumina HiSeq 2000 1053169 Bacillus cereus BAG1O-3
+SRR392456   Illumina HiSeq 2000 1053169 Bacillus cereus BAG1O-3
+SRR392457   Illumina HiSeq 2000 1053169 Bacillus cereus BAG1O-3
+SRR392462   Illumina HiSeq 2000 1053170 Bacillus cereus BAG1X1-1
+SRR392463   Illumina HiSeq 2000 1053170 Bacillus cereus BAG1X1-1
+SRR392464   Illumina HiSeq 2000 1053170 Bacillus cereus BAG1X1-1
+SRR392465   Illumina HiSeq 2000 1053170 Bacillus cereus BAG1X1-1
+SRR392468   Illumina HiSeq 2000 1053171 Bacillus cereus BAG1X1-2
+SRR392469   Illumina HiSeq 2000 1053171 Bacillus cereus BAG1X1-2
+SRR392470   Illumina HiSeq 2000 1053171 Bacillus cereus BAG1X1-2
+SRR392471   Illumina HiSeq 2000 1053171 Bacillus cereus BAG1X1-2
+SRR398098   Illumina HiSeq 2000 1053172 Bacillus cereus BAG1X1-3
+SRR398099   Illumina HiSeq 2000 1053172 Bacillus cereus BAG1X1-3
+SRR392466   Illumina HiSeq 2000 1053172 Bacillus cereus BAG1X1-3
+SRR392467   Illumina HiSeq 2000 1053172 Bacillus cereus BAG1X1-3
+SRR392472   Illumina HiSeq 2000 1053173 Bacillus cereus BAG1X2-1
+SRR392473   Illumina HiSeq 2000 1053173 Bacillus cereus BAG1X2-1
+SRR392474   Illumina HiSeq 2000 1053173 Bacillus cereus BAG1X2-1
+SRR392475   Illumina HiSeq 2000 1053173 Bacillus cereus BAG1X2-1
+SRR392476   Illumina HiSeq 2000 1053174 Bacillus cereus BAG1X2-2
+SRR392477   Illumina HiSeq 2000 1053174 Bacillus cereus BAG1X2-2
+SRR392478   Illumina HiSeq 2000 1053174 Bacillus cereus BAG1X2-2
+SRR392479   Illumina HiSeq 2000 1053174 Bacillus cereus BAG1X2-2
+SRR642764   Illumina HiSeq 2000 1053175 Bacillus cereus BAG1X2-3
+SRR642152   Illumina HiSeq 2000 1053175 Bacillus cereus BAG1X2-3
+SRR634092   Illumina HiSeq 2000 1053175 Bacillus cereus BAG1X2-3
+SRR634093   Illumina HiSeq 2000 1053175 Bacillus cereus BAG1X2-3
+SRR392480   Illumina HiSeq 2000 1053176 Bacillus cereus BAG2O-1
+SRR392729   Illumina HiSeq 2000 1053176 Bacillus cereus BAG2O-1
+SRR398100   Illumina HiSeq 2000 1053176 Bacillus cereus BAG2O-1
+SRR398101   Illumina HiSeq 2000 1053176 Bacillus cereus BAG2O-1
+SRR398102   Illumina HiSeq 2000 1053177 Bacillus cereus BAG2O-2
+SRR398103   Illumina HiSeq 2000 1053177 Bacillus cereus BAG2O-2
+SRR392481   Illumina HiSeq 2000 1053177 Bacillus cereus BAG2O-2
+SRR392482   Illumina HiSeq 2000 1053177 Bacillus cereus BAG2O-2
+SRR398104   Illumina HiSeq 2000 1053178 Bacillus cereus BAG2O-3
+SRR398105   Illumina HiSeq 2000 1053178 Bacillus cereus BAG2O-3
+SRR392483   Illumina HiSeq 2000 1053178 Bacillus cereus BAG2O-3
+SRR392484   Illumina HiSeq 2000 1053178 Bacillus cereus BAG2O-3
+SRR398115   Illumina HiSeq 2000 1053179 Bacillus cereus BAG2X1-1
+SRR398116   Illumina HiSeq 2000 1053179 Bacillus cereus BAG2X1-1
+SRR392639   Illumina HiSeq 2000 1053179 Bacillus cereus BAG2X1-1
+SRR392640   Illumina HiSeq 2000 1053179 Bacillus cereus BAG2X1-1
+SRR392641   Illumina HiSeq 2000 1053180 Bacillus cereus BAG2X1-2
+SRR392642   Illumina HiSeq 2000 1053180 Bacillus cereus BAG2X1-2
+SRR398117   Illumina HiSeq 2000 1053180 Bacillus cereus BAG2X1-2
+SRR398118   Illumina HiSeq 2000 1053180 Bacillus cereus BAG2X1-2
+SRR611408   Illumina HiSeq 2000 1053181 Bacillus cereus BAG2X1-3
+SRR611409   Illumina HiSeq 2000 1053181 Bacillus cereus BAG2X1-3
+SRR611410   Illumina HiSeq 2000 1053181 Bacillus cereus BAG2X1-3
+SRR611411   Illumina HiSeq 2000 1053181 Bacillus cereus BAG2X1-3
+SRR398119   Illumina HiSeq 2000 1053182 Bacillus cereus BAG3O-2
+SRR398120   Illumina HiSeq 2000 1053182 Bacillus cereus BAG3O-2
+SRR392643   Illumina HiSeq 2000 1053182 Bacillus cereus BAG3O-2
+SRR392644   Illumina HiSeq 2000 1053182 Bacillus cereus BAG3O-2
+SRR398121   Illumina HiSeq 2000 1053183 Bacillus cereus BAG3X2-1
+SRR398122   Illumina HiSeq 2000 1053183 Bacillus cereus BAG3X2-1
+SRR392489   Illumina HiSeq 2000 1053183 Bacillus cereus BAG3X2-1
+SRR392490   Illumina HiSeq 2000 1053183 Bacillus cereus BAG3X2-1
+SRR398123   Illumina HiSeq 2000 1053184 Bacillus cereus BAG3X2-2
+SRR398124   Illumina HiSeq 2000 1053184 Bacillus cereus BAG3X2-2
+SRR392645   Illumina HiSeq 2000 1053184 Bacillus cereus BAG3X2-2
+SRR392646   Illumina HiSeq 2000 1053184 Bacillus cereus BAG3X2-2
+SRR398125   Illumina HiSeq 2000 1053185 Bacillus cereus BAG4O-1
+SRR398126   Illumina HiSeq 2000 1053185 Bacillus cereus BAG4O-1
+SRR392647   Illumina HiSeq 2000 1053185 Bacillus cereus BAG4O-1
+SRR392648   Illumina HiSeq 2000 1053185 Bacillus cereus BAG4O-1
+SRR392649   Illumina HiSeq 2000 1053186 Bacillus cereus BAG4X12-1
+SRR392650   Illumina HiSeq 2000 1053186 Bacillus cereus BAG4X12-1
+SRR398127   Illumina HiSeq 2000 1053186 Bacillus cereus BAG4X12-1
+SRR398128   Illumina HiSeq 2000 1053186 Bacillus cereus BAG4X12-1
+SRR398130   Illumina HiSeq 2000 1053187 Bacillus cereus BAG4X2-1
+SRR398131   Illumina HiSeq 2000 1053187 Bacillus cereus BAG4X2-1
+SRR392651   Illumina HiSeq 2000 1053187 Bacillus cereus BAG4X2-1
+SRR392652   Illumina HiSeq 2000 1053187 Bacillus cereus BAG4X2-1
+SRR392653   Illumina HiSeq 2000 1053188 Bacillus cereus BAG5O-1
+SRR392654   Illumina HiSeq 2000 1053188 Bacillus cereus BAG5O-1
+SRR398132   Illumina HiSeq 2000 1053188 Bacillus cereus BAG5O-1
+SRR398133   Illumina HiSeq 2000 1053188 Bacillus cereus BAG5O-1
+SRR398134   Illumina HiSeq 2000 1053189 Bacillus cereus BAG5X1-1
+SRR398135   Illumina HiSeq 2000 1053189 Bacillus cereus BAG5X1-1
+SRR392655   Illumina HiSeq 2000 1053189 Bacillus cereus BAG5X1-1
+SRR392656   Illumina HiSeq 2000 1053189 Bacillus cereus BAG5X1-1
+SRR392657   Illumina HiSeq 2000 1053190 Bacillus cereus BAG5X12-1
+SRR392658   Illumina HiSeq 2000 1053190 Bacillus cereus BAG5X12-1
+SRR398136   Illumina HiSeq 2000 1053190 Bacillus cereus BAG5X12-1
+SRR398137   Illumina HiSeq 2000 1053190 Bacillus cereus BAG5X12-1
+SRR398138   Illumina HiSeq 2000 1053191 Bacillus cereus BAG5X2-1
+SRR398139   Illumina HiSeq 2000 1053191 Bacillus cereus BAG5X2-1
+SRR392659   Illumina HiSeq 2000 1053191 Bacillus cereus BAG5X2-1
+SRR392660   Illumina HiSeq 2000 1053191 Bacillus cereus BAG5X2-1
+SRR398140   Illumina HiSeq 2000 1053192 Bacillus cereus BAG6O-1
+SRR398141   Illumina HiSeq 2000 1053192 Bacillus cereus BAG6O-1
+SRR392486   Illumina HiSeq 2000 1053192 Bacillus cereus BAG6O-1
+SRR392487   Illumina HiSeq 2000 1053192 Bacillus cereus BAG6O-1
+SRR398142   Illumina HiSeq 2000 1053193 Bacillus cereus BAG6O-2
+SRR398143   Illumina HiSeq 2000 1053193 Bacillus cereus BAG6O-2
+SRR392661   Illumina HiSeq 2000 1053193 Bacillus cereus BAG6O-2
+SRR392662   Illumina HiSeq 2000 1053193 Bacillus cereus BAG6O-2
+SRR392663   Illumina HiSeq 2000 1053194 Bacillus cereus BAG6X1-1
+SRR392664   Illumina HiSeq 2000 1053194 Bacillus cereus BAG6X1-1
+SRR398145   Illumina HiSeq 2000 1053194 Bacillus cereus BAG6X1-1
+SRR398146   Illumina HiSeq 2000 1053194 Bacillus cereus BAG6X1-1
+SRR398147   Illumina HiSeq 2000 1053195 Bacillus cereus BAG6X1-2
+SRR398148   Illumina HiSeq 2000 1053195 Bacillus cereus BAG6X1-2
+SRR392671   Illumina HiSeq 2000 1053195 Bacillus cereus BAG6X1-2
+SRR392672   Illumina HiSeq 2000 1053195 Bacillus cereus BAG6X1-2
+ERR1474812  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474813  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474814  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474815  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474816  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474817  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474818  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474819  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474820  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474821  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474822  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474823  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474824  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474825  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474826  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474827  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474828  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474829  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474830  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474831  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474832  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474833  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474834  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474835  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474836  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474837  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474838  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474839  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474840  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474841  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474842  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474843  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474844  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474845  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474846  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474847  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474848  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474849  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474850  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474851  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474852  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474853  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474854  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474855  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474856  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474857  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474858  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474859  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474860  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474861  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474862  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474863  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474864  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474865  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474866  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474867  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474868  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474869  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474870  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474871  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474872  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474873  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474874  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474875  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474876  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474877  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474878  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474879  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474880  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474881  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474882  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474883  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474884  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474885  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474886  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474887  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474888  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474889  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474712  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474713  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474714  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474715  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474716  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474717  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474718  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474719  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474720  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474721  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474722  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474723  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474724  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474725  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474726  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474727  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474729  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474730  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474731  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474732  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474733  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474734  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474735  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474736  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474737  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474738  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474739  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474740  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474741  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474742  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474743  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474744  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474745  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474746  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474747  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474748  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474749  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474750  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474751  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474752  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474753  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474754  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474755  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474756  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474757  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474758  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474759  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474760  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474761  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474762  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474763  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474764  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474765  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474766  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474767  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474768  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474769  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474770  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474771  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474772  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474773  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474774  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474775  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474776  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474777  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474778  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474779  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474780  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474781  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474782  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474783  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474784  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474785  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474786  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474787  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474788  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474789  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474790  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474791  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474792  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474793  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474794  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474795  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474796  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474797  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474798  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474799  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474800  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474801  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474802  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474803  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474804  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474805  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474806  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474807  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474808  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474810  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+ERR1474811  Illumina HiSeq 1500 1179100 Bacillus cereus biovar anthracis
+SRR392669   Illumina HiSeq 2000 1053196 Bacillus cereus BMG1.7
+SRR392670   Illumina HiSeq 2000 1053196 Bacillus cereus BMG1.7
+SRR398149   Illumina HiSeq 2000 1053196 Bacillus cereus BMG1.7
+SRR398150   Illumina HiSeq 2000 1053196 Bacillus cereus BMG1.7
+SRR398151   Illumina HiSeq 2000 1053197 Bacillus cereus BtB2-4
+SRR398152   Illumina HiSeq 2000 1053197 Bacillus cereus BtB2-4
+SRR392667   Illumina HiSeq 2000 1053197 Bacillus cereus BtB2-4
+SRR392668   Illumina HiSeq 2000 1053197 Bacillus cereus BtB2-4
+SRR398153   Illumina HiSeq 2000 1053198 Bacillus cereus CER057
+SRR398154   Illumina HiSeq 2000 1053198 Bacillus cereus CER057
+SRR392488   Illumina HiSeq 2000 1053198 Bacillus cereus CER057
+SRR392730   Illumina HiSeq 2000 1053198 Bacillus cereus CER057
+SRR398155   Illumina HiSeq 2000 1053199 Bacillus cereus CER074
+SRR398156   Illumina HiSeq 2000 1053199 Bacillus cereus CER074
+SRR392491   Illumina HiSeq 2000 1053199 Bacillus cereus CER074
+SRR392492   Illumina HiSeq 2000 1053199 Bacillus cereus CER074
+SRR2171483  Illumina HiSeq 2000 1454382 Bacillus cereus D17
+SRR2157010  Illumina HiSeq 2000 288681  Bacillus cereus E33L
+SRR2164311  Illumina HiSeq 2000 269801  Bacillus cereus G9241
+SRR2164312  Illumina HiSeq 2000 269801  Bacillus cereus G9241
+SRR398157   Illumina HiSeq 2000 1053200 Bacillus cereus HD73
+SRR398158   Illumina HiSeq 2000 1053200 Bacillus cereus HD73
+SRR392485   Illumina HiSeq 2000 1053200 Bacillus cereus HD73
+SRR392731   Illumina HiSeq 2000 1053200 Bacillus cereus HD73
+SRR392493   Illumina HiSeq 2000 1053201 Bacillus cereus HuA2-1
+SRR392494   Illumina HiSeq 2000 1053201 Bacillus cereus HuA2-1
+SRR392495   Illumina HiSeq 2000 1053201 Bacillus cereus HuA2-1
+SRR392496   Illumina HiSeq 2000 1053201 Bacillus cereus HuA2-1
+SRR497602   Illumina HiSeq 2000 1053202 Bacillus cereus HuA2-3
+SRR497603   Illumina HiSeq 2000 1053202 Bacillus cereus HuA2-3
+SRR639761   Illumina HiSeq 2000 1053202 Bacillus cereus HuA2-3
+SRR639762   Illumina HiSeq 2000 1053202 Bacillus cereus HuA2-3
+SRR392497   Illumina HiSeq 2000 1053203 Bacillus cereus HuA2-4
+SRR392498   Illumina HiSeq 2000 1053203 Bacillus cereus HuA2-4
+SRR392499   Illumina HiSeq 2000 1053203 Bacillus cereus HuA2-4
+SRR392500   Illumina HiSeq 2000 1053203 Bacillus cereus HuA2-4
+SRR392501   Illumina HiSeq 2000 1053204 Bacillus cereus HuA2-9
+SRR392502   Illumina HiSeq 2000 1053204 Bacillus cereus HuA2-9
+SRR392503   Illumina HiSeq 2000 1053204 Bacillus cereus HuA2-9
+SRR392504   Illumina HiSeq 2000 1053204 Bacillus cereus HuA2-9
+SRR392505   Illumina HiSeq 2000 1053205 Bacillus cereus HuA3-9
+SRR392506   Illumina HiSeq 2000 1053205 Bacillus cereus HuA3-9
+SRR392507   Illumina HiSeq 2000 1053205 Bacillus cereus HuA3-9
+SRR392508   Illumina HiSeq 2000 1053205 Bacillus cereus HuA3-9
+SRR392509   Illumina HiSeq 2000 1053206 Bacillus cereus HuA4-10
+SRR392510   Illumina HiSeq 2000 1053206 Bacillus cereus HuA4-10
+SRR392511   Illumina HiSeq 2000 1053206 Bacillus cereus HuA4-10
+SRR392512   Illumina HiSeq 2000 1053206 Bacillus cereus HuA4-10
+SRR392673   Illumina HiSeq 2000 1053207 Bacillus cereus HuB1-1
+SRR392674   Illumina HiSeq 2000 1053207 Bacillus cereus HuB1-1
+SRR398159   Illumina HiSeq 2000 1053207 Bacillus cereus HuB1-1
+SRR398160   Illumina HiSeq 2000 1053207 Bacillus cereus HuB1-1
+SRR633907   Illumina HiSeq 2000 1053208 Bacillus cereus HuB13-1
+SRR634049   Illumina HiSeq 2000 1053208 Bacillus cereus HuB13-1
+SRR642765   Illumina HiSeq 2000 1053208 Bacillus cereus HuB13-1
+SRR642766   Illumina HiSeq 2000 1053208 Bacillus cereus HuB13-1
+SRR392675   Illumina HiSeq 2000 1053209 Bacillus cereus HuB2-9
+SRR392676   Illumina HiSeq 2000 1053209 Bacillus cereus HuB2-9
+SRR398161   Illumina HiSeq 2000 1053209 Bacillus cereus HuB2-9
+SRR398162   Illumina HiSeq 2000 1053209 Bacillus cereus HuB2-9
+SRR398163   Illumina HiSeq 2000 1053210 Bacillus cereus HuB4-10
+SRR398164   Illumina HiSeq 2000 1053210 Bacillus cereus HuB4-10
+SRR392513   Illumina HiSeq 2000 1053210 Bacillus cereus HuB4-10
+SRR392732   Illumina HiSeq 2000 1053210 Bacillus cereus HuB4-10
+SRR398165   Illumina HiSeq 2000 1053211 Bacillus cereus HuB4-4
+SRR398166   Illumina HiSeq 2000 1053211 Bacillus cereus HuB4-4
+SRR392677   Illumina HiSeq 2000 1053211 Bacillus cereus HuB4-4
+SRR392678   Illumina HiSeq 2000 1053211 Bacillus cereus HuB4-4
+SRR398167   Illumina HiSeq 2000 1053212 Bacillus cereus HuB5-5
+SRR398168   Illumina HiSeq 2000 1053212 Bacillus cereus HuB5-5
+SRR392514   Illumina HiSeq 2000 1053212 Bacillus cereus HuB5-5
+SRR392515   Illumina HiSeq 2000 1053212 Bacillus cereus HuB5-5
+SRR633796   Illumina HiSeq 2000 718220  Bacillus cereus IS075
+SRR634060   Illumina HiSeq 2000 718220  Bacillus cereus IS075
+SRR642153   Illumina HiSeq 2000 718220  Bacillus cereus IS075
+SRR642154   Illumina HiSeq 2000 718220  Bacillus cereus IS075
+SRR398172   Illumina HiSeq 2000 1053213 Bacillus cereus IS195
+SRR398173   Illumina HiSeq 2000 1053213 Bacillus cereus IS195
+SRR392520   Illumina HiSeq 2000 1053213 Bacillus cereus IS195
+SRR392521   Illumina HiSeq 2000 1053213 Bacillus cereus IS195
+SRR398169   Illumina HiSeq 2000 1053214 Bacillus cereus IS845/00
+SRR398170   Illumina HiSeq 2000 1053214 Bacillus cereus IS845/00
+SRR392522   Illumina HiSeq 2000 1053214 Bacillus cereus IS845/00
+SRR392523   Illumina HiSeq 2000 1053214 Bacillus cereus IS845/00
+SRR634070   Illumina HiSeq 2000 1053215 Bacillus cereus ISP2954
+SRR633679   Illumina HiSeq 2000 1053215 Bacillus cereus ISP2954
+SRR642767   Illumina HiSeq 2000 1053215 Bacillus cereus ISP2954
+SRR642768   Illumina HiSeq 2000 1053215 Bacillus cereus ISP2954
+SRR611404   Illumina HiSeq 2000 1053216 Bacillus cereus ISP3191
+SRR611405   Illumina HiSeq 2000 1053216 Bacillus cereus ISP3191
+SRR611406   Illumina HiSeq 2000 1053216 Bacillus cereus ISP3191
+SRR611407   Illumina HiSeq 2000 1053216 Bacillus cereus ISP3191
+SRR398174   Illumina HiSeq 2000 1053217 Bacillus cereus K-5975c
+SRR398175   Illumina HiSeq 2000 1053217 Bacillus cereus K-5975c
+SRR392518   Illumina HiSeq 2000 1053217 Bacillus cereus K-5975c
+SRR392519   Illumina HiSeq 2000 1053217 Bacillus cereus K-5975c
+SRR398177   Illumina HiSeq 2000 1053218 Bacillus cereus MC118
+SRR398178   Illumina HiSeq 2000 1053218 Bacillus cereus MC118
+SRR392517   Illumina HiSeq 2000 1053218 Bacillus cereus MC118
+SRR392733   Illumina HiSeq 2000 1053218 Bacillus cereus MC118
+SRR398179   Illumina HiSeq 2000 1053219 Bacillus cereus MC67
+SRR398180   Illumina HiSeq 2000 1053219 Bacillus cereus MC67
+SRR392734   Illumina HiSeq 2000 1053219 Bacillus cereus MC67
+SRR392524   Illumina HiSeq 2000 1053219 Bacillus cereus MC67
+SRR398182   Illumina HiSeq 2000 1053220 Bacillus cereus MSX-A1
+SRR398183   Illumina HiSeq 2000 1053220 Bacillus cereus MSX-A1
+SRR392525   Illumina HiSeq 2000 1053220 Bacillus cereus MSX-A1
+SRR392526   Illumina HiSeq 2000 1053220 Bacillus cereus MSX-A1
+SRR392527   Illumina HiSeq 2000 1053221 Bacillus cereus MSX-A12
+SRR392528   Illumina HiSeq 2000 1053221 Bacillus cereus MSX-A12
+SRR392529   Illumina HiSeq 2000 1053221 Bacillus cereus MSX-A12
+SRR392530   Illumina HiSeq 2000 1053221 Bacillus cereus MSX-A12
+SRR398184   Illumina HiSeq 2000 1053222 Bacillus cereus MSX-D12
+SRR398185   Illumina HiSeq 2000 1053222 Bacillus cereus MSX-D12
+SRR392679   Illumina HiSeq 2000 1053222 Bacillus cereus MSX-D12
+SRR392680   Illumina HiSeq 2000 1053222 Bacillus cereus MSX-D12
+SRR634074   Illumina HiSeq 2000 718221  Bacillus cereus str. Schrouff
+SRR633756   Illumina HiSeq 2000 718221  Bacillus cereus str. Schrouff
+SRR642769   Illumina HiSeq 2000 718221  Bacillus cereus str. Schrouff
+SRR642770   Illumina HiSeq 2000 718221  Bacillus cereus str. Schrouff
+SRR633658   Illumina HiSeq 2000 718222  Bacillus cereus TIAC219
+SRR634039   Illumina HiSeq 2000 718222  Bacillus cereus TIAC219
+SRR642771   Illumina HiSeq 2000 718222  Bacillus cereus TIAC219
+SRR642772   Illumina HiSeq 2000 718222  Bacillus cereus TIAC219
+SRR392531   Illumina HiSeq 2000 1053223 Bacillus cereus VD014
+SRR392532   Illumina HiSeq 2000 1053223 Bacillus cereus VD014
+SRR392533   Illumina HiSeq 2000 1053223 Bacillus cereus VD014
+SRR392534   Illumina HiSeq 2000 1053223 Bacillus cereus VD014
+SRR398187   Illumina HiSeq 2000 1053224 Bacillus cereus VD021
+SRR398188   Illumina HiSeq 2000 1053224 Bacillus cereus VD021
+SRR392735   Illumina HiSeq 2000 1053224 Bacillus cereus VD021
+SRR392541   Illumina HiSeq 2000 1053224 Bacillus cereus VD021
+SRR392539   Illumina HiSeq 2000 718223  Bacillus cereus VD022
+SRR392540   Illumina HiSeq 2000 718223  Bacillus cereus VD022
+SRR392536   Illumina HiSeq 2000 1053225 Bacillus cereus VD045
+SRR392537   Illumina HiSeq 2000 1053225 Bacillus cereus VD045
+SRR392535   Illumina HiSeq 2000 1053225 Bacillus cereus VD045
+SRR392538   Illumina HiSeq 2000 1053225 Bacillus cereus VD045
+SRR392542   Illumina HiSeq 2000 1053226 Bacillus cereus VD048
+SRR392543   Illumina HiSeq 2000 1053226 Bacillus cereus VD048
+SRR392544   Illumina HiSeq 2000 1053226 Bacillus cereus VD048
+SRR392545   Illumina HiSeq 2000 1053226 Bacillus cereus VD048
+SRR392546   Illumina HiSeq 2000 1053227 Bacillus cereus VD078
+SRR392547   Illumina HiSeq 2000 1053227 Bacillus cereus VD078
+SRR392548   Illumina HiSeq 2000 1053227 Bacillus cereus VD078
+SRR392549   Illumina HiSeq 2000 1053227 Bacillus cereus VD078
+SRR392550   Illumina HiSeq 2000 1053228 Bacillus cereus VD102
+SRR392551   Illumina HiSeq 2000 1053228 Bacillus cereus VD102
+SRR398190   Illumina HiSeq 2000 1053228 Bacillus cereus VD102
+SRR398191   Illumina HiSeq 2000 1053228 Bacillus cereus VD102
+SRR398255   Illumina HiSeq 2000 1053229 Bacillus cereus VD107
+SRR398256   Illumina HiSeq 2000 1053229 Bacillus cereus VD107
+SRR392552   Illumina HiSeq 2000 1053229 Bacillus cereus VD107
+SRR392553   Illumina HiSeq 2000 1053229 Bacillus cereus VD107
+SRR392554   Illumina HiSeq 2000 1053230 Bacillus cereus VD115
+SRR392555   Illumina HiSeq 2000 1053230 Bacillus cereus VD115
+SRR398264   Illumina HiSeq 2000 1053230 Bacillus cereus VD115
+SRR398265   Illumina HiSeq 2000 1053230 Bacillus cereus VD115
+SRR633696   Illumina HiSeq 2000 1053231 Bacillus cereus VD118
+SRR633665   Illumina HiSeq 2000 1053231 Bacillus cereus VD118
+SRR642155   Illumina HiSeq 2000 1053231 Bacillus cereus VD118
+SRR642156   Illumina HiSeq 2000 1053231 Bacillus cereus VD118
+SRR642157   Illumina HiSeq 2000 1053232 Bacillus cereus VD131
+SRR642773   Illumina HiSeq 2000 1053232 Bacillus cereus VD131
+SRR633802   Illumina HiSeq 2000 1053232 Bacillus cereus VD131
+SRR634072   Illumina HiSeq 2000 1053232 Bacillus cereus VD131
+SRR392560   Illumina HiSeq 2000 1053233 Bacillus cereus VD133
+SRR392561   Illumina HiSeq 2000 1053233 Bacillus cereus VD133
+SRR392562   Illumina HiSeq 2000 1053233 Bacillus cereus VD133
+SRR392563   Illumina HiSeq 2000 1053233 Bacillus cereus VD133
+SRR633898   Illumina HiSeq 2000 1053234 Bacillus cereus VD136
+SRR642158   Illumina HiSeq 2000 1053234 Bacillus cereus VD136
+SRR642774   Illumina HiSeq 2000 1053234 Bacillus cereus VD136
+SRR634104   Illumina HiSeq 2000 1053234 Bacillus cereus VD136
+SRR642777   Illumina HiSeq 2000 1053235 Bacillus cereus VD140
+SRR642778   Illumina HiSeq 2000 1053235 Bacillus cereus VD140
+SRR633906   Illumina HiSeq 2000 1053235 Bacillus cereus VD140
+SRR633746   Illumina HiSeq 2000 1053235 Bacillus cereus VD140
+SRR642775   Illumina HiSeq 2000 718224  Bacillus cereus VD142
+SRR642776   Illumina HiSeq 2000 718224  Bacillus cereus VD142
+SRR634063   Illumina HiSeq 2000 718224  Bacillus cereus VD142
+SRR633635   Illumina HiSeq 2000 718224  Bacillus cereus VD142
+SRR634066   Illumina HiSeq 2000 1053236 Bacillus cereus VD146
+SRR633788   Illumina HiSeq 2000 1053236 Bacillus cereus VD146
+SRR642779   Illumina HiSeq 2000 1053236 Bacillus cereus VD146
+SRR642780   Illumina HiSeq 2000 1053236 Bacillus cereus VD146
+SRR392557   Illumina HiSeq 2000 1053237 Bacillus cereus VD148
+SRR392558   Illumina HiSeq 2000 1053237 Bacillus cereus VD148
+SRR398288   Illumina HiSeq 2000 1053237 Bacillus cereus VD148
+SRR398289   Illumina HiSeq 2000 1053237 Bacillus cereus VD148
+SRR398301   Illumina HiSeq 2000 1053238 Bacillus cereus VD154
+SRR398302   Illumina HiSeq 2000 1053238 Bacillus cereus VD154
+SRR392736   Illumina HiSeq 2000 1053238 Bacillus cereus VD154
+SRR392556   Illumina HiSeq 2000 1053238 Bacillus cereus VD154
+SRR392564   Illumina HiSeq 2000 1053239 Bacillus cereus VD156
+SRR392565   Illumina HiSeq 2000 1053239 Bacillus cereus VD156
+SRR392566   Illumina HiSeq 2000 1053239 Bacillus cereus VD156
+SRR392567   Illumina HiSeq 2000 1053239 Bacillus cereus VD156
+SRR392681   Illumina HiSeq 2000 1053240 Bacillus cereus VD166
+SRR392682   Illumina HiSeq 2000 1053240 Bacillus cereus VD166
+SRR398307   Illumina HiSeq 2000 1053240 Bacillus cereus VD166
+SRR398308   Illumina HiSeq 2000 1053240 Bacillus cereus VD166
+SRR392568   Illumina HiSeq 2000 1053241 Bacillus cereus VD169
+SRR392569   Illumina HiSeq 2000 1053241 Bacillus cereus VD169
+SRR392570   Illumina HiSeq 2000 1053241 Bacillus cereus VD169
+SRR392571   Illumina HiSeq 2000 1053241 Bacillus cereus VD169
+SRR633790   Illumina HiSeq 2000 1053242 Bacillus cereus VD184
+SRR633795   Illumina HiSeq 2000 1053242 Bacillus cereus VD184
+SRR642781   Illumina HiSeq 2000 1053242 Bacillus cereus VD184
+SRR642782   Illumina HiSeq 2000 1053242 Bacillus cereus VD184
+SRR392572   Illumina HiSeq 2000 1053243 Bacillus cereus VD196
+SRR392573   Illumina HiSeq 2000 1053243 Bacillus cereus VD196
+SRR392574   Illumina HiSeq 2000 1053243 Bacillus cereus VD196
+SRR392575   Illumina HiSeq 2000 1053243 Bacillus cereus VD196
+SRR392576   Illumina HiSeq 2000 1053244 Bacillus cereus VD200
+SRR392577   Illumina HiSeq 2000 1053244 Bacillus cereus VD200
+SRR392578   Illumina HiSeq 2000 1053244 Bacillus cereus VD200
+SRR392579   Illumina HiSeq 2000 1053244 Bacillus cereus VD200
+SRR634095   Illumina HiSeq 2000 1053245 Bacillus cereus VD214
+SRR633676   Illumina HiSeq 2000 1053245 Bacillus cereus VD214
+SRR642783   Illumina HiSeq 2000 1053245 Bacillus cereus VD214
+SRR642784   Illumina HiSeq 2000 1053245 Bacillus cereus VD214
+SRR392580   Illumina HiSeq 2000 1053246 Bacillus cereus VDM019
+SRR392581   Illumina HiSeq 2000 1053246 Bacillus cereus VDM019
+SRR392582   Illumina HiSeq 2000 1053246 Bacillus cereus VDM019
+SRR392583   Illumina HiSeq 2000 1053246 Bacillus cereus VDM019
+SRR392584   Illumina HiSeq 2000 1053247 Bacillus cereus VDM022
+SRR392585   Illumina HiSeq 2000 1053247 Bacillus cereus VDM022
+SRR392586   Illumina HiSeq 2000 1053247 Bacillus cereus VDM022
+SRR392587   Illumina HiSeq 2000 1053247 Bacillus cereus VDM022
+SRR392594   Illumina HiSeq 2000 1053248 Bacillus cereus VDM034
+SRR392595   Illumina HiSeq 2000 1053248 Bacillus cereus VDM034
+SRR392596   Illumina HiSeq 2000 1053248 Bacillus cereus VDM034
+SRR392597   Illumina HiSeq 2000 1053248 Bacillus cereus VDM034
+SRR633716   Illumina HiSeq 2000 1053249 Bacillus cereus VDM053
+SRR633649   Illumina HiSeq 2000 1053249 Bacillus cereus VDM053
+SRR642785   Illumina HiSeq 2000 1053249 Bacillus cereus VDM053
+SRR642786   Illumina HiSeq 2000 1053249 Bacillus cereus VDM053
+SRR398309   Illumina HiSeq 2000 1053250 Bacillus cereus VDM062
+SRR398310   Illumina HiSeq 2000 1053250 Bacillus cereus VDM062
+SRR392598   Illumina HiSeq 2000 1053250 Bacillus cereus VDM062
+SRR392599   Illumina HiSeq 2000 1053250 Bacillus cereus VDM062
+SRR4661781  Illumina HiSeq 2500 1405    Bacillus mycoides
+SRR4064645  Illumina HiSeq 2500 1405    Bacillus mycoides
+SRR5189057  Illumina HiSeq 2500 1405    Bacillus mycoides
+SRR5189065  Illumina HiSeq 2500 1405    Bacillus mycoides
+SRR5189062  Illumina HiSeq 2500 1405    Bacillus mycoides
+SRR4661790  Illumina HiSeq 2500 1405    Bacillus mycoides
+SRR5189056  Illumina HiSeq 2500 1405    Bacillus mycoides
+SRR2145883  Illumina HiSeq 2000 1405    Bacillus mycoides
+SRR2175382  Illumina HiSeq 2000 1405    Bacillus mycoides
+SRR5185033  Illumina HiSeq 2500 64104   Bacillus pseudomycoides
+SRR4661789  Illumina HiSeq 2500 64104   Bacillus pseudomycoides
+SRR3214252  Illumina HiSeq 2500 1428    Bacillus thuringiensis
+SRR4147271  Illumina HiSeq 2500 1428    Bacillus thuringiensis
+SRR2171004  Illumina HiSeq 2000 1428    Bacillus thuringiensis
+SRR2174502  Illumina HiSeq 2000 1428    Bacillus thuringiensis
+SRR2174506  Illumina HiSeq 2000 1428    Bacillus thuringiensis
+SRR2174507  Illumina HiSeq 2000 1428    Bacillus thuringiensis
+SRR2174543  Illumina HiSeq 2000 1428    Bacillus thuringiensis
+SRR2175478  Illumina HiSeq 2000 1428    Bacillus thuringiensis
+SRR2175483  Illumina HiSeq 2000 1452729 Bacillus thuringiensis HD1002
+SRR2175484  Illumina HiSeq 2000 1452729 Bacillus thuringiensis HD1002
+SRR4996216  Illumina HiSeq 2000 1433    Bacillus thuringiensis serovar aizawai
+SRR6238360  Illumina HiSeq 2500 1440    Bacillus thuringiensis serovar alesti
+SRR6238361  Illumina HiSeq 2500 132264  Bacillus thuringiensis serovar darmstadiensis
+SRR6238358  Illumina HiSeq 2500 1436    Bacillus thuringiensis serovar entomocidus
+SRR6238359  Illumina HiSeq 2500 29337   Bacillus thuringiensis serovar finitimus
+SRR6238356  Illumina HiSeq 2500 29338   Bacillus thuringiensis serovar galleriae
+SRR6238346  Illumina HiSeq 2500 132266  Bacillus thuringiensis serovar higo
+SRR6238348  Illumina HiSeq 2500 1430    Bacillus thuringiensis serovar israelensis
+SRR1174235  Illumina HiSeq 2000 1430    Bacillus thuringiensis serovar israelensis
+SRR6238349  Illumina HiSeq 2500 128936  Bacillus thuringiensis serovar japonensis
+SRR6238344  Illumina HiSeq 2500 128936  Bacillus thuringiensis serovar japonensis
+SRR6238357  Illumina HiSeq 2500 132267  Bacillus thuringiensis serovar kumamtoensis
+SRR6238354  Illumina HiSeq 2500 29339   Bacillus thuringiensis serovar kurstaki
+SRR6238355  Illumina HiSeq 2500 29339   Bacillus thuringiensis serovar kurstaki
+SRR4996210  Illumina HiSeq 2000 29339   Bacillus thuringiensis serovar kurstaki
+SRR2175480  Illumina HiSeq 2000 29339   Bacillus thuringiensis serovar kurstaki
+SRR6238362  Illumina HiSeq 2500 44161   Bacillus thuringiensis serovar kyushuensis
+SRR6238352  Illumina HiSeq 2500 180893  Bacillus thuringiensis serovar malayensis
+SRR6238351  Illumina HiSeq 2500 79672   Bacillus thuringiensis serovar medellin
+SRR6238363  Illumina HiSeq 2500 1441    Bacillus thuringiensis serovar morrisoni
+SRR6238345  Illumina HiSeq 2500 1441    Bacillus thuringiensis serovar morrisoni
+SRR3226043  Illumina HiSeq 2000 1441    Bacillus thuringiensis serovar morrisoni
+SRR2147684  Illumina HiSeq 2000 1441    Bacillus thuringiensis serovar morrisoni
+SRR6238353  Illumina HiSeq 2500 29340   Bacillus thuringiensis serovar sotto
+SRR6238347  Illumina HiSeq 2500 29340   Bacillus thuringiensis serovar sotto
+SRR6238350  Illumina HiSeq 2500 1432    Bacillus thuringiensis serovar thuringiensis
+DRR034927   Illumina HiSeq 2000 1442    Bacillus thuringiensis serovar tolworthi
+SRR3458441  Illumina HiSeq 2500 1890302 Bacillus wiedmannii
+SRR3458442  Illumina HiSeq 2500 1890302 Bacillus wiedmannii
+SRR3458443  Illumina HiSeq 2500 1890302 Bacillus wiedmannii
+SRR3458444  Illumina HiSeq 2500 1890302 Bacillus wiedmannii
+SRR3458445  Illumina HiSeq 2500 1890302 Bacillus wiedmannii
+SRR3458446  Illumina HiSeq 2500 1890302 Bacillus wiedmannii
+SRR3458447  Illumina HiSeq 2500 1890302 Bacillus wiedmannii
+SRR3458448  Illumina HiSeq 2500 1890302 Bacillus wiedmannii
+SRR3458449  Illumina HiSeq 2500 1890302 Bacillus wiedmannii
+SRR2541651  Illumina HiSeq 2500 1890302 Bacillus wiedmannii

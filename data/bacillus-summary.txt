@@ -1,0 +1,961 @@
+# query: txid1386[Organism:exp] NOT txid86661[Organism:exp] "complete genome"[Title] AND 3000000:7000000[Sequence Length] AND refseq[filter]
+# date: 4/17/2018
+1. Bacillus subtilis subsp. natto BEST195 DNA, complete genome
+4,105,380 bp linear DNA 
+NC_017196.2 GI:674708758
+
+2. Bacillus coagulans 36D1, complete genome
+3,552,226 bp circular DNA 
+NC_016023.1 GI:347750441
+
+3. Bacillus paralicheniformis strain Bac84 chromosome, complete genome
+4,376,831 bp circular DNA 
+NZ_CP023665.1 GI:1360620802
+
+4. Bacillus paralicheniformis strain Bac48 chromosome, complete genome
+4,464,381 bp circular DNA 
+NZ_CP023666.1 GI:1360620031
+
+5. Bacillus subtilis strain ATCC 21228 chromosome, complete genome
+4,141,030 bp circular DNA 
+NZ_CP020023.1 GI:1359419766
+
+6. Bacillus velezensis strain CGMCC 11640 chromosome, complete genome
+4,322,979 bp circular DNA 
+NZ_CP026610.1 GI:1357960634
+
+7. Bacillus sp. FDAARGOS_235 chromosome, complete genome
+5,287,334 bp circular DNA 
+NZ_CP020437.2 GI:1357935581
+
+8. Bacillus licheniformis strain 14ADL4 chromosome, complete genome
+4,332,232 bp circular DNA 
+NZ_CP026673.1 GI:1355936123
+
+9. Bacillus coagulans strain R11 chromosome, complete genome
+3,602,752 bp circular DNA 
+NZ_CP026649.1 GI:1352907142
+
+10. Bacillus velezensis strain DKU_NT_04 chromosome, complete genome
+4,166,265 bp circular DNA 
+NZ_CP026533.1 GI:1352879641
+
+11. Bacillus velezensis strain 10075 chromosome, complete genome
+4,326,822 bp circular DNA 
+NZ_CP025939.1 GI:1333944381
+
+12. Bacillus subtilis strain BJ3-2 chromosome, complete genome
+4,175,806 bp circular DNA 
+NZ_CP025941.1 GI:1333933357
+
+13. Bacillus siamensis strain SCSIO 05746 chromosome, complete genome
+4,268,316 bp circular DNA 
+NZ_CP025001.1 GI:1325703073
+
+14. Bacillus velezensis strain GFP-2 chromosome, complete genome
+3,975,220 bp circular DNA 
+NZ_CP021011.1 GI:1325659604
+
+15. Bacillus velezensis strain Lzh-a42 chromosome, complete genome
+4,246,605 bp circular DNA 
+NZ_CP025308.1 GI:1316546126
+
+16. Bacillus sp. SJ-10 chromosome, complete genome
+4,041,647 bp circular DNA 
+NZ_CP025258.1 GI:1316515958
+
+17. Bacillus velezensis strain CMT-6 chromosome, complete genome
+3,928,489 bp circular DNA 
+NZ_CP025341.1 GI:1316615710
+
+18. Bacillus sp. HBCD-sjtu chromosome, complete genome
+5,230,501 bp circular DNA 
+NZ_CP025122.1 GI:1311639973
+
+19. Bacillus velezensis strain CN026 chromosome, complete genome
+3,995,812 bp circular DNA 
+NZ_CP024897.1 GI:1280938158
+
+20. Bacillus subtilis strain ATR2 chromosome, complete genome
+4,006,746 bp circular DNA 
+NZ_CP018133.1 GI:1275632820
+
+21. Bacillus velezensis strain TJ02 chromosome, complete genome
+4,061,552 bp circular DNA 
+NZ_CP024797.1 GI:1277285816
+
+22. Bacillus sp. Lzh-5 chromosome, complete genome
+4,015,817 bp circular DNA 
+NZ_CP024647.1 GI:1277267377
+
+23. Bacillus velezensis strain NKG-1 chromosome, complete genome
+4,197,217 bp circular DNA 
+NZ_CP024203.1 GI:1274379992
+
+24. Bacillus altitudinis strain P-10 chromosome, complete genome
+3,765,752 bp circular DNA 
+NZ_CP024204.1 GI:1274302977
+
+25. Bacillus aryabhattai strain K13 chromosome, complete genome
+5,035,815 bp circular DNA 
+NZ_CP024035.1 GI:1271551746
+
+26. Bacillus velezensis strain L-1 chromosome, complete genome
+4,090,582 bp circular DNA 
+NZ_CP023859.1 GI:1271539833
+
+27. Bacillus weihaiensis strain Alg07 chromosome, complete genome
+4,344,873 bp circular DNA 
+NZ_CP016020.1 GI:1119662339
+
+28. Bacillus atrophaeus strain SRCM101359 chromosome, complete genome
+4,180,819 bp circular DNA 
+NZ_CP021500.1 GI:1207763730
+
+29. Bacillus oceanisediminis 2691 chromosome, complete genome
+5,461,741 bp circular DNA 
+NZ_CP015506.1 GI:1032822115
+
+30. Bacillus clausii KSM-K16 DNA, complete genome
+4,303,871 bp circular DNA 
+NC_006582.1 GI:56961782
+
+31. Bacillus velezensis strain LABIM40 chromosome, complete genome
+3,972,310 bp circular DNA 
+NZ_CP023748.1 GI:1267222144
+
+32. Bacillus subtilis strain TLO3 chromosome, complete genome
+4,072,939 bp circular DNA 
+NZ_CP023257.1 GI:1242725306
+
+33. Bacillus licheniformis strain ATCC 9789 chromosome, complete genome
+4,260,287 bp circular DNA 
+NZ_CP023729.1 GI:1255217666
+
+34. Bacillus glycinifermentans strain KBN06P03352 chromosome, complete genome
+4,659,467 bp circular DNA 
+NZ_CP023481.1 GI:1252992987
+
+35. Bacillus altitudinis strain SGAir0031 chromosome, complete genome
+3,812,576 bp circular DNA 
+NZ_CP022319.1 GI:1252977568
+
+36. Bacillus velezensis strain SCGB 574 chromosome, complete genome
+3,989,154 bp circular DNA 
+NZ_CP023431.1 GI:1245897812
+
+37. Bacillus velezensis strain SCGB 1 chromosome, complete genome
+4,085,488 bp circular DNA 
+NZ_CP023320.1 GI:1243941556
+
+38. Bacillus subtilis strain ge28 chromosome, complete genome
+4,065,429 bp circular DNA 
+NZ_CP021903.1 GI:1209249953
+
+39. Bacillus paralicheniformis strain 14DA11 chromosome, complete genome
+4,535,069 bp circular DNA 
+NZ_CP023168.1 GI:1248551605
+
+40. Bacillus velezensis strain G341 chromosome, complete genome
+4,009,746 bp circular DNA 
+NZ_CP011686.1 GI:844774593
+
+41. Bacillus velezensis strain SCDB 291 chromosome, complete genome
+4,162,569 bp circular DNA 
+NZ_CP022654.2 GI:1243956991
+
+42. Bacillus velezensis AS43.3, complete genome
+3,961,368 bp circular DNA 
+NC_019842.1 GI:429503531
+
+43. Bacillus kochii strain BDGP4 chromosome, complete genome
+4,557,232 bp circular DNA 
+NZ_CP022983.1 GI:1238730903
+
+44. Bacillus sp. 1s-1 chromosome, complete genome
+4,166,290 bp circular DNA 
+NZ_CP022874.1 GI:1236855702
+
+45. Bacillus subtilis strain DKU_NT_03 chromosome, complete genome
+4,196,031 bp circular DNA 
+NZ_CP022891.1 GI:1236855623
+
+46. Bacillus subtilis strain DKU_NT_02 chromosome, complete genome
+4,014,255 bp circular DNA 
+NZ_CP022890.1 GI:1236855544
+
+47. Bacillus velezensis strain NJAU-Z9 chromosome, complete genome
+3,847,297 bp circular DNA 
+NZ_CP022556.1 GI:1234371991
+
+48. Bacillus clausii strain DSM 8716 chromosome, complete genome
+4,517,459 bp circular DNA 
+NZ_CP019985.1 GI:1231880436
+
+49. Bacillus cohnii strain DSM 6307 chromosome, complete genome
+4,899,141 bp circular DNA 
+NZ_CP018866.1 GI:1231814400
+
+50. Bacillus simplex NBRC 15720 = DSM 1321, complete genome
+5,645,783 bp circular DNA 
+NZ_CP017704.1 GI:1229401847
+
+51. Bacillus atrophaeus strain GQJK17 chromosome, complete genome
+4,325,818 bp circular DNA 
+NZ_CP022653.1 GI:1229388337
+
+52. Bacillus velezensis strain TB1501 chromosome, complete genome
+3,979,382 bp circular DNA 
+NZ_CP022531.1 GI:1227368372
+
+53. Bacillus licheniformis strain BL-010 chromosome, complete genome
+4,287,720 bp circular DNA 
+NZ_CP022477.1 GI:1227033113
+
+54. Bacillus velezensis strain 157 chromosome, complete genome
+4,013,317 bp circular DNA 
+NZ_CP022341.1 GI:1215560186
+
+55. Bacillus subtilis strain SX01705 chromosome, complete genome
+4,072,531 bp circular DNA 
+NZ_CP022287.1 GI:1215194256
+
+56. Bacillus velezensis strain T20E-257 chromosome, complete genome
+3,893,083 bp circular DNA 
+NZ_CP021976.1 GI:1209903768
+
+57. Bacillus amyloliquefaciens strain MT45, complete genome
+3,897,521 bp circular DNA 
+NZ_CP011252.1 GI:1212739304
+
+58. Bacillus subtilis subsp. subtilis strain SRCM101392 chromosome, complete genome
+4,147,173 bp circular DNA 
+NZ_CP021921.1 GI:1209280187
+
+59. Bacillus subtilis subsp. subtilis strain SRCM100761 chromosome, complete genome
+3,988,630 bp circular DNA 
+NZ_CP021889.1 GI:1209248234
+
+60. Bacillus sp. MD-5 chromosome, complete genome
+4,161,448 bp circular DNA 
+NZ_CP021911.1 GI:1209248121
+
+61. Bacillus sonorensis strain SRCM101395 chromosome, complete genome
+4,832,293 bp circular DNA 
+NZ_CP021920.1 GI:1209218693
+
+62. Bacillus subtilis subsp. subtilis strain SRCM100333 chromosome, complete genome
+4,086,692 bp circular DNA 
+NZ_CP021892.1 GI:1209217979
+
+63. Bacillus subtilis strain CW14 chromosome, complete genome
+4,282,516 bp circular DNA 
+NZ_CP016767.1 GI:1207757276
+
+64. Bacillus amyloliquefaciens strain SRCM101267 chromosome, complete genome
+4,070,574 bp circular DNA 
+NZ_CP021505.1 GI:1207670201
+
+65. Bacillus horikoshii strain 20a chromosome, complete genome
+4,277,585 bp circular DNA 
+NZ_CP020880.1 GI:1207659011
+
+66. Bacillus velezensis strain ZL918 chromosome, complete genome
+3,922,711 bp circular DNA 
+NZ_CP021338.1 GI:1207642486
+
+67. Bacillus velezensis strain GQJK49 chromosome, complete genome
+3,929,760 bp circular DNA 
+NZ_CP021495.1 GI:1207076529
+
+68. Bacillus subtilis QB928, complete genome
+4,146,839 bp circular DNA 
+NC_018520.1 GI:402774243
+
+69. Bacillus sp. JS, complete genome
+4,120,406 bp circular DNA 
+NC_017743.1 GI:386756580
+
+70. Bacillus megaterium WSH-002, complete genome
+4,983,975 bp circular DNA 
+NC_017138.1 GI:384044176
+
+71. Bacillus subtilis subsp. spizizenii TU-B-10, complete genome
+4,207,222 bp circular DNA 
+NC_016047.1 GI:350264100
+
+72. Bacillus cellulosilyticus DSM 2522, complete genome
+4,681,672 bp circular DNA 
+NC_014829.1 GI:317126741
+
+73. Bacillus pseudofirmus OF4, complete genome
+3,858,997 bp circular DNA 
+NC_013791.2 GI:316994385
+
+74. Bacillus atrophaeus 1942, complete genome
+4,168,266 bp circular DNA 
+NC_014639.1 GI:311066968
+
+75. Bacillus megaterium DSM319, complete genome
+5,097,447 bp circular DNA 
+NC_014103.1 GI:295702242
+
+76. Bacillus subtilis subsp. subtilis strain SRCM101444 chromosome, complete genome
+3,988,602 bp circular DNA 
+NZ_CP021498.1 GI:1201988837
+
+77. Bacillus licheniformis strain SRCM100027 chromosome, complete genome
+4,326,347 bp circular DNA 
+NZ_CP021677.1 GI:1201979767
+
+78. Bacillus licheniformis strain SRCM100141 chromosome, complete genome
+4,544,416 bp circular DNA 
+NZ_CP021669.1 GI:1201954254
+
+79. Bacillus subtilis subsp. subtilis strain SRCM100757 chromosome, complete genome
+3,988,649 bp circular DNA 
+NZ_CP021499.1 GI:1201931362
+
+80. Bacillus licheniformis strain SRCM101441 chromosome, complete genome
+4,190,134 bp circular DNA 
+NZ_CP021507.1 GI:1201930626
+
+81. Bacillus subtilis strain TLO3 chromosome, complete genome
+3,923,177 bp circular DNA 
+NZ_CP021169.1 GI:1196905946
+
+82. Bacillus subtilis subsp. subtilis str. 168 chromosome, complete genome
+4,215,606 bp circular DNA 
+NC_000964.3 GI:255767013
+
+83. Bacillus subtilis subsp. subtilis 6051-HGW, complete genome
+4,215,610 bp circular DNA 
+NC_020507.1 GI:470160151
+
+84. Bacillus licheniformis ATCC 14580, complete genome
+4,222,597 bp circular DNA 
+NC_006270.3 GI:163119169
+
+85. Bacillus licheniformis DSM 13 = ATCC 14580, complete genome
+4,222,645 bp circular DNA 
+NC_006322.1 GI:52783855
+
+86. Bacillus methylotrophicus strain CBMB205, complete genome
+3,929,792 bp circular DNA 
+NZ_CP011937.1 GI:1189733002
+
+87. Bacillus vallismortis strain NBIF-001 chromosome, complete genome
+3,929,787 bp circular DNA 
+NZ_CP020893.1 GI:1189305439
+
+88. Bacillus krulwichiae strain AM31D chromosome, complete genome
+4,610,863 bp circular DNA 
+NZ_CP020814.1 GI:1186695364
+
+89. Bacillus velezensis strain 9D-6 chromosome, complete genome
+3,963,726 bp circular DNA 
+NZ_CP020805.1 GI:1186136984
+
+90. Bacillus subtilis strain Bs-115 chromosome, complete genome
+4,142,593 bp circular DNA 
+NZ_CP020722.1 GI:1183795240
+
+91. Bacillus bombysepticus str. Wang, complete genome
+5,295,783 bp circular DNA 
+NZ_CP007512.1 GI:765019001
+
+92. Bacillus sp. OxB-1 DNA, complete genome
+3,594,618 bp circular DNA 
+NZ_AP013294.1 GI:751609140
+
+93. Bacillus infantis NRRL B-14911, complete genome
+4,884,713 bp circular DNA 
+NC_022524.1 GI:549473062
+
+94. Bacillus beveridgei strain MLTeJB, complete genome
+3,582,268 bp circular DNA 
+NZ_CP012502.1 GI:1063266308
+
+95. Bacillus gibsonii strain FJAT-10019 chromosome, complete genome
+4,100,094 bp circular DNA 
+NZ_CP017070.1 GI:1062532415
+
+96. Bacillus lehensis G1, complete genome
+3,993,073 bp circular DNA 
+NZ_CP003923.1 GI:754215179
+
+97. Bacillus sp. WP8, complete genome
+3,708,888 bp circular DNA 
+NZ_CP010075.1 GI:749168380
+
+98. Bacillus sp. 1NLA3E, complete genome
+4,815,602 bp circular DNA 
+NC_021171.1 GI:488570484
+
+99. Bacillus sp. 275 chromosome, complete genome
+4,045,581 bp circular DNA 
+NZ_CP019626.1 GI:1148649210
+
+100. Bacillus sp. H15-1 chromosome, complete genome
+4,162,101 bp circular DNA 
+NZ_CP018249.1 GI:1120498297
+
+101. Bacillus halodurans C-125 DNA, complete genome
+4,202,352 bp circular DNA 
+NC_002570.2 GI:57596592
+
+102. Bacillus xiamenensis strain VV3 chromosome, complete genome
+3,637,729 bp circular DNA 
+NZ_CP017786.1 GI:1096221489
+
+103. Bacillus sp. ABP14 chromosome, complete genome
+5,141,367 bp circular DNA 
+NZ_CP017016.1 GI:1092903137
+
+104. Bacillus sp. FJAT-14266 chromosome, complete genome
+4,109,356 bp circular DNA 
+NZ_CP017072.1 GI:1062513255
+
+105. Bacillus muralis strain G25-68 chromosome, complete genome
+4,919,373 bp circular DNA 
+NZ_CP017080.1 GI:1061395814
+
+106. Bacillus sp. IHB B 7164 chromosome, complete genome
+5,036,631 bp circular DNA 
+NZ_CP015226.1 GI:1033167522
+
+107. Bacillus sp. SDLI1, complete genome
+4,134,042 bp circular DNA 
+NZ_CP013950.1 GI:989019298
+
+108. Bacillus endophyticus strain Hbe603, complete genome
+4,865,574 bp circular DNA 
+NZ_CP011974.1 GI:890672806
+
+109. Bacillus velezensis strain SYBC H47 chromosome, complete genome
+3,884,433 bp circular DNA 
+NZ_CP017747.1 GI:1100825183
+
+110. Bacillus pumilus strain SH-B9, complete genome
+3,787,586 bp circular DNA 
+NZ_CP011007.1 GI:1002948041
+
+111. Bacillus subtilis subsp. natto strain CGMCC 2108, complete genome
+4,122,154 bp linear DNA 
+NZ_CP014471.1 GI:1000371652
+
+112. Bacillus clausii strain ENTPro, complete genome
+4,264,866 bp circular DNA 
+NZ_CP012475.1 GI:927976958
+
+113. Bacillus coagulans strain HM-08, complete genome
+3,624,641 bp linear DNA 
+NZ_CP010525.1 GI:758896197
+
+114. Bacillus amyloliquefaciens subsp. amyloliquefaciens KHG19, complete genome
+3,953,361 bp circular DNA 
+NZ_CP007242.1 GI:756417126
+
+115. Bacillus amyloliquefaciens subsp. plantarum TrigoCor1448, complete genome
+3,957,904 bp circular DNA 
+NZ_CP007244.1 GI:749298802
+
+116. Bacillus subtilis strain SG6, complete genome
+4,079,669 bp circular DNA 
+NZ_CP009796.1 GI:749295463
+
+117. Bacillus amyloliquefaciens subsp. plantarum NAU-B3, complete genome
+4,196,170 bp circular DNA 
+NC_022530.1 GI:549695945
+
+118. Bacillus amyloliquefaciens subsp. plantarum UCMB5113, complete genome
+3,889,532 bp circular DNA 
+NC_022081.1 GI:530612796
+
+119. Bacillus amyloliquefaciens subsp. plantarum UCMB5033, complete genome
+4,071,167 bp circular DNA 
+NC_022075.1 GI:530567812
+
+120. Bacillus amyloliquefaciens subsp. plantarum UCMB5036 complete genome
+3,910,324 bp circular DNA 
+NC_020410.1 GI:452854062
+
+121. Bacillus amyloliquefaciens subsp. plantarum YAU B9601-Y2 complete genome
+4,242,774 bp circular DNA 
+NC_017061.1 GI:384263631
+
+122. Bacillus amyloliquefaciens subsp. plantarum CAU B946 complete genome
+4,019,861 bp circular DNA 
+NC_016784.1 GI:375360690
+
+123. Bacillus coagulans 2-6, complete genome
+3,073,079 bp circular DNA 
+NC_015634.1 GI:336112679
+
+124. Bacillus subtilis BSn5, complete genome
+4,093,599 bp circular DNA 
+NC_014976.1 GI:321311376
+
+125. Bacillus amyloliquefaciens subsp. plantarum str. FZB42, complete genome
+3,918,589 bp circular DNA 
+NC_009725.1 GI:154684518
+
+126. Bacillus smithii strain DSM 4216, complete genome
+3,368,778 bp circular DNA 
+NZ_CP012024.1 GI:873918573
+
+127. Bacillus sp. LM 4-2, complete genome
+4,069,266 bp circular DNA 
+NZ_CP011101.1 GI:814580088
+
+128. Bacillus sp. YP1, complete genome
+4,070,380 bp circular DNA 
+NZ_CP010014.1 GI:763058420
+
+129. Bacillus methanolicus MGA3, complete genome
+3,337,035 bp circular DNA 
+NZ_CP007739.1 GI:754215579
+
+130. Bacillus sp. X1(2014), complete genome
+3,422,674 bp circular DNA 
+NZ_CP008855.1 GI:753828171
+
+131. Bacillus sp. BH072, complete genome
+4,069,641 bp circular DNA 
+NZ_CP009938.1 GI:749596997
+
+132. Bacillus sp. Pc3, complete genome
+3,982,168 bp circular DNA 
+NZ_CP010406.1 GI:749166833
+
+133. Bacillus safensis strain U17-1 chromosome, complete genome
+3,741,804 bp circular DNA 
+NZ_CP015611.1 GI:1173696814
+
+134. Bacillus safensis strain U14-5, complete genome
+4,070,488 bp circular DNA 
+NZ_CP015607.1 GI:1130457035
+
+135. Bacillus safensis strain U41 chromosome, complete genome
+3,735,181 bp circular DNA 
+NZ_CP015610.1 GI:1130444727
+
+136. Bacillus amyloliquefaciens strain WS-8 chromosome, complete genome
+3,929,787 bp circular DNA 
+NZ_CP018200.1 GI:1126145825
+
+137. Bacillus pumilus strain GLB197, complete genome
+3,733,835 bp circular DNA 
+NZ_CP018574.1 GI:1122358131
+
+138. Bacillus safensis strain KCTC 12796BP chromosome, complete genome
+3,935,874 bp circular DNA 
+NZ_CP018197.1 GI:1120344352
+
+139. Bacillus amyloliquefaciens strain LM2303 chromosome, complete genome
+3,989,393 bp circular DNA 
+NZ_CP018152.1 GI:1119669098
+
+140. Bacillus amyloliquefaciens strain Y14, complete genome
+3,957,164 bp circular DNA 
+NZ_CP017953.1 GI:1101993503
+
+141. Bacillus coagulans strain BC-HY1 chromosome, complete genome
+3,599,077 bp circular DNA 
+NZ_CP017888.1 GI:1100941784
+
+142. Bacillus licheniformis strain BL1202, complete genome
+4,422,181 bp circular DNA 
+NZ_CP017247.1 GI:1067159940
+
+143. Bacillus pumilus strain PDSLzg-1, complete genome
+3,698,973 bp circular DNA 
+NZ_CP016784.1 GI:1053290007
+
+144. Bacillus amyloliquefaciens strain RD7-7, complete genome
+3,688,209 bp circular DNA 
+NZ_CP016913.1 GI:1053186103
+
+145. Bacillus pumilus strain NJ-V, complete genome
+3,792,999 bp circular DNA 
+NZ_CP012330.1 GI:1050246264
+
+146. Bacillus amyloliquefaciens strain MBE1283, complete genome
+3,966,922 bp circular DNA 
+NZ_CP013727.1 GI:971837182
+
+147. Bacillus safensis strain BRM1, complete genome
+3,740,842 bp circular DNA 
+NZ_CP018100.1 GI:1173265482
+
+148. Bacillus amyloliquefaciens strain S499, complete genome
+3,927,922 bp circular DNA 
+NZ_CP014700.1 GI:1036086780
+
+149. Bacillus amyloliquefaciens strain B15 chromosome, complete genome
+4,006,754 bp circular DNA 
+NZ_CP014783.1 GI:1009102575
+
+150. Bacillus licheniformis strain HRBL-15TDI7 chromosome, complete genome
+4,252,398 bp circular DNA 
+NZ_CP014781.1 GI:1008919402
+
+151. Bacillus amyloliquefaciens UMAF6614, complete genome
+4,005,145 bp circular DNA 
+NZ_CP006960.1 GI:1008207905
+
+152. Bacillus amyloliquefaciens UMAF6639, complete genome
+4,034,636 bp circular DNA 
+NZ_CP006058.1 GI:1008205905
+
+153. Bacillus pumilus SAFR-032, complete genome
+3,704,641 bp circular DNA 
+NC_009848.4 GI:1006910654
+
+154. Bacillus simplex strain SH-B26, complete genome
+5,345,500 bp circular DNA 
+NZ_CP011008.1 GI:1003775488
+
+155. Bacillus pumilus strain SH-B11, complete genome
+3,860,091 bp circular DNA 
+NZ_CP010997.1 GI:1002971441
+
+156. Bacillus pumilus DNA, complete genome, strain: TUAT1
+3,723,433 bp circular DNA 
+NZ_AP014928.1 GI:985593256
+
+157. Bacillus pumilus strain NJ-V2, complete genome
+3,787,818 bp circular DNA 
+NZ_CP012482.1 GI:949773636
+
+158. Bacillus pumilus strain NJ-M2, complete genome
+3,793,419 bp circular DNA 
+NZ_CP012329.1 GI:949745812
+
+159. Bacillus pumilus strain GR-8, complete genome
+3,674,849 bp circular DNA 
+NZ_CP009108.1 GI:915500045
+
+160. Bacillus megaterium strain Q3, complete genome
+5,153,539 bp circular DNA 
+NZ_CP010586.1 GI:896148443
+
+161. Bacillus coagulans strain S-lac, complete genome
+3,694,837 bp circular DNA 
+NZ_CP011939.1 GI:856834952
+
+162. Bacillus amyloliquefaciens strain L-S60, complete genome
+3,903,017 bp circular DNA 
+NZ_CP011278.1 GI:814561882
+
+163. Bacillus pumilus strain W3, complete genome
+3,745,123 bp circular DNA 
+NZ_CP011150.1 GI:810479637
+
+164. Bacillus amyloliquefaciens strain L-H15, complete genome
+3,905,973 bp circular DNA 
+NZ_CP010556.1 GI:761805782
+
+165. Bacillus paralicheniformis strain BL-09, complete genome
+4,388,022 bp linear DNA 
+NZ_CP010524.1 GI:758898866
+
+166. Bacillus coagulans DSM 1 = ATCC 7050, complete genome
+3,366,995 bp circular DNA 
+NZ_CP009709.1 GI:755163829
+
+167. Bacillus megaterium NBRC 15308 = ATCC 14581, complete genome
+5,343,114 bp circular DNA 
+NZ_CP009920.1 GI:754490596
+
+168. Bacillus atrophaeus strain NRS 1221A, complete genome
+4,174,830 bp circular DNA 
+NZ_CP010778.1 GI:751922941
+
+169. Bacillus pumilus strain MTCC B6033, complete genome
+3,763,493 bp circular DNA 
+NZ_CP007436.1 GI:749308092
+
+170. Bacillus amyloliquefaciens LFB112, complete genome
+3,942,754 bp circular DNA 
+NC_023073.1 GI:568175750
+
+171. Bacillus amyloliquefaciens CC178, complete genome
+3,916,828 bp circular DNA 
+NC_022653.1 GI:556555759
+
+172. Bacillus paralicheniformis ATCC 9945a, complete genome
+4,376,305 bp circular DNA 
+NC_021362.1 GI:511060863
+
+173. Bacillus subtilis subsp. spizizenii str. W23, complete genome
+4,027,676 bp circular DNA 
+NC_014479.1 GI:305672698
+
+174. Bacillus licheniformis strain SCCB 37, complete genome
+4,405,338 bp circular DNA 
+NZ_CP014794.1 GI:1172237359
+
+175. Bacillus licheniformis strain SCDB 34, complete genome
+4,475,542 bp circular DNA 
+NZ_CP014793.1 GI:1172233947
+
+176. Bacillus licheniformis strain SCDB 14 chromosome, complete genome
+4,136,986 bp circular DNA 
+NZ_CP014842.1 GI:1172233601
+
+177. Bacillus licheniformis strain SCK B11, complete genome
+4,300,706 bp circular DNA 
+NZ_CP014795.1 GI:1172227907
+
+178. Bacillus amyloliquefaciens IT-45, complete genome
+3,928,857 bp circular DNA 
+NC_020272.1 GI:451344759
+
+179. Bacillus velezensis strain JTYP2 chromosome, complete genome
+3,929,789 bp circular DNA 
+NZ_CP020375.1 GI:1170426980
+
+180. Bacillus subtilis strain GQJK2 chromosome, complete genome
+4,072,961 bp circular DNA 
+NZ_CP020367.1 GI:1170222313
+
+181. Bacillus amyloliquefaciens Y2, complete genome
+4,238,624 bp circular DNA 
+NC_017912.1 GI:387896523
+
+182. Bacillus amyloliquefaciens XH7, complete genome
+3,939,203 bp circular DNA 
+NC_017191.1 GI:384166624
+
+183. Bacillus amyloliquefaciens LL3, complete genome
+3,995,227 bp circular DNA 
+NC_017190.1 GI:384162404
+
+184. Bacillus amyloliquefaciens TA208, complete genome
+3,937,511 bp circular DNA 
+NC_017188.1 GI:384157612
+
+185. Bacillus amyloliquefaciens DSM7 complete genome
+3,980,199 bp circular DNA 
+NC_014551.1 GI:308171891
+
+186. Bacillus subtilis strain 29R7-12 chromosome, complete genome
+4,121,999 bp circular DNA 
+NZ_CP017763.1 GI:1121206263
+
+187. Bacillus subtilis strain KH2, complete genome
+4,138,265 bp circular DNA 
+NZ_CP018184.1 GI:1119673341
+
+188. Bacillus subtilis strain J-5, complete genome
+4,117,900 bp circular DNA 
+NZ_CP018295.1 GI:1119670507
+
+189. Bacillus subtilis strain MJ01, complete genome
+4,108,293 bp circular DNA 
+NZ_CP018173.1 GI:1119646557
+
+190. Bacillus subtilis strain VV2, complete genome
+4,013,819 bp circular DNA 
+NZ_CP017676.1 GI:1092600345
+
+191. Bacillus subtilis strain BS38, complete genome
+4,010,416 bp circular DNA 
+NZ_CP017314.1 GI:1072774606
+
+192. Bacillus subtilis strain HRBS-10TDI13 chromosome, complete genome
+4,186,269 bp circular DNA 
+NZ_CP015222.1 GI:1071412444
+
+193. Bacillus subtilis strain BS16045, complete genome
+4,165,121 bp circular DNA 
+NZ_CP017112.1 GI:1062649058
+
+194. Bacillus subtilis strain HJ0-6, complete genome
+4,235,115 bp circular DNA 
+NZ_CP016894.1 GI:1057672705
+
+195. Bacillus subtilis subsp. subtilis strain 168G, complete genome
+4,214,812 bp circular DNA 
+NZ_CP016852.1 GI:1051699880
+
+196. Bacillus subtilis subsp. subtilis strain KCTC 3135, complete genome
+4,211,343 bp circular DNA 
+NZ_CP015375.1 GI:1049452012
+
+197. Bacillus subtilis subsp. subtilis strain delta6 chromosome, complete genome
+3,876,919 bp circular DNA 
+NZ_CP015975.1 GI:1035844369
+
+198. Bacillus megaterium QM B1551, complete genome
+5,097,129 bp circular DNA 
+NC_014019.1 GI:294496875
+
+199. Bacillus subtilis strain SZMC 6179J, complete genome
+4,195,195 bp circular DNA 
+NZ_CP015004.1 GI:1013172666
+
+200. Bacillus subtilis subsp. globigii strain ATCC 49760 chromosome, complete genome
+4,175,482 bp circular DNA 
+NZ_CP014840.1 GI:1010917108
+
+201. Bacillus subtilis subsp. subtilis strain CU1050, complete genome
+4,056,281 bp circular DNA 
+NZ_CP014166.1 GI:983677244
+
+202. Bacillus subtilis subsp. subtilis strain BSD-2, complete genome
+4,030,837 bp circular DNA 
+NZ_CP013654.1 GI:983424518
+
+203. Bacillus subtilis subsp. inaquosorum strain DE111, complete genome
+4,143,890 bp circular DNA 
+NZ_CP013984.1 GI:982926924
+
+204. Bacillus subtilis strain TO-A JPC, complete genome
+4,090,708 bp circular DNA 
+NZ_CP011882.1 GI:851920250
+
+205. Bacillus subtilis strain UD1022, complete genome
+4,025,326 bp circular DNA 
+NZ_CP011534.1 GI:827044523
+
+206. Bacillus subtilis HJ5, complete genome
+4,012,933 bp circular DNA 
+NZ_CP007173.1 GI:810428549
+
+207. Bacillus subtilis KCTC 1028, complete genome
+4,215,633 bp circular DNA 
+NZ_CP011115.1 GI:808764667
+
+208. Bacillus subtilis subsp. subtilis strain 3NA, complete genome
+4,195,102 bp circular DNA 
+NZ_CP010314.1 GI:749613708
+
+209. Bacillus subtilis strain Bs-916, complete genome
+3,981,674 bp circular DNA 
+NZ_CP009611.1 GI:749298825
+
+210. Bacillus subtilis strain ATCC 19217, complete genome
+3,959,897 bp circular DNA 
+NZ_CP009749.1 GI:749298789
+
+211. Bacillus subtilis strain ATCC 13952, complete genome
+3,876,276 bp circular DNA 
+NZ_CP009748.1 GI:749298785
+
+212. Bacillus subtilis strain PS832, complete genome
+4,215,367 bp circular DNA 
+NZ_CP010053.1 GI:749168887
+
+213. Bacillus subtilis subsp. subtilis str. 168, complete genome
+4,215,619 bp circular DNA 
+NZ_CP010052.1 GI:749168884
+
+214. Bacillus subtilis TOA, complete genome
+4,057,487 bp circular DNA 
+NZ_CP005997.1 GI:1033136730
+
+215. Bacillus paralicheniformis strain MDJK30 chromosome, complete genome
+4,352,468 bp circular DNA 
+NZ_CP020352.1 GI:1167818437
+
+216. Bacillus subtilis subsp. subtilis str. OH 131.1, complete genome
+4,039,155 bp circular DNA 
+NZ_CP007409.1 GI:749295531
+
+217. Bacillus subtilis subsp. subtilis str. AG1839, complete genome
+4,193,640 bp circular DNA 
+NZ_CP008698.1 GI:749295518
+
+218. Bacillus subtilis BEST7003 DNA, complete genome
+4,043,042 bp circular DNA 
+NZ_AP012496.1 GI:749295502
+
+219. Bacillus subtilis subsp. subtilis str. JH642 substr. AG174, complete genome
+4,188,369 bp circular DNA 
+NZ_CP007800.1 GI:749295427
+
+220. Bacillus subtilis PY79, complete genome
+4,033,459 bp circular DNA 
+NC_022898.1 GI:560127023
+
+221. Bacillus subtilis subsp. subtilis str. BAB-1, complete genome
+4,021,944 bp circular DNA 
+NC_020832.1 GI:472328503
+
+222. Bacillus velezensis strain sx01604 chromosome, complete genome
+3,926,520 bp circular DNA 
+NZ_CP018007.1 GI:1167593339
+
+223. Bacillus subtilis strain NCIB 3610 chromosome, complete genome
+4,215,607 bp circular DNA 
+NZ_CP020102.1 GI:1167593196
+
+224. Bacillus velezensis strain 9912D chromosome, complete genome
+4,206,167 bp circular DNA 
+NZ_CP017775.1 GI:1096237946
+
+225. Bacillus velezensis strain D2-2, complete genome
+3,921,833 bp circular DNA 
+NZ_CP014990.1 GI:1074989140
+
+226. Bacillus velezensis strain LS69 chromosome, complete genome
+3,917,761 bp circular DNA 
+NZ_CP015911.1 GI:1045842230
+
+227. Bacillus velezensis strain S3-1, complete genome
+3,929,772 bp circular DNA 
+NZ_CP016371.1 GI:1045346793
+
+228. Bacillus velezensis strain YJ11-1-4 chromosome, complete genome
+4,006,637 bp circular DNA 
+NZ_CP011347.1 GI:818920956
+
+229. Bacillus velezensis strain JJ-D34 chromosome, complete genome
+4,105,955 bp circular DNA 
+NZ_CP011346.1 GI:817451848
+
+230. Bacillus velezensis NJN-6, complete genome
+4,052,546 bp circular DNA 
+NZ_CP007165.1 GI:810454280
+
+231. Bacillus velezensis SQR9, complete genome
+4,117,023 bp circular DNA 
+NZ_CP006890.1 GI:749299146
+
+232. Bacillus velezensis strain JS25R chromosome, complete genome
+4,006,002 bp circular DNA 
+NZ_CP009679.1 GI:749299045
+
+233. Bacillus subtilis XF-1, complete genome
+4,061,186 bp circular DNA 
+NC_020244.1 GI:449092714
+
+234. Bacillus subtilis subsp. subtilis str. BSP1, complete genome
+4,043,754 bp circular DNA 
+NC_019896.1 GI:430755491
+
+235. Bacillus velezensis strain GH1-13 chromosome, complete genome
+4,071,980 bp circular DNA 
+NZ_CP019040.1 GI:1149158730
+
+236. Bacillus velezensis strain M75 chromosome, complete genome
+4,007,450 bp circular DNA 
+NZ_CP016395.1 GI:1065013168
+
+237. Bacillus velezensis strain CC09, complete genome
+4,167,153 bp circular DNA 
+NZ_CP015443.1 GI:1032817234
+
+238. Bacillus subtilis subsp. subtilis RO-NN-1, complete genome
+4,011,949 bp circular DNA 
+NC_017195.1 GI:384173661
+
+239. Bacillus flexus strain KLBMP 4941 chromosome, complete genome
+3,960,308 bp circular DNA 
+NZ_CP016790.1 GI:1155253690
+
+240. Bacillus megaterium strain JX285 chromosome, complete genome
+5,066,463 bp circular DNA 
+NZ_CP018874.1 GI:1151110286

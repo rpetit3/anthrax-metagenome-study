@@ -1,0 +1,557 @@
+# query: txid86661[Organism:exp] AND "complete genome"[Title] AND refseq[filter] AND 3000000:7000000[Sequence Length]
+# date: 4/17/2018
+1. Bacillus thuringiensis YBT-1518, complete genome
+6,002,284 bp circular DNA 
+NC_022873.1 GI:558678294
+
+2. Bacillus cereus strain FORC60 chromosome, complete genome
+5,361,178 bp circular DNA 
+NZ_CP020383.1 GI:1372048906
+
+3. Bacillus cereus strain TG1-6 chromosome, complete genome
+5,417,196 bp circular DNA 
+NZ_CP026678.1 GI:1371906617
+
+4. Bacillus anthracis strain FDAARGOS_341 chromosome, complete genome
+5,228,806 bp circular DNA 
+NZ_CP022044.1 GI:1358809412
+
+5. Bacillus anthracis str. A16R chromosome, complete genome
+5,228,828 bp circular DNA 
+NZ_CP001974.2 GI:1358618280
+
+6. Bacillus thuringiensis serovar finitimus YBT-020, complete genome
+5,355,490 bp circular DNA 
+NC_017200.1 GI:384177910
+
+7. Bacillus cereus C1L chromosome, complete genome
+5,312,355 bp circular DNA 
+NZ_CP022445.1 GI:1221433652
+
+8. Bacillus anthracis str. Ames chromosome, complete genome
+5,227,293 bp circular DNA 
+NC_003997.3 GI:30260195
+
+9. Bacillus anthracis DNA, nearly complete genome, strain: Shikan-NIID
+5,228,065 bp linear DNA 
+NZ_AP014833.1 GI:1246894411
+
+10. Bacillus thuringiensis serovar kurstaki str. HD73, complete genome
+5,646,799 bp circular DNA 
+NC_020238.1 GI:449086670
+
+11. Bacillus cereus strain CC-1 chromosome, complete genome
+5,279,524 bp circular DNA 
+NZ_CP023179.1 GI:1242724526
+
+12. Bacillus anthracis strain 14RA5914 chromosome, complete genome
+5,245,242 bp circular DNA 
+NZ_CP023001.1 GI:1239389066
+
+13. Bacillus cytotoxicus NVH 391-98, complete genome
+4,087,024 bp circular DNA 
+NC_009674.1 GI:152973854
+
+14. Bacillus thuringiensis strain YGd22-03, complete genome
+5,420,545 bp circular DNA 
+NZ_CP019230.1 GI:1205192580
+
+15. Bacillus thuringiensis strain MYBT18246 chromosome, complete genome
+5,867,736 bp circular DNA 
+NZ_CP015350.1 GI:1045415200
+
+16. Bacillus thuringiensis strain c25 chromosome, complete genome
+5,334,660 bp circular DNA 
+NZ_CP022345.1 GI:1219500589
+
+17. Bacillus cereus strain FORC_047 chromosome, complete genome
+5,365,433 bp circular DNA 
+NZ_CP017060.1 GI:1216908367
+
+18. Bacillus cereus strain M13 chromosome, complete genome
+5,498,820 bp circular DNA 
+NZ_CP016360.1 GI:1215194645
+
+19. Bacillus cereus strain FORC_048, complete genome
+5,358,595 bp circular DNA 
+NZ_CP017234.1 GI:1214756711
+
+20. Bacillus cereus strain D12_2 chromosome, complete genome
+5,369,104 bp circular DNA 
+NZ_CP016315.1 GI:1214748414
+
+21. Bacillus thuringiensis strain ATCC 10792 chromosome, complete genome
+5,427,594 bp circular DNA 
+NZ_CP021061.1 GI:1207610714
+
+22. Bacillus thuringiensis strain BM-BT15426 chromosome, complete genome
+5,246,329 bp circular DNA 
+NZ_CP020723.1 GI:1207088455
+
+23. Bacillus thuringiensis serovar thuringiensis str. IS5056, complete genome
+5,491,935 bp circular DNA 
+NC_020376.1 GI:452196381
+
+24. Bacillus thuringiensis Bt407, complete genome
+5,500,501 bp circular DNA 
+NC_018877.1 GI:409187965
+
+25. Bacillus thuringiensis MC28, complete genome
+5,414,494 bp circular DNA 
+NC_018693.1 GI:407703236
+
+26. Bacillus thuringiensis serovar chinensis CT-43, complete genome
+5,486,830 bp circular DNA 
+NC_017208.1 GI:384184088
+
+27. Bacillus cereus biovar anthracis str. CI, complete genome
+5,196,054 bp circular DNA 
+NC_014335.1 GI:301051741
+
+28. Bacillus thuringiensis strain SCG04-02, complete genome
+5,436,019 bp circular DNA 
+NZ_CP017577.1 GI:1201954295
+
+29. Bacillus anthracis str. CDC 684, complete genome
+5,230,115 bp circular DNA 
+NC_012581.1 GI:227812678
+
+30. Bacillus cereus 03BB102, complete genome
+5,269,628 bp circular DNA 
+NC_012472.1 GI:225862057
+
+31. Bacillus cereus AH820, complete genome
+5,302,683 bp linear DNA 
+NC_011773.1 GI:218901206
+
+32. Bacillus cereus AH187, complete genome
+5,269,030 bp circular DNA 
+NC_011658.1 GI:217957581
+
+33. Bacillus cereus ATCC 10987, complete genome
+5,224,283 bp circular DNA 
+NC_003909.8 GI:42779081
+
+34. Bacillus thuringiensis HD-789, complete genome
+5,495,278 bp circular DNA 
+NC_018508.1 GI:434373506
+
+35. Bacillus thuringiensis HD-771, complete genome
+5,886,036 bp circular DNA 
+NC_018500.1 GI:402558824
+
+36. Bacillus anthracis str. H9401, complete genome
+5,218,947 bp circular DNA 
+NC_017729.1 GI:386733873
+
+37. Bacillus cereus F837/76, complete genome
+5,222,906 bp circular DNA 
+NC_016779.1 GI:376264031
+
+38. Bacillus thuringiensis BMB171, complete genome
+5,330,088 bp circular DNA 
+NC_014171.1 GI:296500838
+
+39. Bacillus anthracis str. A0248, complete genome
+5,227,419 bp circular DNA 
+NC_012659.1 GI:229599883
+
+40. Bacillus cereus Q1, complete genome
+5,214,195 bp circular DNA 
+NC_011969.1 GI:222093774
+
+41. Bacillus cereus G9842, complete genome
+5,387,334 bp linear DNA 
+NC_011772.1 GI:218895141
+
+42. Bacillus cereus B4264, complete genome
+5,419,036 bp circular DNA 
+NC_011725.1 GI:218230750
+
+43. Bacillus weihenstephanensis KBAB4, complete genome
+5,262,775 bp circular DNA 
+NC_010184.1 GI:163938013
+
+44. Bacillus thuringiensis str. Al Hakam, complete genome
+5,257,091 bp circular DNA 
+NC_008600.1 GI:118475778
+
+45. Bacillus cereus E33L, complete genome
+5,300,915 bp circular DNA 
+NC_006274.1 GI:52140164
+
+46. Bacillus anthracis str. 'Ames Ancestor', complete genome
+5,227,419 bp circular DNA 
+NC_007530.2 GI:50196905
+
+47. Bacillus mycoides strain Gnyt1 chromosome, complete genome
+5,597,907 bp circular DNA 
+NZ_CP020743.1 GI:1184765965
+
+48. Bacillus thuringiensis Bt18247, complete genome
+5,610,045 bp circular DNA 
+NZ_CP015250.1 GI:1062995496
+
+49. Bacillus cereus strain AR156 chromosome, complete genome
+5,160,326 bp circular DNA 
+NZ_CP015589.1 GI:1103718102
+
+50. Bacillus cereus strain NJ-W, complete genome
+5,370,032 bp circular DNA 
+NZ_CP012483.1 GI:925173495
+
+51. Bacillus thuringiensis serovar kurstaki strain HD 1, complete genome
+5,675,189 bp circular DNA 
+NZ_CP010005.1 GI:763297351
+
+52. Bacillus anthracis strain Ames chromosome, complete genome
+5,227,467 bp circular DNA 
+NZ_CP009981.1 GI:755164863
+
+53. Bacillus toyonensis BCT-7112, complete genome
+4,940,474 bp circular DNA 
+NC_022781.1 GI:557619566
+
+54. Bacillus thuringiensis strain KNU-07 chromosome, complete genome
+5,344,151 bp circular DNA 
+NZ_CP016588.1 GI:1046641237
+
+55. Bacillus thuringiensis serovar alesti strain BGSC 4C1 chromosome, complete genome
+5,400,819 bp circular DNA 
+NZ_CP015176.1 GI:1027743998
+
+56. Bacillus thuringiensis strain Bc601, complete genome
+5,627,121 bp circular DNA 
+NZ_CP015150.1 GI:1017216133
+
+57. Bacillus thuringiensis strain Bt185, complete genome
+5,243,635 bp circular DNA 
+NZ_CP014282.1 GI:1008989517
+
+58. Bacillus thuringiensis serovar tolworthi DNA, complete genome, strain: Pasteur Institute Standard strain
+5,896,839 bp circular DNA 
+NZ_AP014864.1 GI:985613331
+
+59. Bacillus thuringiensis strain YWC2-8, complete genome
+5,674,369 bp circular DNA 
+NZ_CP013055.1 GI:983399818
+
+60. Bacillus thuringiensis strain HS18-1, complete genome
+5,292,526 bp circular DNA 
+NZ_CP012099.1 GI:915549795
+
+61. Bacillus thuringiensis serovar indiana strain HD521, complete genome
+5,429,688 bp circular DNA 
+NZ_CP010106.1 GI:915492893
+
+62. Bacillus thuringiensis strain YC-10, complete genome
+5,675,007 bp circular DNA 
+NZ_CP011349.1 GI:827465782
+
+63. Bacillus thuringiensis serovar morrisoni strain BGSC 4AA1, complete genome
+5,652,292 bp circular DNA 
+NZ_CP010577.1 GI:766622846
+
+64. Bacillus thuringiensis HD1002, complete genome
+5,491,311 bp circular DNA 
+NZ_CP009351.1 GI:759615542
+
+65. Bacillus thuringiensis strain HD1011, complete genome
+5,232,696 bp circular DNA 
+NZ_CP009335.1 GI:759608738
+
+66. Bacillus thuringiensis strain 97-27, complete genome
+5,235,838 bp circular DNA 
+NZ_CP010088.1 GI:755166861
+
+67. Bacillus thuringiensis strain HD571, complete genome
+5,256,240 bp circular DNA 
+NZ_CP009600.1 GI:755165011
+
+68. Bacillus thuringiensis strain HD682, complete genome
+5,213,295 bp circular DNA 
+NZ_CP009720.1 GI:755162796
+
+69. Bacillus mycoides strain ATCC 6462, complete genome
+5,255,868 bp circular DNA 
+NZ_CP009692.1 GI:754380545
+
+70. Bacillus thuringiensis serovar galleriae strain HD-29, complete genome
+5,701,188 bp circular DNA 
+NZ_CP010089.1 GI:757772051
+
+71. Bacillus weihenstephanensis strain WSBC 10204, complete genome
+5,608,349 bp circular DNA 
+NZ_CP009746.1 GI:749321901
+
+72. Bacillus thuringiensis serovar kurstaki str. YBT-1520, complete genome
+5,607,837 bp circular DNA 
+NZ_CP007607.1 GI:749295542
+
+73. Bacillus mycoides strain 219298, complete genome
+5,228,024 bp circular DNA 
+NZ_CP007626.1 GI:749295033
+
+74. Bacillus thuringiensis serovar kurstaki str. HD-1, complete genome
+5,631,672 bp circular DNA 
+NZ_CP004870.1 GI:757747818
+
+75. Bacillus thuringiensis serovar kurstaki str. YBT-1520, complete genome
+5,602,565 bp circular DNA 
+NZ_CP004858.1 GI:749295601
+
+76. Bacillus cereus strain FORC021, complete genome
+5,331,694 bp circular DNA 
+NZ_CP014486.1 GI:1148651012
+
+77. Bacillus anthracis strain SPV842_15 chromosome, complete genome
+5,228,667 bp circular DNA 
+NZ_CP019588.1 GI:1143694464
+
+78. Bacillus cereus strain JEM-2 chromosome, complete genome
+5,229,506 bp circular DNA 
+NZ_CP018935.1 GI:1131006982
+
+79. Bacillus cereus strain ISSFR-3F chromosome, complete genome
+5,242,668 bp circular DNA 
+NZ_CP018931.1 GI:1130930635
+
+80. Bacillus cereus strain ISSFR-9F chromosome, complete genome
+5,243,376 bp circular DNA 
+NZ_CP018933.1 GI:1130896828
+
+81. Bacillus anthracis strain Tyrol 4675, complete genome
+5,227,565 bp circular DNA 
+NZ_CP018903.1 GI:1129420854
+
+82. Bacillus anthracis str. A16, complete genome
+5,228,842 bp circular DNA 
+NZ_CP001970.2 GI:1100223183
+
+83. Bacillus cereus strain FORC_024, complete genome
+5,430,118 bp circular DNA 
+NZ_CP012691.1 GI:1062997002
+
+84. Bacillus anthracis strain PR01, complete genome
+5,228,656 bp circular DNA 
+NZ_CP012720.1 GI:1043367819
+
+85. Bacillus anthracis strain PR10-4, complete genome
+5,227,079 bp circular DNA 
+NZ_CP012728.1 GI:1043366245
+
+86. Bacillus anthracis strain PR08, complete genome
+5,227,091 bp circular DNA 
+NZ_CP012725.1 GI:1043363099
+
+87. Bacillus anthracis strain PR05, complete genome
+5,228,658 bp circular DNA 
+NZ_CP012722.1 GI:1043363096
+
+88. Bacillus anthracis strain Parent1, complete genome
+5,228,660 bp circular DNA 
+NZ_CP012730.1 GI:1043363094
+
+89. Bacillus anthracis strain PR09-4, complete genome
+5,227,090 bp circular DNA 
+NZ_CP012727.1 GI:1043363021
+
+90. Bacillus anthracis strain PR09-1, complete genome
+5,227,060 bp circular DNA 
+NZ_CP012726.1 GI:1043363020
+
+91. Bacillus anthracis strain PR02, complete genome
+5,228,657 bp circular DNA 
+NZ_CP012721.1 GI:1043362998
+
+92. Bacillus anthracis strain PR06, complete genome
+5,228,656 bp circular DNA 
+NZ_CP012723.1 GI:1043355934
+
+93. Bacillus anthracis strain PR07, complete genome
+5,227,094 bp circular DNA 
+NZ_CP012724.1 GI:1043355233
+
+94. Bacillus anthracis strain Parent2, complete genome
+5,227,092 bp circular DNA 
+NZ_CP012729.1 GI:1043355172
+
+95. Bacillus anthracis strain Tangail-1 chromosome, complete genome
+5,227,292 bp circular DNA 
+NZ_CP015779.1 GI:1035710798
+
+96. Bacillus cereus strain A1, complete genome
+5,352,307 bp circular DNA 
+NZ_CP015727.1 GI:1033164042
+
+97. Bacillus cereus strain CMCC P0011, complete genome
+5,506,876 bp circular DNA 
+NZ_CP011153.1 GI:1024921196
+
+98. Bacillus cereus strain CMCC P0021, complete genome
+5,521,782 bp circular DNA 
+NZ_CP011151.1 GI:1024917431
+
+99. Bacillus cereus strain HN001, complete genome
+5,404,176 bp circular DNA 
+NZ_CP011155.1 GI:1024904020
+
+100. Bacillus anthracis strain Stendal, complete genome
+5,226,939 bp circular DNA 
+NZ_CP014179.1 GI:984943304
+
+101. Bacillus anthracis strain Larissa, complete genome
+5,226,878 bp circular DNA 
+NZ_CP012519.1 GI:925173712
+
+102. Bacillus cereus strain 3a, complete genome
+5,270,991 bp circular DNA 
+NZ_CP009596.1 GI:902970856
+
+103. Bacillus cereus strain FORC_005, complete genome
+5,349,617 bp circular DNA 
+NZ_CP009686.1 GI:814944453
+
+104. Bacillus anthracis strain A1144, complete genome
+5,200,257 bp circular DNA 
+NZ_CP010852.1 GI:757815467
+
+105. Bacillus cereus strain S2-8, complete genome
+5,271,178 bp circular DNA 
+NZ_CP009605.1 GI:756411783
+
+106. Bacillus anthracis str. Turkey32, complete genome
+5,228,731 bp circular DNA 
+NZ_CP009315.1 GI:755831114
+
+107. Bacillus anthracis strain SK-102, complete genome
+5,230,088 bp circular DNA 
+NZ_CP009464.1 GI:755168062
+
+108. Bacillus cereus 03BB108, complete genome
+5,342,933 bp circular DNA 
+NZ_CP009641.1 GI:755167870
+
+109. Bacillus cereus strain FM1, complete genome
+5,295,158 bp circular DNA 
+NZ_CP009369.1 GI:755167311
+
+110. Bacillus cereus G9241, complete genome
+5,267,792 bp circular DNA 
+NZ_CP009590.1 GI:755165872
+
+111. Bacillus anthracis strain RA3, complete genome
+5,213,209 bp circular DNA 
+NZ_CP009697.1 GI:755165546
+
+112. Bacillus anthracis strain Ohio ACB, complete genome
+5,222,171 bp circular DNA 
+NZ_CP009341.1 GI:755165489
+
+113. Bacillus anthracis strain BA1035, complete genome
+5,210,596 bp circular DNA 
+NZ_CP009700.1 GI:755165410
+
+114. Bacillus anthracis strain 2002013094, complete genome
+5,321,900 bp circular DNA 
+NZ_CP009902.1 GI:755165391
+
+115. Bacillus anthracis str. V770-NP-1R, complete genome
+5,228,687 bp circular DNA 
+NZ_CP009598.1 GI:755165327
+
+116. Bacillus anthracis strain Pasteur, complete genome
+5,200,082 bp circular DNA 
+NZ_CP009476.1 GI:755165323
+
+117. Bacillus anthracis strain Vollum 1B, complete genome
+5,229,969 bp circular DNA 
+NZ_CP009328.1 GI:755165215
+
+118. Bacillus anthracis strain PAK-1, complete genome
+5,221,627 bp circular DNA 
+NZ_CP009325.1 GI:755165061
+
+119. Bacillus anthracis strain K3, complete genome
+5,228,730 bp circular DNA 
+NZ_CP009331.1 GI:755165000
+
+120. Bacillus anthracis str. Sterne, complete genome
+5,227,496 bp circular DNA 
+NZ_CP009541.1 GI:755164854
+
+121. Bacillus cereus D17, complete genome
+5,379,685 bp circular DNA 
+NZ_CP009300.1 GI:755164828
+
+122. Bacillus cereus E33L, complete genome
+5,305,318 bp circular DNA 
+NZ_CP009968.1 GI:755163331
+
+123. Bacillus anthracis strain Canadian_bison, complete genome
+5,229,224 bp circular DNA 
+NZ_CP010322.1 GI:755163237
+
+124. Bacillus cereus ATCC 4342, complete genome
+5,269,496 bp circular DNA 
+NZ_CP009628.1 GI:755163169
+
+125. Bacillus anthracis strain BA1015, complete genome
+5,214,671 bp circular DNA 
+NZ_CP009544.1 GI:755163142
+
+126. Bacillus cereus 03BB102, complete genome
+5,268,427 bp circular DNA 
+NZ_CP009318.1 GI:755162808
+
+127. Bacillus anthracis strain Ames A0462, complete genome
+5,227,394 bp circular DNA 
+NZ_CP010792.1 GI:751911624
+
+128. Bacillus cereus strain 03BB87, complete genome
+5,457,398 bp circular DNA 
+NZ_CP009941.1 GI:749295517
+
+129. Bacillus anthracis strain HYU01, complete genome
+5,213,498 bp circular DNA 
+NZ_CP008846.1 GI:749295519
+
+130. Bacillus anthracis strain 2000031021, complete genome
+5,236,981 bp circular DNA 
+NZ_CP007618.1 GI:749295447
+
+131. Bacillus anthracis str. Vollum, complete genome
+5,229,469 bp circular DNA 
+NZ_CP007666.1 GI:749295425
+
+132. Bacillus anthracis str. SVA11, complete genome
+5,210,966 bp circular DNA 
+NZ_CP006742.1 GI:749295538
+
+133. Bacillus cereus FRI-35, complete genome
+5,083,176 bp circular DNA 
+NC_018491.1 GI:402552844
+
+134. Bacillus cereus NC7401 genomic DNA, complete genome
+5,221,581 bp circular DNA 
+NC_016771.1 GI:375282101
+
+135. Bacillus thuringiensis strain L-7601, complete genome
+5,790,408 bp circular DNA 
+NZ_CP020002.1 GI:1159315886
+
+136. Bacillus cereus ATCC 14579 chromosome, complete genome
+5,411,809 bp circular DNA 
+NC_004722.1 GI:30018278
+
+137. [Bacillus thuringiensis] serovar konkukian str. 97-27 chromosome, complete genome
+5,237,682 bp circular DNA 
+NC_005957.1 GI:49476684
+
+138. Bacillus anthracis str. Sterne chromosome, complete genome
+5,228,663 bp circular DNA 
+NC_005945.1 GI:49183039
+
+139. Bacillus thuringiensis strain CTC, complete genome
+5,327,397 bp circular DNA 
+NZ_CP013274.1 GI:983475238

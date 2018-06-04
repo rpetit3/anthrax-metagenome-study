@@ -1,0 +1,964 @@
+---
+title: "Fine-scale differentiation between B. anthracis and B. cereus group signatures in metagenome shotgun data"
+output:
+  pdf_document: default
+---
+# Packages and Functions
+```{r}
+library(dplyr)
+library(ggplot2)
+options(scipen=999)
+library(grid)
+library(gridExtra)
+PATH <- '/home/rpetit/ba-paper'
+FIGURE <- '/home/rpetit/ba-paper/results/figures'
+
+read_samples <- function(gzip_file, distance) {
+    s = merge(
+        read.table(gzfile(gzip_file), header=TRUE),
+        data.frame(sample=distance$accession, distance=distance$distance),
+        by=c('sample')
+    )
+
+    s$bacillus = ifelse(
+        s$is_bcg == 'True', ifelse(s$is_ba=='True', 'ba', 'bcg'), 'nonbcg'
+    )
+    
+    return(s)
+}
+
+format_plot <- function(ggplot_object, xlab="Mean k-mer Coverage", ylab="Count", title=FALSE) {
+    plot_title = theme(legend.title = element_blank())
+    if (title != FALSE) {
+        plot_title <- labs(color=title) 
+    }
+    p <- ggplot_object +
+        xlab(xlab) +
+        ylab(ylab) +
+        theme_bw() +
+        theme(axis.text=element_text(size=12),
+              axis.title=element_text(size=14,face="bold")) +
+        plot_title
+    return(p)
+}
+
+plot_hamming <- function(df) {
+    p <- ggplot(df, aes(hamming_distance, hit)) +
+        xlab("Hamming Distance") +
+        ylab("Count") +
+        geom_bar(stat='identity') +
+        scale_x_continuous(breaks = seq(
+            min(df$hamming_distance), max(df$hamming_distance), by = 1
+        )) +
+        geom_text(aes(label=hit), vjust = -0.5) +
+        theme_bw() +
+        theme(text=element_text(size=20),
+              title=element_text(size=14, face="bold"),
+              legend.position="none")
+    return (p)
+}
+
+
+lm_eqn <- function(m, zero_intercept=TRUE){
+    # GET EQUATION AND R-SQUARED AS STRING
+    # SOURCE: http://goo.gl/K4yh
+    a = ifelse(zero_intercept, 0, coef(m)[1])
+    b = ifelse(zero_intercept, coef(m)[1], coef(m)[2]) 
+    eq <- substitute(italic(y) == a + b %.% italic(x)*","~~italic(r)^2~"="~r2, 
+         list(a = format(a, digits = 2), b = format(b, digits = 2), 
+              r2 = format(summary(m)$r.squared, digits = 3)))
+    as.character(as.expression(eq));                 
+}
+
+#' write_plot
+#'
+#' A wrapper for to validate given vector is multiple ids and proper type. This
+#' function should not be directly used by the user.
+#'
+#' @param plot_object A ggplot object
+#' @param name Basename for the output PDF and PNG files
+#' @param height The PDF height of the output (Default: 5)
+#' @param width The PDF width of the object (Default: 12)
+#'
+#' @export
+#' @return bool TRUE is multiple ids else FALSE.
+write_plot <- function(plot_object, name, height = 5, width = 12) {
+    pdf(paste0(FIGURE, '/', name, ".pdf"), width=width, height=height)
+    print(plot_object)
+    dev_null <- dev.off()
+
+    png(paste0(FIGURE, '/', name, ".png"), width=width*100, height=height*100)
+    print(plot_object)
+    dev_null <- dev.off()
+}
+
+```
+
+# Lethal Factor Gray Zone
+## Inputs
+```{r}
+gray_ba_samples = read.table(
+    gzfile(paste0(PATH, "/results/limit-of-detection-lef31/lef-ba-summary.txt.gz")),
+    header=TRUE, sep="\t"
+)
+
+gray_bcg_samples = read.table(
+    gzfile(paste0(PATH, "/results/limit-of-detection-lef31/lef-bcg-summary.txt.gz")),
+    header=TRUE, sep="\t"
+)
+
+gray_lef_samples = read.table(
+    gzfile(paste0(PATH, "/results/limit-of-detection-lef31/lef-lef-summary.txt.gz")),
+    header=TRUE, sep="\t"
+)
+
+gray_summary = read.table(
+    paste0(PATH, "/results/limit-of-detection-lef31/lef-subsample.txt"),
+    header=TRUE, sep="\t"
+)
+
+gray_summary <- merge(
+    gray_summary,
+    gray_ba_samples %>% 
+        group_by(sample, coverage) %>%
+        summarise(ba_tp=mean(tp), ba_coverage=mean(kmer_cov_mean),
+                  ba_coverage_nonzero=mean(non_zero_kmer_cov_mean)),
+    by=c('sample', 'coverage')
+)
+
+gray_summary <- merge(
+    gray_summary,
+    gray_bcg_samples %>% 
+        group_by(sample, coverage) %>%
+        summarise(bcg_tp=mean(tp), bcg_coverage=mean(kmer_cov_mean),
+                  bcg_coverage_nonzero=mean(non_zero_kmer_cov_mean)),
+    by=c('sample', 'coverage')
+)
+
+gray_summary <- merge(
+    gray_summary,
+    gray_lef_samples %>% 
+        group_by(sample, coverage) %>%
+        summarise(lef_tp=mean(tp), lef_coverage=mean(kmer_cov_mean),
+                  lef_coverage_nonzero=mean(non_zero_kmer_cov_mean)),
+    by=c('sample', 'coverage')
+)
+
+gray_area_summary <- function(df, group, status) {
+    temp_df <- data.frame(table(round(df, digits = 5)))
+    colnames(temp_df) <- c('coverage', 'count')
+    temp_df$group <- group
+    temp_df$status <- status
+    temp_df$coverage <- as.numeric(as.character(temp_df$coverage))
+    temp_df$cumsum <- cumsum(temp_df$count)
+    temp_df$percent <- temp_df$cumsum / max(temp_df$cumsum)
+    return(temp_df)
+}
+
+grid_arrange_shared_lef31 <- function(..., ncol = length(list(...)), nrow = 1, position = c("bottom", "right")) {
+  plots <- list(...)
+  position <- match.arg(position)
+  g <- ggplotGrob(plots[[1]] + theme(legend.position = position))$grobs
+  legend <- g[[which(sapply(g, function(x) x$name) == "guide-box")]]
+  lheight <- sum(legend$height)
+  lwidth <- sum(legend$width)
+  gl <- lapply(plots, function(x) x + theme(legend.position="none"))
+  gl[[1]] <-arrangeGrob(gl[[1]], top = textGrob(
+        "A", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+         gp=gpar(col="black", fontsize=18, fontface="bold"))
+    )
+  gl[[2]] <-arrangeGrob(gl[[2]], top = textGrob(
+        "B", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+         gp=gpar(col="black", fontsize=18, fontface="bold"))
+    )
+      
+  gl <- c(gl, ncol = ncol, nrow = nrow)
+
+  combined <- switch(position,
+                     "bottom" = arrangeGrob(do.call(arrangeGrob, gl),
+                                            legend,
+                                            ncol = 1,
+                                            heights = unit.c(unit(1, "npc") - lheight, lheight)),
+                     "right" = arrangeGrob(do.call(arrangeGrob, gl),
+                                           legend,
+                                           ncol = 2,
+                                           widths = unit.c(unit(1, "npc") - lwidth, lwidth)))
+
+  grid.newpage()
+  grid.draw(combined)
+
+  # return gtable invisibly
+  invisible(combined)
+}
+
+head(gray_summary)
+```
+
+## Gray Area Group Sumamry 
+```{r}
+gray_area_group_summary <- rbind(
+    gray_area_summary(gray_summary[gray_summary$status == 'strict',]$ba_coverage, 'ba', '100%'),
+    gray_area_summary(gray_summary[gray_summary$status == 'relaxed',]$ba_coverage, 'ba', '95%'), 
+    gray_area_summary(gray_summary[gray_summary$status == 'strict',]$bcg_coverage, 'bcg', '100%'),
+    gray_area_summary(gray_summary[gray_summary$status == 'relaxed',]$bcg_coverage, 'bcg', '95%'), 
+    gray_area_summary(gray_summary[gray_summary$status == 'strict',]$lef_coverage, 'lef', '100%'),
+    gray_area_summary(gray_summary[gray_summary$status == 'relaxed',]$lef_coverage, 'lef', '95%')
+)
+```
+
+group column
+- ba: Ba31 kmer coverage
+- bcg: BCerG kmer coverage
+- lef: lef31 kmer coverage
+
+status column
+- **strict** lef kmer found in 100% of subsamples
+- **relaxed** lef kmer found in > 95% of subsamples
+
+### Ba31 k-mer Coverage & BCerG31 k-mer Coverage
+```{r Figure 1, fig.width=12, fig.asp=0.4}
+temp_df <- gray_area_group_summary[gray_area_group_summary$group == 'ba',]
+print(temp_df[temp_df$percent >= 0.95,])
+max_95 = round(max(temp_df[temp_df$status == "95%",]$coverage), digits=3)
+max_100 = round(max(temp_df[temp_df$status == "100%",]$coverage), digits=3)
+g <- ggplot(temp_df, aes(coverage, percent, color=status)) + geom_point() +
+    scale_x_continuous(breaks = seq(0.01, max(temp_df$coverage)+0.01, by = 0.03)) +
+    geom_vline(xintercept = max_95, linetype="dashed") +
+    annotate("text", x = max_95 - 0.01, y = 0.05, 
+             label = paste0(as.character(max_95), "x"), size=4) +
+    geom_vline(xintercept = max(temp_df[temp_df$status == '100%',]$coverage), linetype="dashed") +
+    annotate("text", x = max_100 - 0.01, y = 0.05, 
+         label = paste0(as.character(max_100), "x"), size=4)
+
+
+p1 <- format_plot(g, xlab="Ba31 Coverage", ylab="Cumulative Percentage", title="Threshold")
+remove(temp_df)
+
+temp_df <- gray_area_group_summary[gray_area_group_summary$group == 'bcg',]
+print(temp_df[temp_df$percent >= 0.95,])
+
+max_95 = round(max(temp_df[temp_df$status == "95%",]$coverage), digits=3)
+max_100 = round(max(temp_df[temp_df$status == "100%",]$coverage), digits=3)
+g <- ggplot(temp_df, aes(coverage, percent, color=status)) + geom_point() +
+    scale_x_continuous(breaks = seq(0.01, max(temp_df$coverage)+0.01, by = 0.03)) +
+    geom_vline(xintercept = max_95, linetype="dashed") +
+    annotate("text", x = max_95 - 0.01, y = 0.05, 
+             label = paste0(as.character(max_95), "x"), size=4) +
+    geom_vline(xintercept = max(temp_df[temp_df$status == '100%',]$coverage), linetype="dashed") +
+    annotate("text", x = max_100 - 0.01, y = 0.05, 
+         label = paste0(as.character(max_100), "x"), size=4)
+
+p2 <- format_plot(g, xlab="BCerG31 Coverage", ylab="Cumulative Percentage", title="Threshold")
+remove(temp_df)
+
+
+pdf(paste0(FIGURE, '/figure-01-lef31-lod.pdf'), height=6, width=12, onefile=FALSE)
+grid_arrange_shared_lef31(p1, p2)
+dev_null <- dev.off()
+
+png(paste0(FIGURE, '/figure-01-lef31-lod.png'), height=600, width=1200)
+grid_arrange_shared_lef31(p1, p2)
+dev_null <- dev.off()
+
+grid_arrange_shared_lef31(p1, p2)
+```
+
+### lef31 k-mer Coverage
+```{r fig.width=12, fig.asp=0.4}
+temp_df <- gray_area_group_summary[gray_area_group_summary$group == 'lef',]
+print(temp_df[temp_df$percent >= 0.95,])
+
+g <- ggplot(temp_df, aes(coverage, percent, color=status)) + geom_point() +
+    scale_x_continuous(breaks = seq(0.01, max(temp_df$coverage)+0.01, by = 0.01))
+
+p <- format_plot(g, xlab="lef31 Coverage", ylab="Cumulative Percentage")
+print(p)
+remove(temp_df)
+```
+
+# Simulations
+## Inputs
+```{r}
+ba_kmer_info = read.table(paste0(PATH, "/results/ba-kmer-info.txt"),
+                          header=TRUE, sep="\t")
+
+bcg_kmer_info = read.table(paste0(PATH, "/results/bcg-kmer-info.txt"), 
+                           header=TRUE, sep="\t")
+
+simulation_ba = read_samples(
+    paste0(PATH, "/results/simulations/simulation-ba-summary.txt.gz"),
+    ba_kmer_info
+)
+
+simulation_bcg = read_samples(
+    paste0(PATH, "/results/simulations/simulation-bcg-summary.txt.gz"),
+    ba_kmer_info
+)
+
+simulation_lef = read_samples(
+    paste0(PATH, "/results/simulations/simulation-lef-summary.txt.gz"),
+    ba_kmer_info
+)
+
+simulation_ba = merge(
+    simulation_ba,
+    data.frame(
+        sample=simulation_bcg$sample,
+        simulated_coverage=simulation_bcg$simulated_coverage,
+        bcg_cov_mean=simulation_bcg$kmer_cov_mean
+    ),
+    by=c('sample', 'simulated_coverage')
+)
+```
+
+### Coverages Simulated
+A total of **`r length(unique(simulation_ba$simulated_coverage))`** coverages were simulated.
+```{r}
+print(sort(unique(simulation_ba$simulated_coverage)))
+```
+
+### Samples
+A total of **`r length(unique(simulation_ba$sample))`** reference *Bacillus* genus genomes had reads simulated for each of the above coverages.
+```{r}
+table(simulation_ba[simulation_ba$simulated_coverage == 0.01,]$bacillus)
+```
+
+## Results
+### Lethal Factor
+There were **`r nrow(simulation_lef[simulation_lef$hit > 0,])`** simualtions with hits to the lethal factor kmers.
+
+## Plots
+### Ba31 Sensitivity
+```{r fig.width=12, fig.asp=0.4}
+temp_df <- simulation_ba[simulation_ba$is_ba == 'True',]
+temp_total <- max(temp_df$total_kmers)
+temp_90 <- floor(temp_total*0.90)
+temp_95 <- floor(temp_total*0.95)
+temp_99 <- floor(temp_total*0.99)
+temp_999 <- floor(temp_total*0.999)
+g <- ggplot(temp_df, aes(bcg_cov_mean, tp)) +
+    geom_point(aes(color=is_ba)) +
+    geom_hline(yintercept=temp_90, linetype="dashed") + 
+    geom_hline(yintercept=temp_95, linetype="dashed") +
+    geom_hline(yintercept=temp_99, linetype="dashed") +
+    geom_vline(xintercept=max(temp_df[temp_df$tp <= temp_90,]$bcg_cov_mean), linetype="dashed") +
+    geom_vline(xintercept=max(temp_df[temp_df$tp <= temp_95,]$bcg_cov_mean), linetype="dashed") +
+    geom_vline(xintercept=max(temp_df[temp_df$tp <= temp_99,]$bcg_cov_mean), linetype="dashed") +
+    scale_x_continuous(breaks = seq(0, ceiling(max(temp_df$bcg_cov_mean)), by = 1))
+
+p <- format_plot(g, xlab="BCerG31 Coverage", ylab="Ba31 True Positive Count") +
+    theme(legend.position="none")
+print(p)
+```
+
+```{r}
+print(
+    data.frame(
+        percent=c("90%", "95%", "99%", "99.9%"),
+        total=c(temp_90, temp_95, temp_99, temp_999),
+        min=c(
+            min(temp_df[temp_df$tp >= temp_90,]$bcg_cov_mean),
+            min(temp_df[temp_df$tp >= temp_95,]$bcg_cov_mean),
+            min(temp_df[temp_df$tp >= temp_99,]$bcg_cov_mean),
+            min(temp_df[temp_df$tp >= temp_999,]$bcg_cov_mean)
+        ),
+        max=c(
+            max(temp_df[temp_df$tp <= temp_90,]$bcg_cov_mean),
+            max(temp_df[temp_df$tp <= temp_95,]$bcg_cov_mean),
+            max(temp_df[temp_df$tp <= temp_99,]$bcg_cov_mean),
+            max(temp_df[temp_df$tp <= temp_999,]$bcg_cov_mean)
+        )
+    )
+)
+```
+
+### Ba31 Coverage and BCerG Coverage
+```{r}
+ba_bcg_coverages_lm = lm(kmer_cov_mean ~ 0 + bcg_cov_mean, temp_df)
+summary(ba_bcg_coverages_lm)
+cor.test(temp_df$bcg_cov_mean, temp_df$kmer_cov_mean, method = "pearson")
+```
+
+```{r Supplementary Figure 3, fig.width=12, fig.asp=0.5}
+g <- ggplot(temp_df, aes(bcg_cov_mean, kmer_cov_mean)) +
+    geom_point() +
+    annotate("text", x = 2, y = 6, label = lm_eqn(ba_bcg_coverages_lm), parse = TRUE, size=6) +
+    geom_smooth(method='lm')  +
+    scale_y_continuous(breaks = seq(0, ceiling(max(temp_df$kmer_cov_mean)), by = 1)) +
+    scale_x_continuous(breaks = seq(0, ceiling(max(temp_df$bcg_cov_mean)), by = 1))
+p <- format_plot(g, xlab="BCerG31 Coverage", ylab="Ba31 Coverage")
+print(p)
+write_plot(p, 'supplementary-figure-03-ba31-bcerg31', height=6, width=12)
+```
+
+### Ba31 Coverage and Genome Coverage
+```{r}
+ba_genome_coverages_lm = lm(kmer_cov_mean ~ 0 + simulated_coverage, temp_df)
+summary(ba_genome_coverages_lm)
+cor.test(temp_df$kmer_cov_mean, temp_df$simulated_coverage,  method = "pearson")
+```
+
+```{r fig.width=12, fig.asp=0.5}
+g <- ggplot(temp_df, aes(simulated_coverage, kmer_cov_mean)) +
+    geom_point() +
+    annotate("text", x = 4, y = 8, label = lm_eqn(ba_genome_coverages_lm), parse = TRUE, size=6) +
+    geom_smooth(method='lm')  +
+    scale_y_continuous(breaks = seq(0, ceiling(max(temp_df$kmer_cov_mean)), by = 1)) +
+    scale_x_continuous(breaks = seq(0, ceiling(max(temp_df$simulated_coverage)), by = 1))
+ba_coverage_plot <- format_plot(g, xlab="Genome Coverage", ylab="Ba31 Coverage")
+print(ba_coverage_plot)
+```
+
+```{r}
+remove(temp_df)
+remove(temp_total)
+remove(temp_90)
+remove(temp_95)
+remove(temp_99)
+remove(temp_999)
+```
+
+### BCerG31 Sensitivity
+```{r fig.width=12, fig.asp=0.4}
+temp_df <- simulation_bcg[simulation_bcg$is_bcg == 'True',]
+temp_total <- max(temp_df$total_kmers)
+temp_90 <- floor(temp_total*0.90)
+temp_95 <- floor(temp_total*0.95)
+temp_99 <- floor(temp_total*0.99)
+temp_999 <- floor(temp_total*0.999)
+g <- ggplot(temp_df, aes(kmer_cov_mean, tp)) +
+    geom_point(aes(color=is_bcg)) +
+    geom_hline(yintercept=temp_90, linetype="dashed") + 
+    geom_hline(yintercept=temp_95, linetype="dashed") +
+    geom_hline(yintercept=temp_99, linetype="dashed") +
+    geom_vline(xintercept=max(temp_df[temp_df$tp <= temp_90,]$kmer_cov_mean), linetype="dashed") +
+    geom_vline(xintercept=max(temp_df[temp_df$tp <= temp_95,]$kmer_cov_mean), linetype="dashed") +
+    geom_vline(xintercept=max(temp_df[temp_df$tp <= temp_99,]$kmer_cov_mean), linetype="dashed") +
+    scale_x_continuous(breaks = seq(0, ceiling(max(temp_df$kmer_cov_mean)), by = 1))
+
+p <- format_plot(g, xlab="BCerG31 Coverage", ylab="BCerG True Positive Count") +
+    theme(legend.position="none")
+print(p)
+```
+
+```{r}
+print(
+    data.frame(
+        percent=c("90%", "95%", "99%", "99.9%"),
+        total=c(temp_90, temp_95, temp_99, temp_999),
+        min=c(
+            min(temp_df[temp_df$tp >= temp_90,]$kmer_cov_mean),
+            min(temp_df[temp_df$tp >= temp_95,]$kmer_cov_mean),
+            min(temp_df[temp_df$tp >= temp_99,]$kmer_cov_mean),
+            min(temp_df[temp_df$tp >= temp_999,]$kmer_cov_mean)
+        ),
+        max=c(
+            max(temp_df[temp_df$tp <= temp_90,]$kmer_cov_mean),
+            max(temp_df[temp_df$tp <= temp_95,]$kmer_cov_mean),
+            max(temp_df[temp_df$tp <= temp_99,]$kmer_cov_mean),
+            max(temp_df[temp_df$tp <= temp_999,]$kmer_cov_mean)
+        )
+    )
+)
+```
+
+### BCerG31 coverage and Genome Coverage
+```{r}
+bcg_genome_coverages_lm = lm(kmer_cov_mean ~ 0 + simulated_coverage, temp_df)
+summary(bcg_genome_coverages_lm)
+cor.test(temp_df$kmer_cov_mean, temp_df$simulated_coverage,  method = "pearson")
+```
+
+```{r fig.width=12, fig.asp=0.5}
+g <- ggplot(temp_df, aes(simulated_coverage, kmer_cov_mean)) +
+    geom_point() +
+    annotate("text", x = 4, y = 9, label = lm_eqn(bcg_genome_coverages_lm), parse = TRUE, size=6) +
+    geom_smooth(method='lm')  +
+    scale_y_continuous(breaks = seq(0, ceiling(max(temp_df$kmer_cov_mean)), by = 1)) +
+    scale_x_continuous(breaks = seq(0, ceiling(max(temp_df$simulated_coverage)), by = 1))
+bcg_coverage_plot <- format_plot(g, xlab="Genome Coverage", ylab="BCerG31 Coverage")
+print(bcg_coverage_plot)
+```
+
+```{r}
+remove(temp_df)
+remove(temp_total)
+remove(temp_90)
+remove(temp_95)
+remove(temp_99)
+remove(temp_999)
+```
+
+```{r Supplementary Figure 2, fig.width=12, fig.asp=0.4}
+p1 <- arrangeGrob(ba_coverage_plot, top = textGrob(
+    "A", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+     gp=gpar(col="black", fontsize=18, fontface="bold"))
+)
+p2 <- arrangeGrob(bcg_coverage_plot, top = textGrob(
+    "B", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+     gp=gpar(col="black", fontsize=18, fontface="bold"))
+)
+plots=list()
+plots[[1]] = p1
+plots[[2]] = p2
+grid.arrange(grobs=plots, ncol=2)
+
+pdf(paste0(FIGURE, '/supplementary-figure-02-31-genome-coverage.pdf'), 
+    height=6, width=12, onefile=FALSE)
+grid.arrange(grobs=plots, ncol=2)
+dev_null <- dev.off()
+
+png(paste0(FIGURE, '/supplementary-figure-02-31-genome-coverage.png'), 
+    height=600, width=1200)
+grid.arrange(grobs=plots, ncol=2)
+dev_null <- dev.off()
+```
+
+# non-anthracis BCerG False Positive Model
+## Parse Results
+```{r}
+bcg_model_set = read_samples(
+    paste0(PATH, "/results/model-set/model-set-ba-summary.txt.gz"),
+    ba_kmer_info
+)
+
+temp_df = read_samples(
+    paste0(PATH, "/results/model-set/model-set-bcg-summary.txt.gz"),
+    ba_kmer_info
+)
+
+bcg_model_set = merge(
+    bcg_model_set,
+    data.frame(
+        sample=temp_df$sample,
+        coverage=temp_df$coverage,
+        replicate=temp_df$replicate,
+        bcg_cov_mean=temp_df$kmer_cov_mean,
+        bcg_non_zero_kmer_cov_mean=temp_df$non_zero_kmer_cov_mean
+    ),
+    by=c('sample', 'coverage', 'replicate')
+)
+
+bcg_model_set = merge(
+    bcg_model_set,
+    bcg_model_set %>% 
+        group_by(sample, coverage) %>%
+        summarise(fp_mean=mean(fp), ba_mean=mean(kmer_cov_mean), bcg_mean=mean(bcg_cov_mean)),
+    by=c('sample', 'coverage')
+)
+remove(temp_df)
+```
+
+## BA31 False Positive Count and Distance
+```{r Supplementary Figure 4, fig.asp=0.4, fig.width=12}
+p <- ggplot(simulation_ba[simulation_ba$is_ba == 'False',], 
+            aes(bcg_cov_mean, fp, color=distance)) +
+    geom_point()+
+    xlab("BCerG31 Coverage") + 
+    ylab("Ba31 False Positive Count") + 
+    theme_bw() +
+    theme(axis.text=element_text(size=12),
+          axis.title=element_text(size=14,face="bold")) +
+    scale_colour_distiller(palette="Blues") +
+    labs(color='Distance') 
+print(p)
+write_plot(p, 'supplementary-figure-04-distance-fp', height=6, width=12)
+```
+
+## non-*B. anthracis* BCG Model Set
+```{r}
+print(as.character(sort(unique(bcg_model_set$sample))))
+```
+
+## Model BCerG kmer coverage and False Positive Match
+```{r}
+bcg_model = lm(total_count ~ 0 + bcg_cov_mean, bcg_model_set)
+anova(bcg_model)
+summary(bcg_model)
+```
+
+## Create a function to make predictions with 99% prediction intervals
+```{r}
+predict_false_positive <- function(model, coverages) {
+    temp_df <- cbind(
+        data.frame(bcg_cov_mean=coverages),
+        predict(
+            model, 
+            newdata = data.frame(bcg_cov_mean=coverages), 
+            se=TRUE,
+            interval='prediction',
+            level=0.99
+        )
+    )
+    return(temp_df)
+}
+```
+
+## Make a few predictions
+```{r}
+predict_false_positive(bcg_model, seq(0, 10, 2))
+```
+
+## Plot: BCerG kmer Coverage and False Positive Matches 
+```{r Figure 3, fig.width=12, fig.asp=0.5}
+plot_model_fit <- function(samples, model, coverage, coverages) {
+    predicted_fit <- predict_false_positive(bcg_model, coverages)
+    g <- ggplot(samples[samples$bcg_cov_mean <= coverage,], aes(bcg_cov_mean, fp))+
+        geom_point(aes(color=is_ba)) +
+        geom_line(data=predicted_fit, aes(x=bcg_cov_mean, y=fit.fit)) +
+        geom_line(data=predicted_fit, aes(x=bcg_cov_mean, y=fit.upr), linetype="dashed")
+    
+    p <- format_plot(g, ylab="Ba31 False Positive Count", xlab="BCerG31 Coverage") +
+        theme(legend.position="none")
+    remove(predicted_fit)
+    return(p)
+}
+
+predicted_fit <- predict_false_positive(
+    bcg_model, seq(0, max(bcg_model_set$bcg_cov_mean), 1)
+)
+g <- ggplot(bcg_model_set, aes(bcg_cov_mean, total_count))+
+    geom_point(color="gray") +
+    annotate("text", x = 15, y = 9000, label = lm_eqn(bcg_model), parse = TRUE, size=6) +
+    geom_line(data=predicted_fit, aes(x=bcg_cov_mean, y=fit.fit)) +
+    geom_line(data=predicted_fit, aes(x=bcg_cov_mean, y=fit.upr), linetype="dashed") +
+    theme(legend.position="none")
+
+p <- format_plot(g, ylab="Ba31 False Positive Count", xlab="BCerG31 Coverage")
+remove(predicted_fit)
+print(p)
+write_plot(p, 'figure-03-model', height=6, width=12)
+```
+
+## Plot the fit between 0 and 1x BCerG kmer coverage
+```{r fig.width=12, fig.asp=0.4}
+p <- plot_model_fit(bcg_model_set, bcg_model, 1, seq(0, 1, 0.1))
+print(p)
+```
+
+## Plot: BCerG False positives and the equivalent true positive BCerG coverage using counts from simulations
+```{r fig.width=12, fig.asp=0.4}
+matches = max(bcg_model_set$fp)
+g <- ggplot(bcg_model_set, aes(bcg_cov_mean, fp))+
+    geom_point()
+p1 <- format_plot(g, ylab="Ba31 False Positive Count", xlab="BCerG31 Coverage") +
+    theme(legend.position="none")
+
+p1 <- arrangeGrob(p1, top = textGrob(
+    "A", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+     gp=gpar(col="black", fontsize=18, fontface="bold"))
+)
+
+g <- ggplot(simulation_ba[simulation_ba$tp <= matches & simulation_ba$is_ba == 'True',], 
+            aes(bcg_cov_mean, tp)) +
+    geom_point() +
+    ylim(0, matches)
+
+
+p2 <- format_plot(g, ylab="Ba31 True Positive Count", xlab="BCerG31 Coverage") +
+    theme(legend.position="none")
+
+p2 <- arrangeGrob(p2, top = textGrob(
+    "B", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+     gp=gpar(col="black", fontsize=18, fontface="bold"))
+)
+
+grid.arrange(grobs=list(p1, p2), ncol=2)
+```
+
+# *B. anthracis* Limit of Detection in *B. anthracis* and *B. cereus* Mixtures
+## Parse Results
+```{r}
+kraken_report = read.table(
+    paste0(PATH, "/results/limit-of-detection-ba31/kraken-report.txt"),
+    header=TRUE, sep="\t"
+)
+
+subsample_ba_samples = read.table(
+    gzfile(paste0(PATH, "/results/limit-of-detection-ba31/mixture-ba-summary.txt.gz")),
+    header=TRUE, sep="\t"
+)
+
+subsample_bcg_samples = read.table(
+    gzfile(paste0(PATH, "/results/limit-of-detection-ba31/mixture-bcg-summary.txt.gz")),
+    header=TRUE, sep="\t"
+)
+
+subsample_ba_samples = merge(
+    subsample_ba_samples,
+    data.frame(
+        replicate=subsample_bcg_samples$replicate,
+        bcg_tp=subsample_bcg_samples$tp,
+        bcg_coverage=subsample_bcg_samples$bcg_coverage,
+        ba_coverage=subsample_bcg_samples$ba_coverage,
+        bcg_cov_mean=subsample_bcg_samples$kmer_cov_mean
+    ),
+    by=c('replicate', 'ba_coverage', 'bcg_coverage')
+)
+
+subsample_summary <-  subsample_ba_samples %>% 
+    group_by(.dots=c('bcg_coverage', 'ba_coverage')) %>% 
+    summarise(
+        ba31_hits=mean(tp + fp),
+        ba31_coverage=mean(kmer_cov_mean),
+        bcerg31_coverage=mean(bcg_cov_mean)
+    )
+
+subsample_summary$model_fit <- predict_false_positive(bcg_model, subsample_summary$bcerg31_coverage)$fit.fit
+subsample_summary$model_99pi <- predict_false_positive(bcg_model, subsample_summary$bcerg31_coverage)$fit.upr
+subsample_summary$ba_detectable <- subsample_summary$ba31_hits > subsample_summary$model_99pi
+subsample_summary$grey_zone <- subsample_summary$ba31_coverage < 0.1
+
+subsample_summary <- merge(
+    subsample_summary, 
+    kraken_report,
+    by=c('bcg_coverage', 'ba_coverage')
+)
+
+exceeds_model <- function(mf, cov, count) {
+    return(count > mf[mf$bcg_cov_mean == cov,]$fit.upr)
+}
+
+plot_ba_lod <- function(summary, bcg, ba) {
+    temp_df <- summary[summary$bcg_coverage == bcg & summary$ba_coverage < ba,]
+
+    predicted_fit <- predict_false_positive(
+        bcg_model, unique(temp_df$bcerg31_coverage)
+    )
+    lod <- min(temp_df[
+        apply(temp_df, 1, function(x) {
+            exceeds_model(
+              predicted_fit, 
+              x[["bcerg31_coverage"]], 
+              x[["ba31_hits"]]
+            )
+        })
+    ,]$ba_coverage)
+    temp_df$detectable <- ifelse(temp_df$ba_coverage >= lod, TRUE, FALSE)
+    temp_df$ba_coverage_text <- ifelse(temp_df$ba_coverage == lod, paste0(lod, "x"), "")
+    g <- ggplot(temp_df, aes(bcerg31_coverage, ba31_hits)) +
+        geom_point(aes(color=detectable)) +
+        # geom_text(aes(label=ba_coverage),hjust=-0.2, vjust=0) +
+        geom_text(aes(label=ba_coverage_text),hjust=-0.2, vjust=0) +
+        geom_line(data=predicted_fit, aes(x=bcg_cov_mean, y=fit.fit)) +
+        geom_line(data=predicted_fit, aes(x=bcg_cov_mean, y=fit.upr), linetype="dashed")
+    
+    p <- format_plot(g, xlab="BCerG31 Coverage", ylab="Ba31 Count", title="Ba31 Detectable")
+    remove(predicted_fit)
+    remove(lod)
+    return(p)
+}
+
+write.table(
+    subsample_summary,
+    paste0(PATH, "/results/limit-of-detection-ba31/ba31-lod-full-table.txt"),
+    sep="\t",
+    quote = FALSE,
+    row.names = FALSE
+)
+
+```
+
+## *B. anthracis* Subsampled Coverages
+A total of **`r length(unique(subsample_ba_samples$ba_coverage))`**  *B. anthracis* subsamples were used.
+```{r}
+print(sort(unique(subsample_ba_samples$ba_coverage)))
+```
+
+## non-*B. anthracis* BCerG Subsample Coverages
+A total of **`r length(unique(subsample_ba_samples$bcg_coverage))`**  non-*B. anthracis* BCerG subsamples were used.
+```{r}
+print(sort(unique(subsample_ba_samples$bcg_coverage)))
+```
+
+### *B. cereus* Only
+```{r fig.width=12, fig.asp=0.4}
+subsample_ba_samples$bcg_coverage_text <- as.character(subsample_ba_samples$bcg_coverage)
+predicted_fit <- predict_false_positive(
+    bcg_model, seq(min(subsample_ba_samples[subsample_ba_samples$ba_coverage == 0 ,]$bcg_cov_mean), max(subsample_ba_samples[subsample_ba_samples$ba_coverage == 0 ,]$bcg_cov_mean), 0.001)
+)
+g <- ggplot(subsample_ba_samples[subsample_ba_samples$ba_coverage == 0 ,], aes(bcg_cov_mean, fp)) +
+    geom_point(aes(color=bcg_coverage_text)) +
+    geom_line(data=predicted_fit, aes(x=bcg_cov_mean, y=fit.fit)) +
+    geom_line(data=predicted_fit, aes(x=bcg_cov_mean, y=fit.upr), linetype="dashed")
+p <- format_plot(g, xlab="BCerG31 Coverage", ylab="Ba31 Count", title= "BC Coverage")
+print(p)
+```
+
+```{r Supplementary Figure 5, fig.width=12, fig.asp=1.5}
+p1 <- plot_ba_lod(subsample_summary, 0, 0.01)
+p2 <- plot_ba_lod(subsample_summary, 1, 0.01)
+p3 <- plot_ba_lod(subsample_summary, 5, 0.01)
+p4 <- plot_ba_lod(subsample_summary, 10, 0.01)
+p5 <- plot_ba_lod(subsample_summary, 25, 0.05)
+p6 <- plot_ba_lod(subsample_summary, 50, 0.05)
+p7 <- plot_ba_lod(subsample_summary, 75, 0.05)
+p8 <- plot_ba_lod(subsample_summary, 100, 0.05)
+
+grid_arrange_shared_ba31 <- function(..., ncol = length(list(...)), nrow = 1, position = c("bottom", "right")) {
+  plots <- list(...)
+  position <- match.arg(position)
+  g <- ggplotGrob(plots[[1]] + theme(legend.position = position))$grobs
+  legend <- g[[which(sapply(g, function(x) x$name) == "guide-box")]]
+  lheight <- sum(legend$height)
+  lwidth <- sum(legend$width)
+  gl <- lapply(plots, function(x) x + theme(legend.position="none"))
+  gl[[1]] <-arrangeGrob(gl[[1]], top = textGrob(
+        "A) 0x", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+         gp=gpar(col="black", fontsize=18, fontface="bold"))
+    )
+  gl[[2]] <-arrangeGrob(gl[[2]], top = textGrob(
+        "B) 1x", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+         gp=gpar(col="black", fontsize=18, fontface="bold"))
+    )
+  gl[[3]] <-arrangeGrob(gl[[3]], top = textGrob(
+        "C) 5x", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+         gp=gpar(col="black", fontsize=18, fontface="bold"))
+    )
+  gl[[4]] <-arrangeGrob(gl[[4]], top = textGrob(
+        "D) 10x", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+         gp=gpar(col="black", fontsize=18, fontface="bold"))
+    )
+  gl[[5]] <-arrangeGrob(gl[[5]], top = textGrob(
+        "E) 25x", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+         gp=gpar(col="black", fontsize=18, fontface="bold"))
+    )
+  gl[[6]] <-arrangeGrob(gl[[6]], top = textGrob(
+        "F) 50x", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+         gp=gpar(col="black", fontsize=18, fontface="bold"))
+    )
+  gl[[7]] <-arrangeGrob(gl[[7]], top = textGrob(
+        "G) 75x", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+         gp=gpar(col="black", fontsize=18, fontface="bold"))
+    )
+  gl[[8]] <-arrangeGrob(gl[[8]], top = textGrob(
+        "H) 100x", x = unit(0, "npc"), y = unit(1, "npc"), just=c("left","top"),
+         gp=gpar(col="black", fontsize=18, fontface="bold"))
+    )
+      
+  gl <- c(gl, ncol = ncol, nrow = nrow)
+
+  combined <- switch(position,
+                     "bottom" = arrangeGrob(do.call(arrangeGrob, gl),
+                                            legend,
+                                            ncol = 1,
+                                            heights = unit.c(unit(1, "npc") - lheight, lheight)),
+                     "right" = arrangeGrob(do.call(arrangeGrob, gl),
+                                           legend,
+                                           ncol = 2,
+                                           widths = unit.c(unit(1, "npc") - lwidth, lwidth)))
+
+  grid.newpage()
+  grid.draw(combined)
+
+  # return gtable invisibly
+  invisible(combined)
+}
+
+pdf(paste0(FIGURE, '/supplementary-figure-05-ba31-lod.pdf'), onefile=FALSE,
+    height=12, width=8)
+grid_arrange_shared_ba31(p1, p2, p3, p4, p5, p6, p7, p8, ncol=2, nrow=4)
+dev_null <- dev.off()
+
+png(paste0(FIGURE, '/supplementary-figure-05-ba31-lod.png'), height=1200, width=800)
+grid_arrange_shared_ba31(p1, p2, p3, p4, p5, p6, p7, p8, ncol=2, nrow=4)
+dev_null <- dev.off()
+
+grid_arrange_shared_ba31(p1, p2, p3, p4, p5, p6, p7, p8, ncol=2, nrow=4)
+remove(p1)
+remove(p2)
+remove(p3)
+remove(p4)
+remove(p5)
+remove(p6)
+remove(p7)
+remove(p8)
+```
+
+# NYC Subway
+## Inputs
+```{r}
+nyc_samples = read.table(
+    gzfile(paste0(PATH, "/results/nyc/nyc-ba-summary.txt.gz")),
+    header=TRUE, sep="\t"
+)
+
+temp_df = read.table(
+    gzfile(paste0(PATH, "/results/nyc/nyc-bcg-summary.txt.gz")),
+    header=TRUE, sep="\t"
+)
+
+nyc_samples = merge(
+    nyc_samples,
+    data.frame(
+        run=temp_df$run,
+        bcerg31_coverage=temp_df$kmer_cov_mean,
+        bcerg31_hit=temp_df$hit
+    ),
+    by=c('run')
+)
+
+temp_df = read.table(
+    gzfile(paste0(PATH, "/results/nyc/nyc-lef-summary.txt.gz")),
+    header=TRUE, sep="\t"
+)
+
+nyc_samples = merge(
+    nyc_samples,
+    data.frame(
+        run=temp_df$run,
+        lef31_hit=temp_df$hit
+    ),
+    by=c('run')
+)
+
+remove(temp_df)
+names(nyc_samples)[names(nyc_samples) == 'hit'] <- 'ba31_hits'
+names(nyc_samples)[names(nyc_samples) == 'kmer_cov_mean'] <- 'ba31_coverage'
+colnames(nyc_samples)
+```
+
+## Summary of NYC samples
+```{r}
+nyc_summary <- nyc_samples[,c("run", "bcerg31_coverage", "ba31_hits", "lef31_hit")]
+nyc_summary$model_fit <- predict_false_positive(bcg_model, nyc_summary$bcerg31_coverage)$fit.fit
+nyc_summary$model_99pi <- predict_false_positive(bcg_model, nyc_summary$bcerg31_coverage)$fit.upr
+nyc_summary$exceeds_99pi <- nyc_summary$ba31_hits > nyc_summary$model_99pi
+nyc_summary$gray_zone <- nyc_summary$bcerg31_coverage < 0.1
+head(nyc_summary)
+write.table(
+    nyc_summary,
+    paste0(PATH, "/results/nyc/nyc-summary.txt"),
+    sep="\t",
+    quote = FALSE,
+    row.names = FALSE
+)
+```
+
+## NYC Samples which 0 Ba31 matches
+```{r}
+nrow(nyc_summary[nyc_summary$ba31_hits == 0,])
+```
+
+```{r}
+nrow(nyc_summary[nyc_summary$ba31_hits > 0 & nyc_summary$exceeds_99pi == FALSE,])
+```
+## NYC Samples which exceed 99% Prediction interval
+```{r}
+nrow(nyc_summary[nyc_summary$exceeds_99pi,])
+```
+
+### In the Gray Zone (lef not detectable)
+```{r}
+nyc_summary[nyc_summary$exceeds_99pi & nyc_summary$gray_zone,]
+```
+
+### Outside the Gray Zone (lef should have been detected)
+```{r}
+nyc_summary[nyc_summary$exceeds_99pi & nyc_summary$gray_zone == FALSE,]
+```
+
+# Session Info
+```{r}
+sessionInfo()
+```
