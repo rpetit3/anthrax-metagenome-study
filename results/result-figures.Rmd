@@ -151,7 +151,7 @@ gray_area_summary <- function(df, group, status) {
     temp_df$status <- status
     temp_df$coverage <- as.numeric(as.character(temp_df$coverage))
     temp_df$cumsum <- cumsum(temp_df$count)
-    temp_df$percent <- temp_df$cumsum / max(temp_df$cumsum)
+    temp_df$percent <- temp_df$cumsum / max(temp_df$cumsum) * 100
     return(temp_df)
 }
 
