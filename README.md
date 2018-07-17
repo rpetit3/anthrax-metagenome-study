@@ -26,6 +26,15 @@ The results of this query are available at [data/bacillus-summary.txt](https://g
 
 The results of this query are available at [data/pXO1-accessions.txt](https://github.com/rpetit3/anthrax-metagenome-study/blob/master/data/pXO1-accessions.txt).
 
+### *Bacillus antrhacis* Sequencing Projects
+```
+genomic[Source] AND random[Selection] AND txid86661[Organism:exp] 
+                AND paired[Layout]) AND wgs[Strategy] AND "Illumina HiSeq
+```
+
+The results of this query are available at [data/bcg-run-accessions.txt](https://github.com/rpetit3/anthrax-metagenome-study/blob/master/data/bcg-run-accessions.txt)
+
+
 # Runtime Parameters
 Below is a list of runtime parameters for third-party programs.
 
