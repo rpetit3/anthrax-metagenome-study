@@ -159,6 +159,9 @@ blastn -query $FASTA_FILE -db $BLAST_NT -num_threads $NUM_CPU -max_target_seqs 5
 #### FASTX `fastq_to_fasta`
 `cat $FASTQ_FILE | fastq_to_fasta -Q33 -n | gzip --best - > $FASTA_OUTPUT`
 
+#### mashtree
+`mashtree --numcpus 20 *.fasta > bacillus-mashtree.dnd`
+
 #### Kraken
 `kraken-build --standard --db $DATABASE`
 
