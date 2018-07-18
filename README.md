@@ -160,6 +160,6 @@ blastn -query $FASTA_FILE -db $BLAST_NT -num_threads $NUM_CPU -max_target_seqs 5
 `cat $FASTQ_FILE | fastq_to_fasta -Q33 -n | gzip --best - > $FASTA_OUTPUT`
 
 #### Kraken
-kraken-build --standard --db $DATABASE
+`kraken-build --standard --db $DATABASE`
 
 * Implemented https://github.com/DerrickWood/kraken/pull/57 to auto apply dust masking via `dustmasker`
