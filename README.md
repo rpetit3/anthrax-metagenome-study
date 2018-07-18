@@ -130,7 +130,7 @@ blastn -max_hsps 1 -max_target_seqs 1 -dust no -word_size 7 -outfmt 15 \
 - [scripts/identify-group-specific-kmers.py](https://github.com/rpetit3/anthrax-metagenome-study/blob/master/scripts/identify-group-specific-kmers.py)
 - [scripts/identify-lef-specific-kmers.py](https://github.com/rpetit3/anthrax-metagenome-study/blob/master/scripts/identify-lef-specific-kmers.py)
 
-### Previous Analysis
+### Other or Previous Analysis
 The following are from our previous analysis available at [nyc-subway-anthrax-study](https://github.com/Read-Lab-Confederation/nyc-subway-anthrax-study/)
 
 #### BWA `bwa mem`
@@ -159,4 +159,7 @@ blastn -query $FASTA_FILE -db $BLAST_NT -num_threads $NUM_CPU -max_target_seqs 5
 #### FASTX `fastq_to_fasta`
 `cat $FASTQ_FILE | fastq_to_fasta -Q33 -n | gzip --best - > $FASTA_OUTPUT`
 
+#### Kraken
+kraken-build --standard --db $DATABASE
 
+* Implemented https://github.com/DerrickWood/kraken/pull/57 to auto apply dust masking via `dustmasker`
