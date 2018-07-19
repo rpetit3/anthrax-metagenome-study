@@ -166,3 +166,6 @@ blastn -query $FASTA_FILE -db $BLAST_NT -num_threads $NUM_CPU -max_target_seqs 5
 `kraken-build --standard --db $DATABASE`
 
 * Implemented https://github.com/DerrickWood/kraken/pull/57 to auto apply dust masking via `dustmasker`
+
+#### KrakenHLL
+`krakenhll --report-file $REPORT_FILE --db $DATABASE  > $SEQUENCES`
