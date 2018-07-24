@@ -252,11 +252,11 @@ p2 <- format_plot(g, xlab="BCerG31 Coverage", ylab="Cumulative Percentage", titl
 remove(temp_df)
 
 
-pdf(paste0(FIGURE, '/figure-01-lef31-lod.pdf'), height=6, width=12, onefile=FALSE)
+pdf(paste0(FIGURE, '/figure-02-lef31-lod.pdf'), height=6, width=12, onefile=FALSE)
 grid_arrange_shared_lef31(p1, p2)
 dev_null <- dev.off()
 
-png(paste0(FIGURE, '/figure-01-lef31-lod.png'), height=600, width=1200)
+png(paste0(FIGURE, '/figure-02-lef31-lod.png'), height=600, width=1200)
 grid_arrange_shared_lef31(p1, p2)
 dev_null <- dev.off()
 
@@ -388,8 +388,9 @@ g <- ggplot(temp_df, aes(bcg_cov_mean, kmer_cov_mean)) +
     scale_x_continuous(breaks = seq(0, ceiling(max(temp_df$bcg_cov_mean)), by = 1))
 p <- format_plot(g, xlab="BCerG31 Coverage", ylab="Ba31 Coverage")
 print(p)
-write_plot(p, 'supplementary-figure-03-ba31-bcerg31', height=6, width=12)
+write_plot(p, 'supplementary-figure-02-ba31-bcerg31-anthracis', height=6, width=12)
 ```
+
 
 ### Ba31 Coverage and Genome Coverage
 ```{r}
@@ -416,6 +417,29 @@ remove(temp_90)
 remove(temp_95)
 remove(temp_99)
 remove(temp_999)
+```
+
+### Ba31 Coverage and BCerG Coverage (non-anthracis)
+```{r}
+temp_df <- simulation_ba[simulation_ba$is_ba == 'False',]
+ba_bcg_coverages_lm_non_anthracis = lm(kmer_cov_mean ~ 0 + bcg_cov_mean, temp_df)
+summary(ba_bcg_coverages_lm_non_anthracis)
+cor.test(temp_df$bcg_cov_mean, temp_df$kmer_cov_mean, method = "pearson")
+```
+
+```{r fig.width=12, fig.asp=0.5}
+g <- ggplot(temp_df, aes(bcg_cov_mean, kmer_cov_mean)) +
+    geom_point() +
+    annotate("text", x = 2, y = 0.0075, label = lm_eqn(ba_bcg_coverages_lm_non_anthracis), parse = TRUE, size=6) +
+    geom_smooth(method='lm')  +
+    scale_x_continuous(breaks = seq(0, ceiling(max(temp_df$bcg_cov_mean)), by = 1))
+p <- format_plot(g, xlab="BCerG31 Coverage", ylab="Ba31 Coverage")
+print(p)
+write_plot(p, 'supplementary-figure-03-ba31-bcerg31-nonanthracis', height=6, width=12)
+```
+
+```{r}
+remove(temp_df)
 ```
 
 ### BCerG31 Sensitivity
@@ -503,12 +527,12 @@ plots[[1]] = p1
 plots[[2]] = p2
 grid.arrange(grobs=plots, ncol=2)
 
-pdf(paste0(FIGURE, '/supplementary-figure-02-31-genome-coverage.pdf'), 
+pdf(paste0(FIGURE, '/supplementary-figure-01-31-genome-coverage.pdf'), 
     height=6, width=12, onefile=FALSE)
 grid.arrange(grobs=plots, ncol=2)
 dev_null <- dev.off()
 
-png(paste0(FIGURE, '/supplementary-figure-02-31-genome-coverage.png'), 
+png(paste0(FIGURE, '/supplementary-figure-01-31-genome-coverage.png'), 
     height=600, width=1200)
 grid.arrange(grobs=plots, ncol=2)
 dev_null <- dev.off()
