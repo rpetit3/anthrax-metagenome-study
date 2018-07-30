@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1320485.svg)](https://doi.org/10.5281/zenodo.1320485)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1323741.svg)](https://doi.org/10.5281/zenodo.1323741)
 
 Fine-scale differentiation between *Bacillus anthracis* and *Bacillus cereus* group signatures in metagenome shotgun data.
 
